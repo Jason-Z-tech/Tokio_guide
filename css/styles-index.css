@@ -52,7 +52,7 @@ main {
 }
 
 .hero {
-    background-image: url("/img/tokio_bg.jpg");
+    background-image: url("img/tokio_bg.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
