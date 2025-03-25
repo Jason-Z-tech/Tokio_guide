@@ -22,29 +22,86 @@ header {
     color: var(--weiss);
     padding: 10px 0;
     text-align: center;
+    position: relative;
 }
 
 header h1 {
     margin: 0;
 }
 
-nav ul {
+.nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+}
+
+.nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    gap: 2rem;
     margin: 0;
+    padding: 0;
 }
 
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: var(--weiss);
+.nav a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: white;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    top: -10px;
+}
+
+.nav-toggle-label span::after {
+    top: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: block;
+    }
+
+    .nav-toggle:checked+.nav-toggle-label+.nav {
+        display: flex;
+    }
 }
 
 main {
