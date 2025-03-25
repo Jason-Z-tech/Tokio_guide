@@ -3,8 +3,10 @@
     --hintergrund: #f4f4f4;
     --textfarbe: #333;
     --weiss: #fff;
+    --rand-radius: 5px;
+    --standard-padding: 10px;
+    --box-schatten: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -22,15 +24,18 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -44,23 +49,40 @@ main {
 
 .sehenswuerdigkeiten-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .sehenswuerdigkeiten-grid section {
-    padding: 20px;
-    background: var(--weiss);
-    border-radius: 8px;
-    box-shadow: var(--box-schatten);
+    background-color: #e0dfdf;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 4px 16px rgba(52, 46, 54, 0.788);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sehenswuerdigkeiten-grid h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .sehenswuerdigkeiten-grid img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
     border-radius: 5px;
     margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sehenswuerdigkeiten-grid img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 footer {
@@ -73,6 +95,15 @@ footer {
 @media (max-width: 600px) {
     body {
         font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
     }
 
     .sehenswuerdigkeiten-grid {

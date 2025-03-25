@@ -33,6 +33,13 @@ nav ul {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -45,14 +52,13 @@ main {
 }
 
 .hero {
-    background-image: url("img/tokio_bg.jpg");
+    background-image: url("/img/tokio_bg.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--weiss);
     text-align: center;
     position: relative;
 }
@@ -78,6 +84,12 @@ footer {
     color: var(--weiss);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 16px;
@@ -86,5 +98,13 @@ footer {
     nav ul {
         flex-direction: column;
         align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 60vh;
     }
 }
