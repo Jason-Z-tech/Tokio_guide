@@ -1,0 +1,70 @@
+:root {
+    --hauptfarbe: #333;
+    --hintergrund: #f4f4f4;
+    --textfarbe: #333;
+    --weiss: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--hintergrund);
+    color: var(--textfarbe);
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+form button,
+form select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: var(--hauptfarbe);
+    color: var(--weiss);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    form {
+        padding: 10px;
+    }
+}

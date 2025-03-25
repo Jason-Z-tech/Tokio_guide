@@ -1,0 +1,81 @@
+:root {
+    --hauptfarbe: #333;
+    --hintergrund: #f4f4f4;
+    --textfarbe: #333;
+    --weiss: #fff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--hintergrund);
+    color: var(--textfarbe);
+}
+
+header {
+    background: var(--hauptfarbe);
+    color: var(--weiss);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: var(--weiss);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.sehenswuerdigkeiten-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.sehenswuerdigkeiten-grid section {
+    padding: 20px;
+    background: var(--weiss);
+    border-radius: 8px;
+    box-shadow: var(--box-schatten);
+    text-align: center;
+}
+
+.sehenswuerdigkeiten-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: var(--hauptfarbe);
+    color: var(--weiss);
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .sehenswuerdigkeiten-grid {
+        grid-template-columns: 1fr;
+    }
+}

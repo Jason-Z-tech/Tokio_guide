@@ -1,0 +1,90 @@
+:root {
+    --hauptfarbe: #333;
+    --hintergrund: #f4f4f4;
+    --textfarbe: #333;
+    --weiss: #fff;
+    --rand-radius: 5px;
+    --standard-padding: 10px;
+    --box-schatten: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--hintergrund);
+    color: var(--textfarbe);
+}
+
+header {
+    background: var(--hauptfarbe);
+    color: var(--weiss);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: var(--weiss);
+    text-decoration: none;
+}
+
+main {
+    padding: 0;
+}
+
+.hero {
+    background-image: url("img/tokio_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--weiss);
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-inhalt {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: var(--weiss);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: var(--hauptfarbe);
+    color: var(--weiss);
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
