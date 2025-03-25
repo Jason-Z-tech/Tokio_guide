@@ -52,7 +52,7 @@ main {
 }
 
 .hero {
-    background-image: url("/img/Mount_fuji.jpg");
+    background-image: url("Mount_fuji.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
