@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktiere uns für weitere Informationen zu Tokio.">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontaktformular</h2>
+            <form method="post" action="https://example.com/kontakt">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Dein Name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+
+                <label for="nachricht">Nachricht:</label>
+                <textarea id="nachricht" name="nachricht" rows="4" placeholder="Deine Nachricht" required></textarea>
+
+                <fieldset>
+                    <legend>Warum möchtest du Tokio besuchen?</legend>
+                    <label>
+                        <input type="radio" name="grund" value="urlaub" required> Urlaub
+                    </label>
+                    <label>
+                        <input type="radio" name="grund" value="arbeit"> Arbeit
+                    </label>
+                    <label>
+                        <input type="radio" name="grund" value="studium"> Studium
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Wofür interessierst du dich?</legend>
+                    <label>
+                        <input type="checkbox" name="interessen" value="sehenswuerdigkeiten"> Sehenswürdigkeiten
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interessen" value="kultur"> Kultur
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interessen" value="essen"> Essen
+                    </label>
+                </fieldset>
+
+                <label for="reisedatum">Geplantes Reisedatum:</label>
+                <input type="date" id="reisedatum" name="reisedatum" required>
+
+
+                <label for="nationalitaet">Nationalität:</label>
+                <select id="nationalitaet" name="nationalitaet" required>
+                    <option value="deutsch">Deutsch</option>
+                    <option value="englisch">Englisch</option>
+                    <option value="japanisch">Japanisch</option>
+                </select>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Reiseführer Tokio. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+
+</html>
