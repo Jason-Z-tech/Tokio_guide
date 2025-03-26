@@ -133,16 +133,15 @@ img {
 }
 
 .menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
     font-size: 30px;
     color: white;
-    background: var(--hauptfarbe);
+    background: #111;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
-    position: absolute;
-    left: 15px;
-    top: 15px;
     z-index: 1001;
 }
 
@@ -152,7 +151,7 @@ img {
     position: fixed;
     top: 0;
     left: -250px;
-    background-color: var(--hauptfarbe);
+    background-color: #111;
     transition: left 0.3s ease;
     padding-top: 60px;
     z-index: 1000;
