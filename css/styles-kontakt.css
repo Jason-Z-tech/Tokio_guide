@@ -46,14 +46,18 @@ nav ul li a {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 
 .form-gruppe {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin: 15px auto;
     max-width: 500px;
+    text-align: center;
+    width: 100%;
+
 }
 
 form input,
@@ -64,6 +68,7 @@ form select {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: center;
 }
 
 form textarea {
