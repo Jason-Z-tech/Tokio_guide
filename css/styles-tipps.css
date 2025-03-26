@@ -80,45 +80,6 @@ main {
     padding: 0;
 }
 
-.hero {
-    background-image: url("Mount_fuji.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.hero-inhalt {
-    position: relative;
-    z-index: 1;
-    padding: 20px;
-    color: var(--weiss);
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: var(--hauptfarbe);
-    color: var(--weiss);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 .top-nav ul {
     list-style: none;
     display: flex;
@@ -182,7 +143,7 @@ img {
     padding: 2rem;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .top-nav {
         display: none;
@@ -205,5 +166,9 @@ img {
 
     nav ul li {
         margin: 10px 0;
+    }
+
+    .hero {
+        height: 60vh;
     }
 }
