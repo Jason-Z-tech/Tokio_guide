@@ -104,6 +104,82 @@ footer {
     color: var(--weiss);
 }
 
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-btn {
+    font-size: 30px;
+    color: white;
+    background: var(--hauptfarbe);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 1001;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: var(--hauptfarbe);
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: var(--hoverfarbe);
+}
+
+.open-sidebar .sidebar {
+    left: 0;
+}
+
+.open-sidebar .content {
+    margin-left: 250px;
+}
+
+.content {
+    transition: margin-left 0.3s;
+    padding: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .top-nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+
 @media (max-width: 600px) {
     body {
         font-size: 16px;

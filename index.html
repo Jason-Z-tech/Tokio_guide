@@ -12,13 +12,14 @@
 
 <body>
     <header>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
 
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span></span>
-        </label>
+        <h1>Willkommen in Tokio</h1>
 
-        <nav class="nav">
+
+
+        <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+
+        <nav class="top-nav">
             <ul>
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
@@ -26,7 +27,12 @@
             </ul>
         </nav>
 
-        <h1>Willkommen in Tokio</h1>
+
+        <nav class="sidebar" id="sidebar">
+            <a href="index.html">Startseite</a>
+            <a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
     </header>
 
     <main>
@@ -37,6 +43,8 @@
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 
     <footer>
     </footer>

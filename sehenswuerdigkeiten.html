@@ -12,12 +12,22 @@
 <body>
     <header>
         <h1>Sehenswürdigkeiten in Tokio</h1>
-        <nav>
+
+        <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+
+        <nav class="top-nav">
             <ul>
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
+        </nav>
+
+
+        <nav class="sidebar" id="sidebar">
+            <a href="index.html">Startseite</a>
+            <a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a>
+            <a href="kontakt.html">Kontakt</a>
         </nav>
     </header>
 
@@ -50,6 +60,8 @@
         </section>
         </section>
     </main>
+
+    <script src="script.js"></script>
 
     <footer>
     </footer>
