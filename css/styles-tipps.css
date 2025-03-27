@@ -143,6 +143,84 @@ main {
     padding: 2rem;
 }
 
+.tipps-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.tipp-card {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    opacity: 0;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.tipp-card:nth-child(odd) {
+    left: -100px;
+    animation-name: fadeInLeft;
+}
+
+.tipp-card:nth-child(even) {
+    left: 100px;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 700px) {
+    .tipp-card {
+        left: 0 !important;
+        animation-name: fadeInUp !important;
+    }
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+
 
 @media (max-width: 768px) {
     .top-nav {
