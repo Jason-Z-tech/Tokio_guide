@@ -173,6 +173,58 @@ async function testSpots(page, vp) {
   await page.eval(`localStorage.removeItem('tokio-stempel')`);
 }
 
+
+/* ---------- Kalender, Routen, Packliste, Sprache ---------- */
+const visibleMonths = (page) => page.eval(`[...document.querySelectorAll('[data-months] > li[data-month]')].filter((m) => !m.hidden).map((m) => m.dataset.month)`);
+
+async function testTools(page, vp) {
+  let tag = `[${vp.label} · Kalender]`;
+  await page.goto(url('kalender.html'));
+  check((await visibleMonths(page)).length === 12, `${tag} 12 Monate erwartet`);
+  check((await page.eval(`document.querySelectorAll('.month.is-now').length`)) === 1, `${tag} aktueller Monat nicht markiert`);
+  await page.click('[data-month-filter="winter"]');
+  check((await visibleMonths(page)).length === 3, `${tag} Winter zeigt nicht 3 Monate`);
+  await page.click('[data-month-filter="maerz"]');
+  const march = await visibleMonths(page);
+  check(march.length === 1, `${tag} Monatsfilter März zeigt ${march.length}`);
+  await page.click('[data-month-filter="alle"]');
+  check((await visibleMonths(page)).length === 12, `${tag} «Alle» zeigt nicht alle Monate`);
+
+  tag = `[${vp.label} · Routen]`;
+  await page.goto(url('routen.html', '#tage-5'));
+  check(await page.eval(`document.getElementById('tab-tage-5').getAttribute('aria-selected') === 'true' && !document.getElementById('tage-5').hidden && document.getElementById('tag-1').hidden`), `${tag} #tage-5 öffnet das Tab nicht`);
+  await page.click('#tab-tag-1');
+  check(await page.eval(`!document.getElementById('tag-1').hidden && document.getElementById('tage-5').hidden`), `${tag} Klick auf Tab wirkt nicht`);
+  await page.key('ArrowRight');
+  check(await page.eval(`document.activeElement.id === 'tab-tage-3' && !document.getElementById('tage-3').hidden`), `${tag} Pfeiltaste wechselt das Tab nicht`);
+
+  tag = `[${vp.label} · Packliste]`;
+  await page.goto(url('packliste.html'));
+  await page.eval(`localStorage.removeItem('tokio-packliste')`);
+  await page.reload();
+  const first = await page.eval(`document.querySelector('[data-packlist] input[type=checkbox]').id`);
+  await page.click(`label[for="${first}"], #${first}`);
+  check(await page.eval(`document.getElementById('${first}').checked`), `${tag} Abhaken klappt nicht`);
+  await page.reload();
+  check(await page.eval(`document.getElementById('${first}').checked`), `${tag} Häkchen nach Neuladen verloren`);
+  check(/^1 von/.test(await page.eval(`document.querySelector('[data-pack-status]').textContent.trim()`)), `${tag} Fortschritt zeigt nicht «1 von …»`);
+  await page.eval(`window.confirm = () => true`);
+  await page.click('[data-pack-reset]');
+  check(await page.eval(`!document.getElementById('${first}').checked`), `${tag} Zurücksetzen klappt nicht`);
+
+  tag = `[${vp.label} · Sprache]`;
+  await page.goto(url('sprache.html'));
+  const firstShow = await page.eval(`(() => { const b = document.querySelector('[data-show]'); b.id ||= 'e2e-show'; return '#' + b.id; })()`);
+  await page.click(firstShow);
+  check(await page.eval(`document.querySelector('[data-show-dialog]').open && document.querySelector('[data-show-jp]').textContent.length > 0`), `${tag} Zeigen-Dialog öffnet nicht`);
+  await page.key('Escape');
+  check(await page.eval(`!document.querySelector('[data-show-dialog]').open`), `${tag} Esc schliesst den Dialog nicht`);
+  // Headless-Chrome hat keine lokale japanische Stimme: Anhören-Knöpfe müssen dann versteckt sein.
+  await new Promise((r) => setTimeout(r, 1800));
+  const voices = await page.eval(`speechSynthesis.getVoices().filter((v) => v.lang.startsWith('ja') && v.localService).length`);
+  if (voices === 0) check(await page.eval(`[...document.querySelectorAll('[data-speak]')].every((b) => b.hidden || b.offsetParent === null)`), `${tag} Anhören-Knöpfe sichtbar ohne lokale Stimme`);
+}
+
 /* ---------- Ablauf ---------- */
 testLinks();
 for (const vp of VIEWPORTS) {
@@ -182,6 +234,7 @@ for (const vp of VIEWPORTS) {
     await testPages(page, vp);
     await testMenuAndTheme(page, vp);
     await testSpots(page, vp);
+    await testTools(page, vp);
   } catch (err) {
     failures.push(`[${vp.label}] Abbruch: ${err.message}`);
   } finally {

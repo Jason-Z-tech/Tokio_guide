@@ -612,6 +612,7 @@ main:focus { outline: none; }
 
 /* ---------- Raster ---------- */
 .grid { display: grid; gap: var(--gap); }
+.grid + * { margin-top: var(--gap); }
 @media (min-width: 40rem) { .grid--2, .grid--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 64rem) { .grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
@@ -1316,6 +1317,7 @@ tbody tr:hover { background: color-mix(in srgb, var(--line, var(--ink)) 6%, tran
 .dial li { margin: 0; }
 .dial a {
   display: grid;
+  align-content: start;
   gap: 0.1rem;
   padding: 1.1rem 1.2rem;
   height: 100%;
@@ -1328,6 +1330,7 @@ tbody tr:hover { background: color-mix(in srgb, var(--line, var(--ink)) 6%, tran
 }
 .dial a:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -16px rgb(0 0 0 / 0.5); }
 .dial__num { font: 700 clamp(2rem, 1.5rem + 2vw, 2.8rem)/1.05 var(--font-mono); }
+.dial__num--long { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.7rem); white-space: nowrap; }
 .dial__what { font-weight: 700; }
 .dial small { color: var(--ink-2); }
 .dial--urgent a { border-color: var(--signal); }
