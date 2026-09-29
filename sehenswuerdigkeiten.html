@@ -1,148 +1,604 @@
-<!DOCTYPE html>
-<html lang="de">
-
+<!doctype html>
+<html lang="de-CH" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Entdecke die Sehenswürdigkeiten von Tokio.">
-    <title>Sehenswürdigkeiten in Tokio</title>
-    <link rel="stylesheet" href="css/styles-sehenswuerdigkeiten.css">
+<!-- layout:head -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1115" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/site.js" defer></script>
+  <!-- /layout:head -->
+  <title>Sehenswürdigkeiten in Tokio – Tokio Guide</title>
+  <meta name="description" content="16 Sehenswürdigkeiten in Tokio, aktuell 2026: Tempel, Aussichtstürme, Museen, Aquarien und Freizeitparks – mit Filter, Tipps und Stempelheft.">
+  <script src="js/filter.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <h1>Sehenswürdigkeiten in Tokio</h1>
+<!-- layout:header -->
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" lang="ja" aria-hidden="true">東京</span>
+        <span>Tokio Guide<span class="brand__sub">Nächster Halt: Tokio</span></span>
+      </a>
+      <nav class="line-nav" aria-label="Hauptlinien">
+        <ol>
+          <li class="line-s"><a href="sehenswuerdigkeiten.html" aria-current="page">Sehenswürdigkeiten</a></li>
+          <li class="line-v"><a href="viertel.html">Viertel</a></li>
+          <li class="line-e"><a href="essen.html">Essen</a></li>
+          <li class="line-t"><a href="ausfluege.html">Ausflüge</a></li>
+          <li class="line-a"><a href="anreise.html">Anreise</a></li>
+        </ol>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn icon-btn--round js-only" type="button" data-theme-toggle aria-pressed="false">
+          <svg class="theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg><svg class="theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="visually-hidden">Dunkles Design einschalten</span>
+        </button>
+        <button class="icon-btn js-only" type="button" data-open-map aria-haspopup="dialog" aria-expanded="false" aria-controls="linienplan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><path d="M5 8v8M10 6h10M10 12h10M10 18h10"/></svg><span>Linienplan</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <dialog class="route-map" id="linienplan" aria-labelledby="linienplan-titel">
+    <div class="route-map__head">
+      <h2 id="linienplan-titel">Linienplan <span lang="ja">路線図</span></h2>
+      <button class="icon-btn icon-btn--round" type="button" data-close-map><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg><span class="visually-hidden">Linienplan schliessen</span></button>
+    </div>
+    <nav class="route-map__body" aria-label="Alle Seiten">
+      <section class="route-line line-s">
+        <h3><span class="code code--sm"><span class="code__l">0</span></span> Start</h3>
+        <ol>
+          <li class="line-s"><a href="index.html">Startseite<small>Abfahrtstafel &amp; Liniennetz</small></a></li>
+        </ol>
+      </section>
+        <section class="route-line line-s">
+          <h3><span class="code code--sm"><span class="code__l">E</span></span> Entdecken <span lang="ja">発見</span></h3>
+          <ol>
+            <li class="line-s"><a href="sehenswuerdigkeiten.html" aria-current="page">Sehenswürdigkeiten<small>16 Orte mit Stempelheft</small></a></li>
+            <li class="line-v"><a href="viertel.html">Stadtviertel<small>Von Shibuya bis Yanaka</small></a></li>
+            <li class="line-e"><a href="essen.html">Essen &amp; Trinken<small>Ramen-Automat, Izakaya, Konbini</small></a></li>
+            <li class="line-t"><a href="ausfluege.html">Tagesausflüge<small>Kamakura, Nikko, Hakone, Fuji</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-a">
+          <h3><span class="code code--sm"><span class="code__l">P</span></span> Planen <span lang="ja">計画</span></h3>
+          <ol>
+            <li class="line-j"><a href="kalender.html">Jahreszeiten &amp; Feste<small>Was ist los in welchem Monat?</small></a></li>
+            <li class="line-r"><a href="routen.html">Reiserouten<small>1, 3 oder 5 Tage</small></a></li>
+            <li class="line-a"><a href="anreise.html">Anreise &amp; Geld<small>Ab Zürich, Einreise, Flughafen, Suica, Yen</small></a></li>
+            <li class="line-k"><a href="tipps.html">Tipps &amp; Knigge<small>Was man in Tokio wissen sollte</small></a></li>
+            <li class="line-z"><a href="packliste.html">Packliste<small>Zum Abhaken</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-z">
+          <h3><span class="code code--sm"><span class="code__l">U</span></span> Unterwegs <span lang="ja">移動</span></h3>
+          <ol>
+            <li class="line-z"><a href="sprache.html">Sprach-Spickzettel<small>Phrasen mit Aussprache</small></a></li>
+            <li class="line-z"><a href="notfall.html">Sicherheit &amp; Notfall<small>Nummern, Erdbeben, Botschaft</small></a></li>
+          </ol>
+        </section>
+    </nav>
+  </dialog>
+  <!-- /layout:header -->
+  <main id="inhalt" tabindex="-1">
+    <div class="wrap">
+      <header class="station line-s">
+        <div class="station__board">
+          <span class="code code--lg" aria-hidden="true"><span class="code__l">S</span></span>
+          <div>
+            <p class="station__kanji" lang="ja">名所</p>
+            <h1 class="station__name">Sehenswürdigkeiten</h1>
+            <p class="station__romaji">Meisho · Linie S · 16 Stationen</p>
+          </div>
+          <p class="station__lead">Von Tokios ältestem Tempel bis zur digitalen Kunst: 16 Orte, die sich lohnen – mit dem, was du 2026 wissen musst. Sammle für jeden besuchten Ort einen Stempel.</p>
+        </div>
+<!-- layout:band -->
+      <nav class="station__band" aria-label="Nachbarstationen">
+        <a href="index.html" rel="prev"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span><span class="dir">前 · vorher</span><br>Start</span></a>
+        <a href="viertel.html" rel="next"><span><span class="dir">次 · nächste</span><br>Stadtviertel</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></a>
+      </nav>
+      <!-- /layout:band -->
+      </header>
 
-        <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+      <section class="section" aria-labelledby="stempel-titel">
+        <div class="stampbook">
+          <div class="stampbook__head">
+            <h2 id="stempel-titel">Stempelheft <span lang="ja">スタンプ帳</span></h2>
+            <span class="stampbook__count js-only" data-stamp-count>0 / 16</span>
+            <button class="btn btn--ghost js-only" type="button" data-stamp-reset>Stempel löschen</button>
+          </div>
+          <div class="stampbook__progress js-only" aria-hidden="true"><span class="stampbook__bar" data-stamp-bar></span></div>
+          <ol class="stampbook__grid">
+            <li><a class="stampbook__slot" data-stamp-slot="sensoji" href="sehenswuerdigkeiten.html#sensoji" lang="ja">浅草寺<span class="visually-hidden" lang="de">Senso-ji</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="skytree" href="sehenswuerdigkeiten.html#skytree" lang="ja">スカイツリー<span class="visually-hidden" lang="de">Tokyo Skytree</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="sumida-aquarium" href="sehenswuerdigkeiten.html#sumida-aquarium" lang="ja">すみだ水族館<span class="visually-hidden" lang="de">Sumida Aquarium</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="edo-museum" href="sehenswuerdigkeiten.html#edo-museum" lang="ja">江戸博<span class="visually-hidden" lang="de">Edo-Tokyo Museum</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="ueno-zoo" href="sehenswuerdigkeiten.html#ueno-zoo" lang="ja">上野動物園<span class="visually-hidden" lang="de">Ueno Zoo</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="nationalmuseum" href="sehenswuerdigkeiten.html#nationalmuseum" lang="ja">東博<span class="visually-hidden" lang="de">Tokyo National Museum</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="meiji" href="sehenswuerdigkeiten.html#meiji" lang="ja">明治神宮<span class="visually-hidden" lang="de">Meiji-Schrein</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="shibuya-sky" href="sehenswuerdigkeiten.html#shibuya-sky" lang="ja">渋谷スカイ<span class="visually-hidden" lang="de">Shibuya Sky</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="tokyo-tower" href="sehenswuerdigkeiten.html#tokyo-tower" lang="ja">東京タワー<span class="visually-hidden" lang="de">Tokyo Tower</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="zojoji" href="sehenswuerdigkeiten.html#zojoji" lang="ja">増上寺<span class="visually-hidden" lang="de">Zojo-ji</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="hamarikyu" href="sehenswuerdigkeiten.html#hamarikyu" lang="ja">浜離宮<span class="visually-hidden" lang="de">Hamarikyu-Garten</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="teamlab" href="sehenswuerdigkeiten.html#teamlab" lang="ja">チームラボ<span class="visually-hidden" lang="de">teamLab Planets</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="sunshine-aquarium" href="sehenswuerdigkeiten.html#sunshine-aquarium" lang="ja">サンシャイン<span class="visually-hidden" lang="de">Sunshine Aquarium</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="tokyo-dome-city" href="sehenswuerdigkeiten.html#tokyo-dome-city" lang="ja">東京ドーム<span class="visually-hidden" lang="de">Tokyo Dome City</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="ghibli" href="sehenswuerdigkeiten.html#ghibli" lang="ja">ジブリ美術館<span class="visually-hidden" lang="de">Ghibli Museum</span></a></li>
+            <li><a class="stampbook__slot" data-stamp-slot="disneyland" href="sehenswuerdigkeiten.html#disneyland" lang="ja">ディズニー<span class="visually-hidden" lang="de">Tokyo Disneyland</span></a></li>
+          </ol>
+          <p><small>Tippe bei einem Ort auf «Stempeln», wenn du dort warst. Die Stempel werden nur in deinem Browser gespeichert und nirgendwohin gesendet.</small></p>
+        </div>
+      </section>
 
-        <nav class="top-nav">
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="tipps.html">Tipps&Tricks</a></li>
-                <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+      <section class="section" aria-labelledby="orte-titel">
+        <div class="section__head">
+          <div>
+            <span class="section__kanji" lang="ja">駅一覧</span>
+            <h2 id="orte-titel">Alle Stationen</h2>
+          </div>
+        </div>
+
+        <div class="filterbar js-only" role="search" aria-label="Sehenswürdigkeiten filtern">
+          <div>
+            <span class="filterbar__label" id="kat-label">Kategorie</span>
+            <ul class="chips" aria-labelledby="kat-label">
+                <li><button class="chip " type="button" data-filter-kategorie="alle" aria-pressed="true">Alle</button></li>
+                <li><button class="chip line-s" type="button" data-filter-kategorie="tempel" aria-pressed="false">Tempel &amp; Schreine</button></li>
+                <li><button class="chip line-a" type="button" data-filter-kategorie="aussicht" aria-pressed="false">Aussicht</button></li>
+                <li><button class="chip line-k" type="button" data-filter-kategorie="museum" aria-pressed="false">Museen &amp; Kunst</button></li>
+                <li><button class="chip line-t" type="button" data-filter-kategorie="natur" aria-pressed="false">Tiere &amp; Gärten</button></li>
+                <li><button class="chip line-e" type="button" data-filter-kategorie="freizeit" aria-pressed="false">Freizeit</button></li>
             </ul>
-        </nav>
+          </div>
+          <div>
+            <span class="filterbar__label" id="extra-label">Nur zeigen</span>
+            <ul class="chips" aria-labelledby="extra-label">
+                <li><button class="chip" type="button" data-filter-tag="gratis" aria-pressed="false">Eintritt frei</button></li>
+                <li><button class="chip" type="button" data-filter-tag="regen" aria-pressed="false">Gut bei Regen</button></li>
+                <li><button class="chip" type="button" data-filter-tag="familie" aria-pressed="false">Mit Kindern</button></li>
+            </ul>
+          </div>
+          <div>
+            <label class="filterbar__label" for="suche">Suche</label>
+            <input class="search" id="suche" type="search" placeholder="z. B. Ueno, Tempel, Aussicht" autocomplete="off" maxlength="60" data-filter-search>
+          </div>
+          <p class="filterbar__status" aria-live="polite" data-filter-status>16 von 16 Orten</p>
+        </div>
 
+        <div class="grid grid--3" data-filter-list>
+          <article class="card spot line-s" id="sensoji" data-kategorie="tempel" data-tags="gratis" data-suche="senso-ji asakusa tempel eintritt frei">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">01</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">浅草寺</span>
+                <h3>Senso-ji</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Asakusa</li>
+              <li>Tempel</li>
+              <li>Eintritt frei</li>
+            </ul>
+            <div class="card__body">
+              <p>Tokios ältester Tempel, gegründet im Jahr 628. Durch das rote Kaminarimon-Tor mit der riesigen Laterne gehst du über die Einkaufsstrasse Nakamise-dori bis zur Haupthalle.</p>
+              <p><strong>Tipp:</strong> Früh morgens kommen: Das Gelände ist immer offen, und vor 8 Uhr hast du es fast für dich allein.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.senso-ji.jp/english/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Senso-ji (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Senso-ji+Tokyo">Karte<span class="visually-hidden"> für Senso-ji bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="sensoji" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Senso-ji</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="skytree" data-kategorie="aussicht" data-tags="regen" data-suche="tokyo skytree oshiage aussicht tickets online">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">02</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">東京スカイツリー</span>
+                <h3>Tokyo Skytree</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Oshiage</li>
+              <li>Aussicht</li>
+              <li>Tickets online</li>
+            </ul>
+            <div class="card__body">
+              <p>Mit 634 Metern der höchste Turm der Welt. Zwei Plattformen: das Tembo Deck auf 350 m und die Tembo Galleria auf 450 m. Unten liegt das Einkaufszentrum Tokyo Solamachi.</p>
+              <p><strong>Tipp:</strong> Online-Tickets für ein Zeitfenster sind günstiger als am Schalter. Bei klarer Sicht siehst du bis zum Fuji.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://en.tokyo-skytree.jp/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Tokyo Skytree (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Skytree">Karte<span class="visually-hidden"> für Tokyo Skytree bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="skytree" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Tokyo Skytree</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="sumida-aquarium" data-kategorie="natur" data-tags="regen familie" data-suche="sumida aquarium oshiage tiere im skytree-komplex">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">03</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">すみだ水族館</span>
+                <h3>Sumida Aquarium</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Oshiage</li>
+              <li>Tiere</li>
+              <li>Im Skytree-Komplex</li>
+            </ul>
+            <div class="card__body">
+              <p>Modernes Aquarium im 5. und 6. Stock der Skytree Town: Magellan-Pinguine in einem offenen Becken und eine grosse Quallen-Abteilung.</p>
+              <p><strong>Tipp:</strong> Lässt sich perfekt mit dem Skytree kombinieren – ideal für einen Regentag.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://en.sumida-aquarium.com/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Sumida Aquarium (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Sumida+Aquarium">Karte<span class="visually-hidden"> für Sumida Aquarium bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="sumida-aquarium" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Sumida Aquarium</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="edo-museum" data-kategorie="museum" data-tags="regen familie" data-suche="edo-tokyo museum ryogoku museum neu eröffnet 2026">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">04</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">江戸東京博物館</span>
+                <h3>Edo-Tokyo Museum</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Ryogoku</li>
+              <li>Museum</li>
+              <li class="meta--new">Neu eröffnet 2026</li>
+            </ul>
+            <div class="card__body">
+              <p>Die Geschichte Tokios von der Edo-Zeit bis heute, mit Nachbauten in Originalgrösse. Nach rund vier Jahren Sanierung ist das Museum seit dem 31. März 2026 wieder offen – mit neuen Projektionen und mehr Strassenszenen aus dem alten Edo.</p>
+              <p><strong>Tipp:</strong> Montags geschlossen. Gleich nebenan liegt die Sumo-Halle Ryogoku Kokugikan.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.edo-tokyo-museum.or.jp/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Edo-Tokyo Museum (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Edo-Tokyo+Museum">Karte<span class="visually-hidden"> für Edo-Tokyo Museum bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="edo-museum" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Edo-Tokyo Museum</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="ueno-zoo" data-kategorie="natur" data-tags="familie" data-suche="ueno zoo ueno tiere montags zu">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">05</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">上野動物園</span>
+                <h3>Ueno Zoo</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Ueno</li>
+              <li>Tiere</li>
+              <li class="meta--warn">Montags zu</li>
+            </ul>
+            <div class="card__body">
+              <p>Japans ältester Zoo, eröffnet 1882, mitten im Ueno-Park. Zu sehen sind unter anderem Sumatra-Tiger, Gorillas, Eisbären, Rote Pandas und der seltene Schuhschnabel.</p>
+              <p><strong>Tipp:</strong> Grosse Pandas gibt es nicht mehr: Die letzten beiden sind im Januar 2026 nach China zurückgekehrt.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.tokyo-zoo.net/en/ueno/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Ueno Zoo (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Ueno+Zoo">Karte<span class="visually-hidden"> für Ueno Zoo bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="ueno-zoo" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Ueno Zoo</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="nationalmuseum" data-kategorie="museum" data-tags="regen" data-suche="tokyo national museum ueno museum montags zu">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">06</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">東京国立博物館</span>
+                <h3>Tokyo National Museum</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Ueno</li>
+              <li>Museum</li>
+              <li>Montags zu</li>
+            </ul>
+            <div class="card__body">
+              <p>Das älteste und grösste Museum Japans, gegründet 1872: Samurai-Rüstungen, Schwerter, Holzschnitte und rund 90 Nationalschätze.</p>
+              <p><strong>Tipp:</strong> Liegt im Ueno-Park – zusammen mit dem Zoo ein ganzer Tag. Unter 18 Jahren ist die Dauerausstellung gratis.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.tnm.jp/?lang=en"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Tokyo National Museum (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+National+Museum">Karte<span class="visually-hidden"> für Tokyo National Museum bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="nationalmuseum" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Tokyo National Museum</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="meiji" data-kategorie="tempel" data-tags="gratis" data-suche="meiji-schrein harajuku schrein eintritt frei">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">07</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">明治神宮</span>
+                <h3>Meiji-Schrein</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Harajuku</li>
+              <li>Schrein</li>
+              <li>Eintritt frei</li>
+            </ul>
+            <div class="card__body">
+              <p>Ein ruhiger Shinto-Schrein in einem Wald von rund 70 Hektar – direkt neben dem Bahnhof Harajuku. Riesige Holz-Torii und Kieswege lassen die Stadt verschwinden.</p>
+              <p><strong>Tipp:</strong> Geöffnet von Sonnenauf- bis -untergang. Nur der Innere Garten und das Museum kosten Eintritt.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.meijijingu.or.jp/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Meiji-Schrein (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Meiji+Jingu">Karte<span class="visually-hidden"> für Meiji-Schrein bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="meiji" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Meiji-Schrein</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="shibuya-sky" data-kategorie="aussicht" data-tags="" data-suche="shibuya sky shibuya aussicht zeitfenster buchen">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">08</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">渋谷スカイ</span>
+                <h3>Shibuya Sky</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Shibuya</li>
+              <li>Aussicht</li>
+              <li>Zeitfenster buchen</li>
+            </ul>
+            <div class="card__body">
+              <p>Offene Dachterrasse in rund 229 Metern Höhe mit 360°-Blick über die berühmte Kreuzung – bei klarem Wetter bis zum Skytree und zum Fuji.</p>
+              <p><strong>Tipp:</strong> Zeitfenster zum Sonnenuntergang sind schnell ausverkauft: früh online buchen.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.shibuya-scramble-square.com/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Shibuya Sky (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Shibuya+Sky">Karte<span class="visually-hidden"> für Shibuya Sky bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="shibuya-sky" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Shibuya Sky</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="tokyo-tower" data-kategorie="aussicht" data-tags="regen" data-suche="tokyo tower shiba aussicht abends beleuchtet">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">09</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">東京タワー</span>
+                <h3>Tokyo Tower</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Shiba</li>
+              <li>Aussicht</li>
+              <li>Abends beleuchtet</li>
+            </ul>
+            <div class="card__body">
+              <p>Der rot-weisse Klassiker von 1958, 333 Meter hoch. Das Main Deck liegt auf 150 m, bei der Top Deck Tour geht es bis auf 250 m.</p>
+              <p><strong>Tipp:</strong> Am schönsten ist er von unten, vom Zojo-ji-Tempel aus, wenn er abends leuchtet.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://en.tokyotower.co.jp/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Tokyo Tower (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Tower">Karte<span class="visually-hidden"> für Tokyo Tower bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="tokyo-tower" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Tokyo Tower</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="zojoji" data-kategorie="tempel" data-tags="gratis" data-suche="zojo-ji shiba tempel gelände frei">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">10</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">増上寺</span>
+                <h3>Zojo-ji</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Shiba</li>
+              <li>Tempel</li>
+              <li>Gelände frei</li>
+            </ul>
+            <div class="card__body">
+              <p>Grosser buddhistischer Tempel direkt am Fuss des Tokyo Tower, seit 1598 an diesem Ort. Hier sind sechs Tokugawa-Shogune bestattet.</p>
+              <p><strong>Tipp:</strong> Abends ergibt der beleuchtete Tokyo Tower hinter dem Tempeltor eines der schönsten Fotomotive der Stadt.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.zojoji.or.jp/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Zojo-ji (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Zojoji+Temple">Karte<span class="visually-hidden"> für Zojo-ji bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="zojoji" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Zojo-ji</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="hamarikyu" data-kategorie="natur" data-tags="" data-suche="hamarikyu-garten shiodome garten kleiner eintritt">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">11</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">浜離宮恩賜庭園</span>
+                <h3>Hamarikyu-Garten</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Shiodome</li>
+              <li>Garten</li>
+              <li>Kleiner Eintritt</li>
+            </ul>
+            <div class="card__body">
+              <p>Früherer Garten der Shogune mit einem Teich, der mit Meerwasser gespeist wird – umgeben von Hochhäusern. Im Teehaus auf der Insel gibt es Matcha mit Süssigkeit.</p>
+              <p><strong>Tipp:</strong> Liegt nah am Tsukiji Outer Market: erst frühstücken, dann in den Garten.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.tokyo-park.or.jp/teien/en/hama-rikyu/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Hamarikyu-Garten (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Hamarikyu+Gardens">Karte<span class="visually-hidden"> für Hamarikyu-Garten bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="hamarikyu" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Hamarikyu-Garten</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="teamlab" data-kategorie="museum" data-tags="regen" data-suche="teamlab planets toyosu digitale kunst nur bis ende 2027">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">12</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">チームラボプラネッツ</span>
+                <h3>teamLab Planets</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Toyosu</li>
+              <li>Digitale Kunst</li>
+              <li>Nur bis Ende 2027</li>
+            </ul>
+            <div class="card__body">
+              <p>Begehbare digitale Kunst: Du läufst barfuss durch knietiefes Wasser, Lichträume und schwebende Blumen. Nächster Bahnhof ist Shin-Toyosu.</p>
+              <p><strong>Tipp:</strong> Die Ausstellung ist befristet und laut teamLab nur bis Ende 2027 geöffnet. Kurze Hosen oder hochkrempelbare Hosen mitnehmen.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.teamlab.art/e/planets/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von teamLab Planets (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=teamLab+Planets+Tokyo">Karte<span class="visually-hidden"> für teamLab Planets bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="teamlab" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – teamLab Planets</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="sunshine-aquarium" data-kategorie="natur" data-tags="familie" data-suche="sunshine aquarium ikebukuro tiere teils im freien">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">13</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">サンシャイン水族館</span>
+                <h3>Sunshine Aquarium</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Ikebukuro</li>
+              <li>Tiere</li>
+              <li>Teils im Freien</li>
+            </ul>
+            <div class="card__body">
+              <p>Aquarium auf dem Dach eines Gebäudes der Sunshine City. Bekannt sind die «Pinguine im Himmel», die scheinbar über den Hochhäusern schwimmen.</p>
+              <p><strong>Tipp:</strong> Der Pinguin-Bereich liegt im Freien – bei Regen ist nur der Innenteil ein gutes Ausweichziel.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://sunshinecity.jp/en/aquarium/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Sunshine Aquarium (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Sunshine+Aquarium">Karte<span class="visually-hidden"> für Sunshine Aquarium bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="sunshine-aquarium" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Sunshine Aquarium</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="tokyo-dome-city" data-kategorie="freizeit" data-tags="familie" data-suche="tokyo dome city suidobashi freizeit mitten in der stadt">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">14</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">東京ドームシティ</span>
+                <h3>Tokyo Dome City</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Suidobashi</li>
+              <li>Freizeit</li>
+              <li>Mitten in der Stadt</li>
+            </ul>
+            <div class="card__body">
+              <p>Erlebnisviertel rund um das Baseball-Stadion: die Achterbahn Thunder Dolphin, das speichenlose Riesenrad, Restaurants und das Thermalbad Spa LaQua.</p>
+              <p><strong>Tipp:</strong> Vorher auf der offiziellen Seite prüfen, welche Attraktionen gerade in Betrieb sind.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.tokyo-dome.co.jp/en/tourists/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Tokyo Dome City (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Dome+City">Karte<span class="visually-hidden"> für Tokyo Dome City bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="tokyo-dome-city" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Tokyo Dome City</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="ghibli" data-kategorie="museum" data-tags="familie regen" data-suche="ghibli museum mitaka museum nur mit reservierung">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">15</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">三鷹の森ジブリ美術館</span>
+                <h3>Ghibli Museum</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Mitaka</li>
+              <li>Museum</li>
+              <li class="meta--warn">Nur mit Reservierung</li>
+            </ul>
+            <div class="card__body">
+              <p>Das verspielte Museum von Studio Ghibli mit exklusiven Kurzfilmen. Es liegt im Westen, etwa 15 Minuten zu Fuss vom Bahnhof Mitaka.</p>
+              <p><strong>Tipp:</strong> Es gibt keine Tageskasse. Tickets für ein festes Datum und eine Uhrzeit gehen jeweils am 10. des Vormonats um 10 Uhr japanischer Zeit in den Verkauf und sind schnell weg.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.ghibli-museum.jp/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Ghibli Museum (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Ghibli+Museum+Mitaka">Karte<span class="visually-hidden"> für Ghibli Museum bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="ghibli" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Ghibli Museum</span></button>
+            </div>
+          </article>
+          <article class="card spot line-s" id="disneyland" data-kategorie="freizeit" data-tags="familie" data-suche="tokyo disneyland maihama (chiba) freizeitpark datierte tickets">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">S</span><span class="code__n">16</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">東京ディズニーランド</span>
+                <h3>Tokyo Disneyland</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li>Maihama (Chiba)</li>
+              <li>Freizeitpark</li>
+              <li>Datierte Tickets</li>
+            </ul>
+            <div class="card__body">
+              <p>Der Disney-Park liegt eigentlich in Urayasu (Präfektur Chiba), etwa 15 Minuten mit der JR Keiyo-Linie ab Tokyo Station bis Maihama.</p>
+              <p><strong>Tipp:</strong> Tickets gelten für ein festes Datum, die Preise schwanken. Space Mountain ist wegen eines Neubaus geschlossen (Wiedereröffnung für 2027 geplant).</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.tokyodisneyresort.jp/en/"><span class="exit-link__jp" lang="ja">出口</span>Offizielle Seite<span class="visually-hidden"> von Tokyo Disneyland (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Tokyo+Disneyland">Karte<span class="visually-hidden"> für Tokyo Disneyland bei Google Maps (externe Seite)</span></a>
+              <button class="stamp-btn js-only" type="button" data-stamp="disneyland" aria-pressed="false"><span class="stamp-btn__ink" lang="ja" aria-hidden="true">済</span><span class="stamp-btn__text">Stempeln</span><span class="visually-hidden"> – Tokyo Disneyland</span></button>
+            </div>
+          </article>
+        </div>
+        <div class="empty-state" hidden data-filter-empty>
+          <strong>Kein Ort passt zu diesem Filter.</strong>
+          <p>Versuche eine andere Kategorie oder lösche die Suche.</p>
+          <button class="btn" type="button" data-filter-reset>Filter zurücksetzen</button>
+        </div>
+      </section>
 
-        <nav class="sidebar" id="sidebar">
-            <a href="index.html">Startseite</a>
-            <a href="tipps.html">Tipps&Tricks</a>
-            <a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
-
-    <main class="sehenswuerdigkeiten-grid">
-        <section>
-            <h2>Tokyo Tower</h2>
-            <p>Ein ikonischer Aussichtsturm mit einer atemberaubenden Aussicht über die Stadt.</p>
-            <img src="img/tokyo_tower.jpg" alt="Tokyo Tower">
-            <p>Tickets kaufen: <a href="https://www.tokyotower.co.jp/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Senso-ji-Tempel</h2>
-            <p>Der älteste Tempel Tokios, ein Muss für jeden Besucher.</p>
-            <img src="img/sensoji_temple.jpg" alt="Senso-ji-Tempel">
-            <p>Kostenloser Eintritt</p>
-        </section>
-        </section>
-        <section>
-            <h2>Tokyo Skytree</h2>
-            <p>Der höchste Turm Japans mit einer beeindruckenden Aussichtsplattform und Einkaufszentrum.</p>
-            <img src="img/tokyo_skytree.jpg" alt="Tokyo Skytree">
-            <p>Tickets kaufen: <a href="https://www.tokyo-skytree.jp/en/ticket/" target="_blank">Tickets</a></p>
-        </section>
-        </section>
-        <section>
-            <h2>TeamLab Planets Tokyo</h2>
-            <p>Ein immersives Kunstmuseum, bei dem Besucher durch Wasser, Licht und Raum laufen.</p>
-            <img src="img/teamlab_planets.jpg" alt="TeamLab Planets Tokyo">
-            <p>Tickets kaufen: <a href="https://planets.teamlab.art/tokyo/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Ueno Zoo</h2>
-            <p>Der älteste Zoo Japans mit Pandas, Tigern und einem riesigen Park drumherum.</p>
-            <img src="img/ueno_zoo.jpg" alt="Ueno Zoo">
-            <p>Tickets kaufen: <a href="https://www.tokyo-zoo.net/english/ueno/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Sumida Aquarium</h2>
-            <p>Modernes Aquarium im Tokyo Skytree Town mit Quallen, Pinguinen und Design-Becken.</p>
-            <img src="img/sumida_aquarium.jpg" alt="Sumida Aquarium">
-            <p>Tickets kaufen: <a href="https://www.sumida-aquarium.com/en/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Shibuya Sky</h2>
-            <p>Eine der neuesten Aussichtsplattformen über Tokios berühmtestem Kreuzungsviertel.</p>
-            <img src="img/shibuya_sky.jpg" alt="Shibuya Sky">
-            <p>Tickets kaufen: <a href="https://www.shibuya-scramble-square.com/sky/ticket/eng/"
-                    target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Tokyo Disneyland</h2>
-            <p>Ein magischer Freizeitpark mit klassischen Disney-Attraktionen und japanischer Gastfreundschaft.</p>
-            <img src="img/tokyo_disneyland.jpg" alt="Tokyo Disneyland">
-            <p>Tickets kaufen: <a href="https://www.tokyodisneyresort.jp/en/tdl/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Sunshine Aquarium</h2>
-            <p>Ein Aquarium auf einem Hochhausdach mit Blick über Tokio – ideal bei schlechtem Wetter.</p>
-            <img src="img/sunshine_aquarium.jpg" alt="Sunshine Aquarium">
-            <p>Tickets kaufen: <a href="https://sunshinecity.jp/en/aquarium/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Edo-Tokyo Museum</h2>
-            <p>Ein Museum zur Geschichte Tokios von der Edo-Zeit bis heute mit tollen Nachbauten & Ausstellungen.</p>
-            <img src="img/edo_tokyo_museum.jpg" alt="Edo-Tokyo Museum">
-            <p>Tickets kaufen: <a href="https://www.edo-tokyo-museum.or.jp/en/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Tokyo Dome City</h2>
-            <p>Ein Erlebnisviertel mit Achterbahnen, Riesenrad, Shops, Restaurants und Onsen-Bad.</p>
-            <img src="img/tokyo_dome_city.jpg" alt="Tokyo Dome City">
-            <p>Tickets kaufen: <a href="https://www.tokyo-dome.co.jp/en/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Meiji-Schrein</h2>
-            <p>Ein ruhiger Shinto-Schrein im Herzen Tokios, umgeben von einem riesigen Wald – ideal zum Entspannen.</p>
-            <img src="img/meiji_schrein.jpg" alt="Meiji-Schrein">
-            <p>Tickets kaufen: <a href="https://www.japan.travel/de/spot/2004/" target="_blank">Infos & Tickets</a></p>
-        </section>
-        <section>
-            <h2>Tokyo National Museum</h2>
-            <p>Das älteste und grösste Museum Japans mit beeindruckenden Sammlungen asiatischer Kunst.</p>
-            <img src="img/tokyo_national_museum.jpg" alt="Tokyo National Museum">
-            <p>Tickets kaufen: <a href="https://www.tnm.jp/modules/r_free_page/index.php?id=170&lang=en"
-                    target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Ghibli Museum</h2>
-            <p>Ein magisches Museum für Fans von Studio Ghibli – mit exklusiven Kurzfilmen und einzigartigem Design.</p>
-            <img src="img/ghibli_museum.jpg" alt="Ghibli Museum">
-            <p>Tickets kaufen: <a href="https://ghibli-museum.jp/en/" target="_blank">Tickets</a></p>
-        </section>
-        <section>
-            <h2>Zojo-ji Tempel</h2>
-            <p>Ein wunderschöner buddhistischer Tempel direkt neben dem Tokyo Tower – besonders schön bei
-                Nachtbeleuchtung.</p>
-            <img src="img/zojoji_tempel.jpg" alt="Zojo-ji Tempel">
-            <p>Tickets kaufen: <a href="https://www.zojoji.or.jp/en/" target="_blank">Infos</a></p>
-        </section>
-        <section>
-            <h2>Hamarikyu Garten</h2>
-            <p>Ein traditioneller japanischer Garten mit Teepavillon – direkt zwischen modernen Hochhäusern.</p>
-            <img src="img/hamarikyu_garten.jpg" alt="Hamarikyu Garten">
-            <p>Tickets kaufen: <a href="https://www.tokyo-park.or.jp/park/format/index037.html"
-                    target="_blank">Tickets</a></p>
-        </section>
-        </section>
-    </main>
-
-    <script src="js/script.js"></script>
-
-    <footer>
-    </footer>
+      <div class="notice">
+        <span class="notice__tag" lang="ja">案内</span>
+        <p class="notice__title">Preise und Öffnungszeiten</p>
+        <p>Eintrittspreise und Zeiten ändern sich oft. Darum stehen sie hier nicht – die gelben <strong>出口-Ausgänge</strong> führen direkt zur offiziellen Seite mit den aktuellen Angaben.</p>
+      </div>
+    </div>
+  </main>
+<!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-brand">Tokio Guide <span lang="ja">東京</span></p>
+          <p class="site-footer__note">Ein privater, nicht-kommerzieller Reiseführer für Tokio – ohne Werbung, ohne Tracking, ohne Affiliate-Links. Angaben ohne Gewähr: Preise und Öffnungszeiten vor der Reise auf den verlinkten offiziellen Seiten prüfen.</p>
+        </div>
+        <div>
+          <h2>Entdecken</h2>
+          <ul>
+            <li><a href="sehenswuerdigkeiten.html" aria-current="page">Sehenswürdigkeiten</a></li>
+            <li><a href="viertel.html">Stadtviertel</a></li>
+            <li><a href="essen.html">Essen &amp; Trinken</a></li>
+            <li><a href="ausfluege.html">Tagesausflüge</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Planen</h2>
+          <ul>
+            <li><a href="kalender.html">Jahreszeiten &amp; Feste</a></li>
+            <li><a href="routen.html">Reiserouten</a></li>
+            <li><a href="anreise.html">Anreise &amp; Geld</a></li>
+            <li><a href="tipps.html">Tipps &amp; Knigge</a></li>
+            <li><a href="packliste.html">Packliste</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Unterwegs</h2>
+          <ul>
+            <li><a href="sprache.html">Sprach-Spickzettel</a></li>
+            <li><a href="notfall.html">Sicherheit &amp; Notfall</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p><a href="datenschutz.html">Datenschutz</a> · <a href="quellen.html">Quellen &amp; Lizenzen</a> · <a href="https://github.com/Jason-Z-tech/Tokio_guide/issues">Fehler melden (GitHub)</a></p>
+        <p>Stand der Inhalte: September 2026</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
 </body>
-
 </html>
