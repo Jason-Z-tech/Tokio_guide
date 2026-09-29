@@ -920,6 +920,7 @@ a.btn:hover { text-decoration: none; }
   border-radius: 2px;
 }
 .notice__title { margin: 0; font-weight: 700; }
+.notice > :not(.notice__tag) { grid-column: 2; }
 .notice p:last-child, .notice ul:last-child { margin-bottom: 0; }
 .notice--warn { border-color: var(--signal); }
 .notice--warn .notice__tag { background: var(--signal); color: #fff; }

@@ -1,13 +1,94 @@
 <!doctype html>
 <html lang="de-CH" class="no-js">
 <head>
-<!-- layout:head --><!-- /layout:head -->
+<!-- layout:head -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1115" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/site.js" defer></script>
+  <!-- /layout:head -->
   <title>Sprach-Spickzettel Japanisch – Tokio Guide</title>
   <meta name="description" content="Die wichtigsten japanischen Sätze für Tokio: Begrüssung, Restaurant, Einkaufen, Unterwegs und Notfall – mit Romaji, japanischer Schrift und Zeige-Modus.">
   <script src="js/sprache.js" defer></script>
 </head>
 <body>
-<!-- layout:header --><!-- /layout:header -->
+<!-- layout:header -->
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" lang="ja" aria-hidden="true">東京</span>
+        <span>Tokio Guide<span class="brand__sub">Nächster Halt: Tokio</span></span>
+      </a>
+      <nav class="line-nav" aria-label="Hauptlinien">
+        <ol>
+          <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+          <li class="line-v"><a href="viertel.html">Viertel</a></li>
+          <li class="line-e"><a href="essen.html">Essen</a></li>
+          <li class="line-t"><a href="ausfluege.html">Ausflüge</a></li>
+          <li class="line-a"><a href="anreise.html">Anreise</a></li>
+        </ol>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn icon-btn--round js-only" type="button" data-theme-toggle aria-pressed="false">
+          <svg class="theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg><svg class="theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="visually-hidden">Dunkles Design einschalten</span>
+        </button>
+        <button class="icon-btn js-only" type="button" data-open-map aria-haspopup="dialog" aria-expanded="false" aria-controls="linienplan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><path d="M5 8v8M10 6h10M10 12h10M10 18h10"/></svg><span>Linienplan</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <dialog class="route-map" id="linienplan" aria-labelledby="linienplan-titel">
+    <div class="route-map__head">
+      <h2 id="linienplan-titel">Linienplan <span lang="ja">路線図</span></h2>
+      <button class="icon-btn icon-btn--round" type="button" data-close-map><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg><span class="visually-hidden">Linienplan schliessen</span></button>
+    </div>
+    <nav class="route-map__body" aria-label="Alle Seiten">
+      <section class="route-line line-s">
+        <h3><span class="code code--sm"><span class="code__l">0</span></span> Start</h3>
+        <ol>
+          <li class="line-s"><a href="index.html">Startseite<small>Abfahrtstafel &amp; Liniennetz</small></a></li>
+        </ol>
+      </section>
+        <section class="route-line line-s">
+          <h3><span class="code code--sm"><span class="code__l">E</span></span> Entdecken <span lang="ja">発見</span></h3>
+          <ol>
+            <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten<small>16 Orte mit Stempelheft</small></a></li>
+            <li class="line-v"><a href="viertel.html">Stadtviertel<small>Von Shibuya bis Yanaka</small></a></li>
+            <li class="line-e"><a href="essen.html">Essen &amp; Trinken<small>Ramen-Automat, Izakaya, Konbini</small></a></li>
+            <li class="line-t"><a href="ausfluege.html">Tagesausflüge<small>Kamakura, Nikko, Hakone, Fuji</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-a">
+          <h3><span class="code code--sm"><span class="code__l">P</span></span> Planen <span lang="ja">計画</span></h3>
+          <ol>
+            <li class="line-j"><a href="kalender.html">Jahreszeiten &amp; Feste<small>Was ist los in welchem Monat?</small></a></li>
+            <li class="line-r"><a href="routen.html">Reiserouten<small>1, 3 oder 5 Tage</small></a></li>
+            <li class="line-a"><a href="anreise.html">Anreise &amp; Geld<small>Ab Zürich, Einreise, Flughafen, Suica, Yen</small></a></li>
+            <li class="line-k"><a href="tipps.html">Tipps &amp; Knigge<small>Was man in Tokio wissen sollte</small></a></li>
+            <li class="line-z"><a href="packliste.html">Packliste<small>Zum Abhaken</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-z">
+          <h3><span class="code code--sm"><span class="code__l">U</span></span> Unterwegs <span lang="ja">移動</span></h3>
+          <ol>
+            <li class="line-z"><a href="sprache.html" aria-current="page">Sprach-Spickzettel<small>Phrasen mit Aussprache</small></a></li>
+            <li class="line-z"><a href="notfall.html">Sicherheit &amp; Notfall<small>Nummern, Erdbeben, Botschaft</small></a></li>
+          </ol>
+        </section>
+    </nav>
+  </dialog>
+  <!-- /layout:header -->
   <main id="inhalt" tabindex="-1">
     <div class="wrap">
       <header class="station line-z">
@@ -20,7 +101,12 @@
           </div>
           <p class="station__lead">Mit ein paar Sätzen Japanisch kommst du weit – und ein freundliches «Arigatou gozaimasu» freut jeden. Jede Phrase kannst du gross anzeigen und deinem Gegenüber zeigen.</p>
         </div>
-<!-- layout:band --><!-- /layout:band -->
+<!-- layout:band -->
+      <nav class="station__band" aria-label="Nachbarstationen">
+        <a href="packliste.html" rel="prev"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span><span class="dir">前 · vorher</span><br>Packliste</span></a>
+        <a href="notfall.html" rel="next"><span><span class="dir">次 · nächste</span><br>Sicherheit &amp; Notfall</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></a>
+      </nav>
+      <!-- /layout:band -->
       </header>
 
       <div class="notice">
@@ -32,8 +118,10 @@
       <div class="notice js-only" hidden data-voice-hint>
         <span class="notice__tag" lang="ja">音声</span>
         <p class="notice__title">Anhören ist auf diesem Gerät nicht verfügbar</p>
-        <p data-voice-hint-text>Auf deinem Gerät ist keine japanische Stimme installiert, die direkt auf dem Gerät läuft. Online-Stimmen nutzt diese Seite bewusst nicht, weil dabei der Text an einen fremden Server geschickt würde.</p>
-        <p><strong>So geht es:</strong> In den System-Einstellungen unter Sprache, Bedienungshilfen oder Vorlesen eine japanische Stimme hinzufügen und die Seite neu laden. «Zeigen» funktioniert immer.</p>
+        <div>
+          <p data-voice-hint-text>Auf deinem Gerät ist keine japanische Stimme installiert, die direkt auf dem Gerät läuft. Online-Stimmen nutzt diese Seite bewusst nicht, weil dabei der Text an einen fremden Server geschickt würde.</p>
+          <p><strong>So geht es:</strong> In den System-Einstellungen unter Sprache, Bedienungshilfen oder Vorlesen eine japanische Stimme hinzufügen und die Seite neu laden. «Zeigen» funktioniert immer.</p>
+        </div>
       </div>
 
       <section class="section line-z" aria-labelledby="begruessung-titel">
@@ -357,6 +445,47 @@
       <p><button class="btn" type="button" data-show-close>Schliessen</button></p>
     </div>
   </dialog>
-<!-- layout:footer --><!-- /layout:footer -->
+<!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-brand">Tokio Guide <span lang="ja">東京</span></p>
+          <p class="site-footer__note">Ein privater, nicht-kommerzieller Reiseführer für Tokio – ohne Werbung, ohne Tracking, ohne Affiliate-Links. Angaben ohne Gewähr: Preise und Öffnungszeiten vor der Reise auf den verlinkten offiziellen Seiten prüfen.</p>
+        </div>
+        <div>
+          <h2>Entdecken</h2>
+          <ul>
+            <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+            <li><a href="viertel.html">Stadtviertel</a></li>
+            <li><a href="essen.html">Essen &amp; Trinken</a></li>
+            <li><a href="ausfluege.html">Tagesausflüge</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Planen</h2>
+          <ul>
+            <li><a href="kalender.html">Jahreszeiten &amp; Feste</a></li>
+            <li><a href="routen.html">Reiserouten</a></li>
+            <li><a href="anreise.html">Anreise &amp; Geld</a></li>
+            <li><a href="tipps.html">Tipps &amp; Knigge</a></li>
+            <li><a href="packliste.html">Packliste</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Unterwegs</h2>
+          <ul>
+            <li><a href="sprache.html" aria-current="page">Sprach-Spickzettel</a></li>
+            <li><a href="notfall.html">Sicherheit &amp; Notfall</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p><a href="datenschutz.html">Datenschutz</a> · <a href="quellen.html">Quellen &amp; Lizenzen</a> · <a href="https://github.com/Jason-Z-tech/Tokio_guide/issues">Fehler melden (GitHub)</a></p>
+        <p>Stand der Inhalte: September 2026</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
 </body>
 </html>
