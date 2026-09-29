@@ -60,6 +60,8 @@ Das Skript ersetzt nur den Inhalt zwischen `<!-- layout:… -->` und `<!-- /layo
 node scripts/fetch-jp-fonts.mjs
 ```
 
+**Illustrationen:** Die Bilder in `assets/art/` sind eigene Werke (CC0) und werden von `scripts/make-art.py` erzeugt (`python scripts/make-art.py`).
+
 **Fotos ergänzen:** Nur Bilder mit passender Lizenz (eigene Fotos, Unsplash, Pexels o. Ä.).
 Als WebP oder AVIF, höchstens ca. 1600 px breit, nach `assets/img/`. Quelle und Lizenz auf `quellen.html` eintragen.
 

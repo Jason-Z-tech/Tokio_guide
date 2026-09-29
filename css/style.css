@@ -633,6 +633,23 @@ main:focus { outline: none; }
   box-shadow: 0 14px 30px -18px rgb(0 0 0 / 0.45);
 }
 .card:hover .code { box-shadow: 0 0 0 4px color-mix(in srgb, var(--line) 25%, transparent); }
+.card__art {
+  margin: -1.25rem -1.25rem 1rem;
+  overflow: hidden;
+  border-radius: 0 var(--radius) 0 0;
+  border-bottom: 1px solid var(--rule-soft);
+  background: var(--surface-2);
+}
+.card__art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: transform 600ms var(--ease-depart);
+}
+.card:hover .card__art img { transform: scale(1.04); }
+:root[data-theme="dark"] .card__art img { filter: brightness(0.92); }
 .card__top {
   display: flex;
   gap: 0.9rem;

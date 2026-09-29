@@ -89,6 +89,15 @@ async function testPages(page, vp) {
   }
 }
 
+// Wartet, bis eine Bedingung im Browser erfüllt ist (für Dialoge und Animationen), höchstens 2 s.
+async function waitFor(page, expression) {
+  for (let i = 0; i < 20; i++) {
+    if (await page.eval(expression)) return true;
+    await new Promise((r) => setTimeout(r, 100));
+  }
+  return false;
+}
+
 /* ---------- Menü (Linienplan) und Hell/Dunkel ---------- */
 async function testMenuAndTheme(page, vp) {
   const tag = `[${vp.label} · Menü]`;
@@ -98,12 +107,14 @@ async function testMenuAndTheme(page, vp) {
   check(await page.eval(`document.querySelector('[data-open-map]').getAttribute('aria-expanded') === 'true'`), `${tag} aria-expanded nicht gesetzt`);
   check(await page.eval(`!!document.querySelector('#linienplan a[aria-current="page"][href="tipps.html"]')`), `${tag} aktuelle Seite nicht markiert`);
   await page.key('Escape');
-  check(await page.eval(`!document.getElementById('linienplan').open`), `${tag} Esc schliesst den Linienplan nicht`);
+  check(await waitFor(page, `!document.getElementById('linienplan').open`), `${tag} Esc schliesst den Linienplan nicht`);
   await page.click('[data-open-map]');
+  await waitFor(page, `document.getElementById('linienplan').open`);
   await page.click('[data-close-map]');
-  check(await page.eval(`!document.getElementById('linienplan').open`), `${tag} Schliessen-Knopf wirkt nicht`);
+  check(await waitFor(page, `!document.getElementById('linienplan').open`), `${tag} Schliessen-Knopf wirkt nicht`);
   // Navigation über den Plan
   await page.click('[data-open-map]');
+  await waitFor(page, `document.getElementById('linienplan').open`);
   await page.click('#linienplan a[href="essen.html"]');
   await new Promise((r) => setTimeout(r, 400));
   check(await page.eval(`location.pathname.endsWith('essen.html')`), `${tag} Link im Linienplan führt nicht zur Seite`);
