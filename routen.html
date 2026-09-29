@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="de-CH" class="no-js">
+<head>
+<!-- layout:head -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1115" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/site.js" defer></script>
+  <!-- /layout:head -->
+  <title>Reiserouten für Tokio – Tokio Guide</title>
+  <meta name="description" content="Beispiel-Routen für Tokio: 1 Tag, 3 Tage oder 5 Tage – von Asakusa über Shibuya bis zum Tagesausflug, mit Tipps zum Tokyo Subway Ticket.">
+  <script src="js/tabs.js" defer></script>
+</head>
+<body>
+<!-- layout:header -->
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" lang="ja" aria-hidden="true">東京</span>
+        <span>Tokio Guide<span class="brand__sub">Nächster Halt: Tokio</span></span>
+      </a>
+      <nav class="line-nav" aria-label="Hauptlinien">
+        <ol>
+          <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+          <li class="line-v"><a href="viertel.html">Viertel</a></li>
+          <li class="line-e"><a href="essen.html">Essen</a></li>
+          <li class="line-t"><a href="ausfluege.html">Ausflüge</a></li>
+          <li class="line-a"><a href="anreise.html">Anreise</a></li>
+        </ol>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn icon-btn--round js-only" type="button" data-theme-toggle aria-pressed="false">
+          <svg class="theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg><svg class="theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="visually-hidden">Dunkles Design einschalten</span>
+        </button>
+        <button class="icon-btn js-only" type="button" data-open-map aria-haspopup="dialog" aria-expanded="false" aria-controls="linienplan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><path d="M5 8v8M10 6h10M10 12h10M10 18h10"/></svg><span>Linienplan</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <dialog class="route-map" id="linienplan" aria-labelledby="linienplan-titel">
+    <div class="route-map__head">
+      <h2 id="linienplan-titel">Linienplan <span lang="ja">路線図</span></h2>
+      <button class="icon-btn icon-btn--round" type="button" data-close-map><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg><span class="visually-hidden">Linienplan schliessen</span></button>
+    </div>
+    <nav class="route-map__body" aria-label="Alle Seiten">
+      <section class="route-line line-s">
+        <h3><span class="code code--sm"><span class="code__l">0</span></span> Start</h3>
+        <ol>
+          <li class="line-s"><a href="index.html">Startseite<small>Abfahrtstafel &amp; Liniennetz</small></a></li>
+        </ol>
+      </section>
+        <section class="route-line line-s">
+          <h3><span class="code code--sm"><span class="code__l">E</span></span> Entdecken <span lang="ja">発見</span></h3>
+          <ol>
+            <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten<small>16 Orte mit Stempelheft</small></a></li>
+            <li class="line-v"><a href="viertel.html">Stadtviertel<small>Von Shibuya bis Yanaka</small></a></li>
+            <li class="line-e"><a href="essen.html">Essen &amp; Trinken<small>Ramen-Automat, Izakaya, Konbini</small></a></li>
+            <li class="line-t"><a href="ausfluege.html">Tagesausflüge<small>Kamakura, Nikko, Hakone, Fuji</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-a">
+          <h3><span class="code code--sm"><span class="code__l">P</span></span> Planen <span lang="ja">計画</span></h3>
+          <ol>
+            <li class="line-j"><a href="kalender.html">Jahreszeiten &amp; Feste<small>Was ist los in welchem Monat?</small></a></li>
+            <li class="line-r"><a href="routen.html" aria-current="page">Reiserouten<small>1, 3 oder 5 Tage</small></a></li>
+            <li class="line-a"><a href="anreise.html">Anreise &amp; Geld<small>Ab Zürich, Einreise, Flughafen, Suica, Yen</small></a></li>
+            <li class="line-k"><a href="tipps.html">Tipps &amp; Knigge<small>Was man in Tokio wissen sollte</small></a></li>
+            <li class="line-z"><a href="packliste.html">Packliste<small>Zum Abhaken</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-z">
+          <h3><span class="code code--sm"><span class="code__l">U</span></span> Unterwegs <span lang="ja">移動</span></h3>
+          <ol>
+            <li class="line-z"><a href="sprache.html">Sprach-Spickzettel<small>Phrasen mit Aussprache</small></a></li>
+            <li class="line-z"><a href="notfall.html">Sicherheit &amp; Notfall<small>Nummern, Erdbeben, Botschaft</small></a></li>
+          </ol>
+        </section>
+    </nav>
+  </dialog>
+  <!-- /layout:header -->
+  <main id="inhalt" tabindex="-1">
+    <div class="wrap">
+      <header class="station line-r">
+        <div class="station__board">
+          <span class="code code--lg" aria-hidden="true"><span class="code__l">R</span></span>
+          <div>
+            <p class="station__kanji" lang="ja">旅程</p>
+            <h1 class="station__name">Reiserouten</h1>
+            <p class="station__romaji">Ryotei · Linie R · 1, 3 oder 5 Tage</p>
+          </div>
+          <p class="station__lead">Drei Beispiel-Routen aus den Orten dieses Guides – für einen kurzen Stopp, ein langes Wochenende oder fast eine Woche. Nimm sie als Gerüst und passe sie an dein Tempo an.</p>
+        </div>
+<!-- layout:band -->
+      <nav class="station__band" aria-label="Nachbarstationen">
+        <a href="kalender.html" rel="prev"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span><span class="dir">前 · vorher</span><br>Jahreszeiten &amp; Feste</span></a>
+        <a href="anreise.html" rel="next"><span><span class="dir">次 · nächste</span><br>Anreise &amp; Geld</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></a>
+      </nav>
+      <!-- /layout:band -->
+      </header>
+
+      <div class="notice">
+        <span class="notice__tag" lang="ja">例</span>
+        <p class="notice__title">Nur ein Beispiel</p>
+        <p>Die Routen sind Vorschläge, keine Fahrpläne. <strong>Früh starten</strong> lohnt sich überall: Tempel, Schreine und Aussichtspunkte sind am Morgen viel ruhiger. Öffnungszeiten und Ruhetage vorher auf den offiziellen Seiten prüfen.</p>
+      </div>
+
+      <div class="section">
+
+        <div class="tabs js-only" role="tablist" aria-label="Wie lange bleibst du?" data-tabs>
+          <button type="button" role="tab" id="tab-tag-1" aria-controls="tag-1" aria-selected="true">1 Tag</button>
+          <button type="button" role="tab" id="tab-tage-3" aria-controls="tage-3" aria-selected="false" tabindex="-1">3 Tage</button>
+          <button type="button" role="tab" id="tab-tage-5" aria-controls="tage-5" aria-selected="false" tabindex="-1">5 Tage</button>
+        </div>
+
+        <!-- 1 Tag -->
+        <section class="line-r" id="tag-1" data-tab-panel aria-labelledby="tag-1-titel">
+          <h2 id="tag-1-titel">1 Tag: Die Klassiker</h2>
+          <p>Alt und neu an einem Tag: vom ältesten Tempel der Stadt bis zur berühmtesten Kreuzung.</p>
+          <ol class="route">
+            <li>
+              <span class="route__time">Früh morgens</span>
+              <h3><a href="sehenswuerdigkeiten.html#sensoji">Asakusa und Senso-ji</a></h3>
+              <p>Vor 8 Uhr hast du den Tempel fast für dich allein. Danach öffnen die Läden der Nakamise-dori.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>Mit der U-Bahn (Ginza-Linie) von Asakusa nach Ueno.</p>
+            </li>
+            <li>
+              <span class="route__time">Vormittag</span>
+              <h3>Ueno-Park</h3>
+              <p>Wähle eins: das <a href="sehenswuerdigkeiten.html#nationalmuseum">Nationalmuseum</a> mit Samurai-Rüstungen und Nationalschätzen oder den <a href="sehenswuerdigkeiten.html#ueno-zoo">Ueno Zoo</a>.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>Mit der JR (zwei Stationen) nach Akihabara.</p>
+            </li>
+            <li>
+              <span class="route__time">Nachmittag</span>
+              <h3><a href="viertel.html#akihabara">Akihabara</a></h3>
+              <p>Elektronik, Anime, Manga und Figuren. Sonntags ist die Chuo-dori autofrei.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>Mit der JR Yamanote-Linie nach Shibuya.</p>
+            </li>
+            <li>
+              <span class="route__time">Abend</span>
+              <h3><a href="viertel.html#shibuya">Shibuya Crossing</a></h3>
+              <p>Über 1000 Menschen überqueren die Kreuzung gleichzeitig. Von oben siehst du sie vom <a href="sehenswuerdigkeiten.html#shibuya-sky">Shibuya Sky</a> aus – Zeitfenster zum Sonnenuntergang früh buchen. Rund um den Bahnhof ist draussen trinken von 18 bis 5 Uhr verboten.</p>
+            </li>
+          </ol>
+          <div class="notice">
+            <span class="notice__tag" lang="ja">切符</span>
+            <p class="notice__title">Lohnt sich das Tokyo Subway Ticket?</p>
+            <p>Eher nicht: Auf dieser Route fährst du nur einmal U-Bahn, der Rest ist JR. Das Ticket (24 Stunden) gilt nur für Tokyo Metro und Toei, <strong>nicht auf JR-Linien</strong> wie der Yamanote-Linie. Für diesen Tag reicht eine <a href="anreise.html#suica">Suica- oder Pasmo-Karte</a>.</p>
+          </div>
+        </section>
+
+        <!-- 3 Tage -->
+        <section class="line-r" id="tage-3" data-tab-panel aria-labelledby="tage-3-titel">
+          <h2 id="tage-3-titel">3 Tage: Ost, West und Mitte</h2>
+          <p>Pro Tag ein Stadtteil – so bleiben die Wege kurz. Angelehnt an den offiziellen Vorschlag «Best of Tokyo in 3 Days» von GO TOKYO.</p>
+
+          <h3>Tag 1 – Das alte Tokio (Osten)</h3>
+          <ol class="route">
+            <li>
+              <span class="route__time">Früh morgens</span>
+              <h4><a href="sehenswuerdigkeiten.html#sensoji">Asakusa und Senso-ji</a></h4>
+              <p>Tokios ältester Tempel, am besten vor 8 Uhr.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>U-Bahn (Ginza-Linie) nach Ueno.</p>
+            </li>
+            <li>
+              <span class="route__time">Mittag</span>
+              <h4>Ueno-Park</h4>
+              <p><a href="sehenswuerdigkeiten.html#nationalmuseum">Nationalmuseum</a> oder <a href="sehenswuerdigkeiten.html#ueno-zoo">Ueno Zoo</a>.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>JR bis Nippori – oder zu Fuss.</p>
+            </li>
+            <li>
+              <span class="route__time">Nachmittag</span>
+              <h4><a href="viertel.html#yanesen">Yanesen (Yanaka, Nezu, Sendagi)</a></h4>
+              <p>Das «alte Tokio»: Streetfood in der Yanaka Ginza und die roten Torii-Tunnel am Nezu-Schrein.</p>
+            </li>
+          </ol>
+
+          <h3>Tag 2 – Das junge Tokio (Westen)</h3>
+          <ol class="route">
+            <li>
+              <span class="route__time">Früh morgens</span>
+              <h4><a href="sehenswuerdigkeiten.html#meiji">Meiji-Schrein</a></h4>
+              <p>Ruhiger Wald direkt neben dem Bahnhof Harajuku, geöffnet ab Sonnenaufgang.</p>
+            </li>
+            <li>
+              <span class="route__time">Vormittag</span>
+              <h4><a href="viertel.html#harajuku">Harajuku und Takeshita-dori</a></h4>
+              <p>Crêpes und Kawaii-Mode auf 350 Metern, gegenüber vom Bahnhof.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>Zu Fuss oder eine Station mit der JR Yamanote-Linie nach Shibuya.</p>
+            </li>
+            <li>
+              <span class="route__time">Nachmittag</span>
+              <h4><a href="viertel.html#shibuya">Shibuya</a></h4>
+              <p>Die grosse Kreuzung und die Aussicht vom <a href="sehenswuerdigkeiten.html#shibuya-sky">Shibuya Sky</a>.</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>JR Yamanote-Linie nach Shinjuku.</p>
+            </li>
+            <li>
+              <span class="route__time">Abend</span>
+              <h4><a href="viertel.html#shinjuku">Shinjuku: Omoide Yokocho und Golden Gai</a></h4>
+              <p>Winzige Bars aus der Showa-Zeit. Oft nur Bargeld, meist mit Sitzgebühr und einem Getränk als Minimum.</p>
+            </li>
+          </ol>
+
+          <h3>Tag 3 – Mitte und Süden</h3>
+          <ol class="route">
+            <li>
+              <span class="route__time">Morgen</span>
+              <h4><a href="viertel.html#tsukiji">Tsukiji Outer Market</a></h4>
+              <p>Frühstück an den Ständen, ohne Reservierung.</p>
+            </li>
+            <li>
+              <span class="route__time">Vormittag</span>
+              <h4><a href="sehenswuerdigkeiten.html#hamarikyu">Hamarikyu-Garten</a></h4>
+              <p>Gleich in der Nähe: Garten der Shogune mit Teehaus, umgeben von Hochhäusern.</p>
+            </li>
+            <li>
+              <span class="route__time">Nachmittag</span>
+              <h4><a href="viertel.html#ginza">Ginza</a></h4>
+              <p>Einkaufen und schauen. Die Chuo-dori ist nur <strong>samstags, sonntags und an Feiertagen</strong> Fussgängerzone (Hokoten).</p>
+            </li>
+            <li class="route__transfer">
+              <span class="route__time">Umstieg</span>
+              <p>Mit der U-Bahn zum Tokyo Tower.</p>
+            </li>
+            <li>
+              <span class="route__time">Abend</span>
+              <h4><a href="sehenswuerdigkeiten.html#tokyo-tower">Tokyo Tower</a> und <a href="sehenswuerdigkeiten.html#zojoji">Zojo-ji</a></h4>
+              <p>Der beleuchtete Turm hinter dem Tempeltor ist eines der schönsten Fotomotive der Stadt.</p>
+            </li>
+          </ol>
+          <div class="notice">
+            <span class="notice__tag" lang="ja">切符</span>
+            <p class="notice__title">Tokyo Subway Ticket (72 Stunden)?</p>
+            <p>Kann sich lohnen, wenn du viel U-Bahn fährst. Es gilt ab der ersten Fahrt für 24, 48 oder 72 Stunden – nur für Tokyo Metro und Toei, <strong>nicht für JR</strong> (Yamanote-Linie). Erhältlich nur für Touristinnen und Touristen, beim Kauf in Japan brauchst du den Pass. Mehr unter <a href="anreise.html#suica">Suica und Tickets</a>.</p>
+          </div>
+        </section>
+
+        <!-- 5 Tage -->
+        <section class="line-r" id="tage-5" data-tab-panel aria-labelledby="tage-5-titel">
+          <h2 id="tage-5-titel">5 Tage: Mit Nebenvierteln und Ausflug</h2>
+          <p>Tag 1 bis 3 wie in der <a href="routen.html#tage-3">3-Tage-Route</a>. Dazu kommen ein ruhigerer Tag in den Nebenvierteln und ein Tagesausflug.</p>
+
+          <h3>Tag 4 – Tokio abseits des Trubels</h3>
+          <ol class="route">
+            <li>
+              <span class="route__time">Vormittag</span>
+              <h4><a href="viertel.html#shimokitazawa">Shimokitazawa</a></h4>
+              <p>Vintage-Läden, Cafés und Livemusik. Nur wenige Minuten ab Shibuya oder Shinjuku.</p>
+            </li>
+            <li>
+              <span class="route__time">Nachmittag</span>
+              <h4><a href="viertel.html#nakameguro">Nakameguro</a></h4>
+              <p>Spaziergang am Meguro-Fluss, Läden und Bars unter den Bahngleisen (Nakameguro Koukashita).</p>
+            </li>
+          </ol>
+
+          <h3>Tag 5 – Ein Tagesausflug</h3>
+          <ol class="route">
+            <li>
+              <span class="route__time">Ab Tokyo Station</span>
+              <h4><a href="ausfluege.html#kamakura">Kamakura</a></h4>
+              <p>Grosser Buddha und Tempel am Meer. Direkt mit der JR Yokosuka-Linie, rund 1 Stunde.</p>
+            </li>
+            <li>
+              <span class="route__time">Ab Asakusa</span>
+              <h4><a href="ausfluege.html#nikko">Nikko</a></h4>
+              <p>Toshogu-Schrein und Kegon-Wasserfall. Mit dem Tobu-Zug SPACIA X rund 1 Stunde 50 Minuten.</p>
+            </li>
+            <li>
+              <span class="route__time">Ab Shinjuku</span>
+              <h4><a href="ausfluege.html#hakone">Hakone</a></h4>
+              <p>Bergbahn, Seilbahn und Schiff auf dem Ashi-See – mit dem Hakone Freepass von Odakyu.</p>
+            </li>
+            <li>
+              <span class="route__time">Ab Shinjuku</span>
+              <h4><a href="ausfluege.html#kawaguchiko">Kawaguchiko (Fuji)</a></h4>
+              <p>Mit dem Highway-Bus rund 1 Stunde 45 Minuten, vorher reservieren. Ob der Fuji zu sehen ist, entscheidet das Wetter.</p>
+            </li>
+          </ol>
+          <div class="notice">
+            <span class="notice__tag" lang="ja">切符</span>
+            <p class="notice__title">Tickets für 5 Tage</p>
+            <p>Für die Stadttage kann ein Tokyo Subway Ticket (bis 72 Stunden) passen – es gilt nicht auf JR. Für den Ausflug brauchst du eigene Tickets. Leg den Ausflug auf einen Tag mit gutem Wetter und bleib flexibel.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+<!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-brand">Tokio Guide <span lang="ja">東京</span></p>
+          <p class="site-footer__note">Ein privater, nicht-kommerzieller Reiseführer für Tokio – ohne Werbung, ohne Tracking, ohne Affiliate-Links. Angaben ohne Gewähr: Preise und Öffnungszeiten vor der Reise auf den verlinkten offiziellen Seiten prüfen.</p>
+        </div>
+        <div>
+          <h2>Entdecken</h2>
+          <ul>
+            <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+            <li><a href="viertel.html">Stadtviertel</a></li>
+            <li><a href="essen.html">Essen &amp; Trinken</a></li>
+            <li><a href="ausfluege.html">Tagesausflüge</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Planen</h2>
+          <ul>
+            <li><a href="kalender.html">Jahreszeiten &amp; Feste</a></li>
+            <li><a href="routen.html" aria-current="page">Reiserouten</a></li>
+            <li><a href="anreise.html">Anreise &amp; Geld</a></li>
+            <li><a href="tipps.html">Tipps &amp; Knigge</a></li>
+            <li><a href="packliste.html">Packliste</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Unterwegs</h2>
+          <ul>
+            <li><a href="sprache.html">Sprach-Spickzettel</a></li>
+            <li><a href="notfall.html">Sicherheit &amp; Notfall</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p><a href="datenschutz.html">Datenschutz</a> · <a href="quellen.html">Quellen &amp; Lizenzen</a> · <a href="https://github.com/Jason-Z-tech/Tokio_guide/issues">Fehler melden (GitHub)</a></p>
+        <p>Stand der Inhalte: September 2026</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
+</body>
+</html>

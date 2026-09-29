@@ -1,119 +1,420 @@
-<!DOCTYPE html>
-<html lang="de">
-
+<!doctype html>
+<html lang="de-CH" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Ein Reiseführer für Tokio mit Informationen über Sehenswürdigkeiten, Kultur und Essen.">
-    <title>Reiseführer Tokio</title>
-    <link rel="stylesheet" href="css/styles-tipps.css">
+<!-- layout:head -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1115" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/site.js" defer></script>
+  <!-- /layout:head -->
+  <title>Tipps &amp; Knigge für Tokio – Tokio Guide</title>
+  <meta name="description" content="Tipps und Knigge für Tokio, Stand 2026: Bargeld, Suica, Navigation, Höflichkeit, Essen, Müll, Trinkgeld, Rauchen, Schuhe, Onsen, Toiletten und Öffnungszeiten.">
 </head>
-
 <body>
-    <header>
+<!-- layout:header -->
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" lang="ja" aria-hidden="true">東京</span>
+        <span>Tokio Guide<span class="brand__sub">Nächster Halt: Tokio</span></span>
+      </a>
+      <nav class="line-nav" aria-label="Hauptlinien">
+        <ol>
+          <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+          <li class="line-v"><a href="viertel.html">Viertel</a></li>
+          <li class="line-e"><a href="essen.html">Essen</a></li>
+          <li class="line-t"><a href="ausfluege.html">Ausflüge</a></li>
+          <li class="line-a"><a href="anreise.html">Anreise</a></li>
+        </ol>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn icon-btn--round js-only" type="button" data-theme-toggle aria-pressed="false">
+          <svg class="theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg><svg class="theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span class="visually-hidden">Dunkles Design einschalten</span>
+        </button>
+        <button class="icon-btn js-only" type="button" data-open-map aria-haspopup="dialog" aria-expanded="false" aria-controls="linienplan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><path d="M5 8v8M10 6h10M10 12h10M10 18h10"/></svg><span>Linienplan</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <dialog class="route-map" id="linienplan" aria-labelledby="linienplan-titel">
+    <div class="route-map__head">
+      <h2 id="linienplan-titel">Linienplan <span lang="ja">路線図</span></h2>
+      <button class="icon-btn icon-btn--round" type="button" data-close-map><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg><span class="visually-hidden">Linienplan schliessen</span></button>
+    </div>
+    <nav class="route-map__body" aria-label="Alle Seiten">
+      <section class="route-line line-s">
+        <h3><span class="code code--sm"><span class="code__l">0</span></span> Start</h3>
+        <ol>
+          <li class="line-s"><a href="index.html">Startseite<small>Abfahrtstafel &amp; Liniennetz</small></a></li>
+        </ol>
+      </section>
+        <section class="route-line line-s">
+          <h3><span class="code code--sm"><span class="code__l">E</span></span> Entdecken <span lang="ja">発見</span></h3>
+          <ol>
+            <li class="line-s"><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten<small>16 Orte mit Stempelheft</small></a></li>
+            <li class="line-v"><a href="viertel.html">Stadtviertel<small>Von Shibuya bis Yanaka</small></a></li>
+            <li class="line-e"><a href="essen.html">Essen &amp; Trinken<small>Ramen-Automat, Izakaya, Konbini</small></a></li>
+            <li class="line-t"><a href="ausfluege.html">Tagesausflüge<small>Kamakura, Nikko, Hakone, Fuji</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-a">
+          <h3><span class="code code--sm"><span class="code__l">P</span></span> Planen <span lang="ja">計画</span></h3>
+          <ol>
+            <li class="line-j"><a href="kalender.html">Jahreszeiten &amp; Feste<small>Was ist los in welchem Monat?</small></a></li>
+            <li class="line-r"><a href="routen.html">Reiserouten<small>1, 3 oder 5 Tage</small></a></li>
+            <li class="line-a"><a href="anreise.html">Anreise &amp; Geld<small>Ab Zürich, Einreise, Flughafen, Suica, Yen</small></a></li>
+            <li class="line-k"><a href="tipps.html" aria-current="page">Tipps &amp; Knigge<small>Was man in Tokio wissen sollte</small></a></li>
+            <li class="line-z"><a href="packliste.html">Packliste<small>Zum Abhaken</small></a></li>
+          </ol>
+        </section>
+        <section class="route-line line-z">
+          <h3><span class="code code--sm"><span class="code__l">U</span></span> Unterwegs <span lang="ja">移動</span></h3>
+          <ol>
+            <li class="line-z"><a href="sprache.html">Sprach-Spickzettel<small>Phrasen mit Aussprache</small></a></li>
+            <li class="line-z"><a href="notfall.html">Sicherheit &amp; Notfall<small>Nummern, Erdbeben, Botschaft</small></a></li>
+          </ol>
+        </section>
+    </nav>
+  </dialog>
+  <!-- /layout:header -->
+  <main id="inhalt" tabindex="-1">
+    <div class="wrap">
+      <header class="station line-k">
+        <div class="station__board">
+          <span class="code code--lg" aria-hidden="true"><span class="code__l">K</span></span>
+          <div>
+            <p class="station__kanji" lang="ja">心得</p>
+            <h1 class="station__name">Tipps &amp; Knigge</h1>
+            <p class="station__romaji">Kokoroe · Linie K · 16 Tipps</p>
+          </div>
+          <p class="station__lead">Was du in Tokio wissen solltest, damit du dich schnell zurechtfindest – und niemandem auf die Füsse trittst. Die Grundregel der japanischen Etikette: andere nicht stören.</p>
+        </div>
+<!-- layout:band -->
+      <nav class="station__band" aria-label="Nachbarstationen">
+        <a href="anreise.html" rel="prev"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span><span class="dir">前 · vorher</span><br>Anreise &amp; Geld</span></a>
+        <a href="packliste.html" rel="next"><span><span class="dir">次 · nächste</span><br>Packliste</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></a>
+      </nav>
+      <!-- /layout:band -->
+      </header>
 
-        <h1>Tipps und Tricks</h1>
+      <section class="section" aria-labelledby="unterwegs-titel">
+        <div class="section__head">
+          <div>
+            <span class="section__kanji" lang="ja">移動</span>
+            <h2 id="unterwegs-titel">Unterwegs</h2>
+          </div>
+        </div>
+        <div class="grid grid--2">
+          <article class="card line-k" id="bargeld">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">01</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">現金</span>
+                <h3>Etwas Bargeld dabeihaben</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Karten werden immer öfter akzeptiert. Kleine Läden, Stände, Tempel und viele Ramen-Automaten nehmen aber oft nur Bargeld. Yen hebst du am besten nach der Ankunft am Automaten ab – etwa bei der Seven Bank im 7-Eleven oder bei der Japan Post Bank.</p>
+              <p>TWINT funktioniert in Japan nicht.</p>
+            </div>
+            <div class="card__foot">
+              <a href="anreise.html#geld">Mehr zu Geld &amp; Gebühren</a>
+            </div>
+          </article>
+          <article class="card line-k" id="bahn">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">02</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">スイカ</span>
+                <h3>Mit Suica oder PASMO fahren</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Mit einer IC-Karte hältst du sie einfach ans Drehkreuz. Auf dem iPhone geht Suica in Apple Wallet oder als App Welcome Suica Mobile. Mit Android kaufst du eine physische Karte, zum Beispiel die Welcome Suica am Flughafen.</p>
+              <p>Das Tokyo Subway Ticket (24, 48 oder 72 Stunden) gilt nur für Tokyo Metro und Toei, nicht für JR.</p>
+            </div>
+            <div class="card__foot">
+              <a href="anreise.html#suica">Alles zu Suica &amp; Tickets</a>
+            </div>
+          </article>
+          <article class="card line-k" id="internet">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">03</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">通信</span>
+                <h3>Internet unterwegs</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Für Karten, Fahrpläne und Übersetzungen brauchst du mobiles Internet. Eine Reise-eSIM ist meist günstiger als Roaming mit dem Schweizer Abo. Ein Pocket-WiFi lohnt sich, wenn mehrere Personen oder Geräte online sein wollen.</p>
+            </div>
+            <div class="card__foot">
+              <a href="anreise.html#internet">eSIM, Pocket-WiFi, Roaming</a>
+            </div>
+          </article>
+          <article class="card line-k" id="navigation">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">04</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">乗換案内</span>
+                <h3>Navigation</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Für Wege zu Fuss reicht Google Maps. Für Bahnverbindungen ist die App «Japan Travel by NAVITIME» auf Englisch praktisch. Plan Zeit ein: Grosse Bahnhöfe haben mehrere Stockwerke und Dutzende Ausgänge – achte auf die Nummer des Ausgangs.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://japantravel.navitime.com/en/"><span class="exit-link__jp" lang="ja">出口</span>Japan Travel by NAVITIME<span class="visually-hidden"> (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            </div>
+          </article>
+          <article class="card line-k" id="frueh">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">05</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">早起き</span>
+                <h3>Früh rausgehen</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Viele bekannte Orte sind morgens fast leer. Das Gelände des Senso-ji ist immer offen, der Meiji-Schrein öffnet bei Sonnenaufgang. Wer vor dem grossen Ansturm kommt, erlebt Tempel, Parks und Märkte ganz entspannt.</p>
+            </div>
+            <div class="card__foot">
+              <a href="sehenswuerdigkeiten.html#sensoji">Senso-ji</a>
+              <a href="sehenswuerdigkeiten.html#meiji">Meiji-Schrein</a>
+            </div>
+          </article>
+          <article class="card line-k" id="rolltreppe">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">06</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">エスカレーター</span>
+                <h3>Rolltreppe und Bahnsteig</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Zur Rushhour ist es sehr eng. Eine feste Regel, auf welcher Seite man steht, gibt es für Besucher nicht zu lernen: Achte einfach auf die anderen, mach es wie sie und bleib nicht im Weg stehen – auch nicht mit grossen Koffern.</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-
-
-        <div class="menu-btn" onclick="toggleSidebar()">☰</div>
-
-        <nav class="top-nav">
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="tipps.html">Tipps&Tricks</a></li>
-                <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+      <section class="section" aria-labelledby="knigge-titel">
+        <div class="section__head">
+          <div>
+            <span class="section__kanji" lang="ja">礼儀</span>
+            <h2 id="knigge-titel">Knigge</h2>
+          </div>
+        </div>
+        <div class="grid grid--2">
+          <article class="card line-k" id="hoeflichkeit">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">07</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">礼儀</span>
+                <h3>Höflichkeit zählt</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Leise sprechen, sich bedanken, anstehen: Im Alltag geht es vor allem darum, andere nicht zu stören. Fotografiere Menschen nicht ungefragt und bedränge niemanden.</p>
+              <p>Ein freundliches <span lang="ja">ありがとうございます</span> (arigatō gozaimasu, «vielen Dank») kommt immer gut an.</p>
+            </div>
+            <div class="card__foot">
+              <a href="sprache.html">Zum Sprach-Spickzettel</a>
+            </div>
+          </article>
+          <article class="card line-k" id="essen">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">08</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">食べ歩き</span>
+                <h3>Nicht im Gehen essen</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Man isst und trinkt in Japan im Allgemeinen nicht im Gehen. Street Food isst du direkt am Stand, etwas zur Seite gestellt. Das gilt auch für Snacks aus dem Konbini.</p>
+            </div>
+            <div class="card__foot">
+              <a href="essen.html">Mehr zu Essen &amp; Trinken</a>
+            </div>
+          </article>
+          <article class="card line-k" id="muell">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">09</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">ごみ</span>
+                <h3>Müll mitnehmen</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Öffentliche Mülleimer sind selten. Nimm eine kleine Tüte mit und entsorge Verpackungen im Hotel, am Bahnhof oder oft auch im Konbini.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="trinkgeld">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">10</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">チップ</span>
+                <h3>Kein Trinkgeld</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Trinkgeld ist in Japan unüblich. Du zahlst einfach den Betrag auf der Rechnung. Wer trotzdem Trinkgeld gibt, sorgt oft eher für Verwirrung. Die beste Anerkennung ist ein freundliches Dankeschön.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="rauchen">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">11</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">喫煙所</span>
+                <h3>Rauchen nur in Raucherzonen</h3>
+              </div>
+            </div>
+            <ul class="meta">
+              <li class="meta--warn">Bussgeld</li>
             </ul>
-        </nav>
+            <div class="card__body">
+              <p>Rauchen auf der Strasse ist vielerorts verboten. Im ganzen Bezirk Chiyoda (u. a. rund um Tokyo Station) gilt draussen ein Rauchverbot mit 2000 Yen Bussgeld – auch für Touristen. Rauch nur in den ausgeschilderten Raucherzonen.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="schuhe">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">12</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">靴を脱ぐ</span>
+                <h3>Schuhe ausziehen</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Siehst du am Eingang ein Schuhregal, eine Stufe oder Tatami-Matten, ziehst du die Schuhe aus – etwa in manchen Restaurants, Tempeln und Unterkünften. Socken ohne Löcher sind ein guter Plan.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="onsen">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">13</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">温泉</span>
+                <h3>Onsen und Tattoos</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Viele heisse Quellen und öffentliche Bäder lassen Gäste mit Tattoos nicht hinein. Es gibt aber immer mehr «tattoo-friendly» Bäder, und private Bäder (<span lang="ja">貸切風呂</span>, kashikiri-buro) sind eine gute Alternative. Kleine Tattoos lassen sich manchmal abkleben. Frag vorher nach.</p>
+            </div>
+            <div class="card__foot">
+              <a class="exit-link" href="https://www.japan.travel/en/uk/inspiration/onsen-hot-springs-on-tattoos-and-etiquette/"><span class="exit-link__jp" lang="ja">出口</span>JNTO: Onsen &amp; Tattoos<span class="visually-hidden"> (externe Seite)</span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </section>
 
+      <section class="section" aria-labelledby="alltag-titel">
+        <div class="section__head">
+          <div>
+            <span class="section__kanji" lang="ja">生活</span>
+            <h2 id="alltag-titel">Alltag</h2>
+          </div>
+        </div>
+        <div class="grid grid--3">
+          <article class="card line-k" id="toiletten">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">14</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">トイレ</span>
+                <h3>Toiletten</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>In Bahnhöfen, Parks und Kaufhäusern findest du fast überall saubere, kostenlose Toiletten. Viele haben ein Washlet mit Bedienfeld, aber nicht alle. Das Toilettenpapier gehört in die Toilette, nicht in den Eimer.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="oeffnungszeiten">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">15</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">営業時間</span>
+                <h3>Öffnungszeiten</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Geschäfte haben meist etwa von 10 bis 20 Uhr offen. Restaurants und Bars in Tokio oft viel länger. Konbini wie 7-Eleven, FamilyMart und Lawson sind keine Supermärkte, sondern kleine Läden – die meisten sind rund um die Uhr offen, aber nicht jede Filiale.</p>
+            </div>
+          </article>
+          <article class="card line-k" id="jahreszeit">
+            <div class="card__top">
+              <span class="code" aria-hidden="true"><span class="code__l">K</span><span class="code__n">16</span></span>
+              <div>
+                <span class="card__kanji" lang="ja">季節</span>
+                <h3>Reisezeit planen</h3>
+              </div>
+            </div>
+            <div class="card__body">
+              <p>Wann die Kirschen blühen, wann Regenzeit und Taifune kommen, steht im Jahreszeiten-Kalender.</p>
+            </div>
+            <div class="card__foot">
+              <a href="kalender.html#maerz">Kirschblüte im Kalender</a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-        <nav class="sidebar" id="sidebar">
-            <a href="index.html">Startseite</a>
-            <a href="tipps.html">Tipps&Tricks</a>
-            <a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
-
-    <main class="tipps-grid">
-        <section class="tipp-card slide-in-left">
-            <h2>💴 Bargeld ist wichtig</h2>
-            <p>Viele kleine Geschäfte nehmen keine Kreditkarten. Nimm immer etwas Yen in bar mit. 7-Eleven Automaten
-                sind zuverlässig. Deswegen nicht am Flughafen Geld wechseln sondern erst direkt in Japan.</p>
-        </section>
-
-        <section class="tipp-card slide-in-right">
-            <h2>🚇 U-Bahn mit Suica/Pasmo</h2>
-            <p>Mit wiederaufladbaren Karten wie Suica oder Pasmo kannst du problemlos Bahn fahren ( Vorteil Apple) kein
-                Ticketkauf
-                nötig. Sonst über GetYourGuide ein Dauertagesticket oder 3 Tagestickets. ( Gut für Samsung ) </p><a
-                href="https://www.getyourguide.de/tokio-l193/tokyo-subway-ticket-24h-48h-72h-t394678/?ranking_uuid=1d701ccc-936d-4616-a47f-ca20784e22b9&date_from=2025-04-22&date_to=2025-04-24"
-                target="_blank">GetYourGuide</a></p>
-        </section>
-
-        <section class="tipp-card slide-in-left">
-            <h2>📱 Internet unterwegs</h2>
-            <p>Besorg dir einen Pocket-WiFi oder eine eSIM super praktisch für Navigation, Übersetzungen & Google
-                Maps. Meine Empfehlung ist ein Pocket-Wifi vom Flughafen mit Unlimited Internet und Versicherung drauf
-                sehr gut für Paare oder mehreren Personen ( Verfügbar am Haneda Airport und Narita )</p>
-            <a href="https://wifibox.telecomsquare.co.jp/en/pages/campaign_inbound?utm_source=google&utm_medium=cpc&utm_campaign=general_in&utm_source=p-max_inbound&utm_medium=cpc&utm_campaign=none&gad_source=1&gclid=CjwKCAjw7pO_BhAlEiwA4pMQvLCgqF4Kx_a1DROVlK-ysoPWkKpW81DD58b45dm7GAHcUEl80u5GVxoCjsQQAvD_BwE"
-                target="_blank">Wifibox Flughafen</a></p>
-        </section>
-        <section class="tipp-card slide-in-right">
-            <h2>🎎 Höflichkeit zählt</h2>
-            <p>Leise sprechen, verbeugen, Danke sagen gute Manieren sind in Japan sehr wichtig. Also keine Menschen
-                bedrängen oder ungefragt fotografieren.</p>
-        </section>
-        <section class="tipp-card slide-in-left">
-            <h2>🗺️ Navigation: Google Maps & Navitime</h2>
-            <p>Für Bahnverbindungen ist Navitime super, für Wege zu Fuss Google Maps. Achtung: Bahnstationen können
-                riesig und mehrstöckig sein!</p>
-        </section>
-        <section class="tipp-card slide-in-right">
-            <h2>🍜 Esskultur respektieren</h2>
-            <p>In Japan isst man nicht im Gehen. Auch Müll gibt es kaum auf der Strasse nimm Verpackungen immer mit
-                bis zum Hotel oder Bahnhof.</p>
-        </section>
-        <section class="tipp-card slide-in-left">
-            <h2>🚻 Toiletten überall und sauber!</h2>
-            <p>Du findest in fast jedem Bahnhof, Park oder Kaufhaus saubere, kostenlose Toiletten mit Technik, Musik
-                und Komfort.</p>
-        </section>
-        <section class="tipp-card slide-in-right">
-            <h2>💸 Kein Trinkgeld!</h2>
-            <p>In Japan gilt Trinkgeld als unhöflich. Guter Service wird als selbstverständlich angesehen also einfach
-                höflich bedanken.</p>
-        </section>
-        <section class="tipp-card slide-in-left">
-            <h2>🔌 Stromadapter für Japan</h2>
-            <p>In Japan brauchst du einen Adapter für US-Steckdosen (Typ A). Spannung ist 100V Ladegeräte für Handy &
-                Laptop funktionieren aber meistens problemlos.</p>
-        </section>
-        <section class="tipp-card slide-in-right">
-            <h2>🕐 Öffnungszeiten im Blick behalten</h2>
-            <p>Viele Geschäfte und Restaurants schliessen früher als in Europa oft schon gegen 20 Uhr. Informiere dich
-                am besten vorher online. Natürlich aber nicht die Supermärkte die haben wie 7 Eleven und Family Mart
-                24/7 offen</p>
-        </section>
-        <section class="tipp-card slide-in-left">
-            <h2>🌅 Früh rausgehen lohnt sich</h2>
-            <p>Viele Hotspots sind morgens fast leer. Tempel, Parks und Märkte kannst du entspannt erleben, bevor der
-                große Ansturm kommt.</p>
-        </section>
-        <section class="tipp-card slide-in-right">
-            <h2>🌸 Kirschblütenzeit ist top aber überlaufen</h2>
-            <p>Mitte März bis Anfang April ist Kirschblütenzeit. Sehr schön, aber sehr beliebt früh buchen und früh
-                hingehen! Meine empfehlung ist Anfang der März zu gehen weil da noch wenig los ist also Richtung ende
-                Februar und anfang März.</p>
-        </section>
-    </main>
-
-    <script src="js/script.js"></script>
-
-    <footer>
-    </footer>
+      <div class="notice">
+        <span class="notice__tag" lang="ja">案内</span>
+        <p class="notice__title">Im Notfall</p>
+        <p>Polizei <a href="tel:110">110</a>, Feuerwehr und Rettung <a href="tel:119">119</a>. Alle Nummern, Erdbeben-Tipps und die Schweizer Botschaft findest du unter <a href="notfall.html">Sicherheit &amp; Notfall</a>.</p>
+      </div>
+    </div>
+  </main>
+<!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-brand">Tokio Guide <span lang="ja">東京</span></p>
+          <p class="site-footer__note">Ein privater, nicht-kommerzieller Reiseführer für Tokio – ohne Werbung, ohne Tracking, ohne Affiliate-Links. Angaben ohne Gewähr: Preise und Öffnungszeiten vor der Reise auf den verlinkten offiziellen Seiten prüfen.</p>
+        </div>
+        <div>
+          <h2>Entdecken</h2>
+          <ul>
+            <li><a href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+            <li><a href="viertel.html">Stadtviertel</a></li>
+            <li><a href="essen.html">Essen &amp; Trinken</a></li>
+            <li><a href="ausfluege.html">Tagesausflüge</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Planen</h2>
+          <ul>
+            <li><a href="kalender.html">Jahreszeiten &amp; Feste</a></li>
+            <li><a href="routen.html">Reiserouten</a></li>
+            <li><a href="anreise.html">Anreise &amp; Geld</a></li>
+            <li><a href="tipps.html" aria-current="page">Tipps &amp; Knigge</a></li>
+            <li><a href="packliste.html">Packliste</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Unterwegs</h2>
+          <ul>
+            <li><a href="sprache.html">Sprach-Spickzettel</a></li>
+            <li><a href="notfall.html">Sicherheit &amp; Notfall</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p><a href="datenschutz.html">Datenschutz</a> · <a href="quellen.html">Quellen &amp; Lizenzen</a> · <a href="https://github.com/Jason-Z-tech/Tokio_guide/issues">Fehler melden (GitHub)</a></p>
+        <p>Stand der Inhalte: September 2026</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
 </body>
-
 </html>
