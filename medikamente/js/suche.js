@@ -100,7 +100,7 @@
       // Mehrere Wörter: jedes Anfragewort muss am Anfang eines Begriffsworts stehen.
       if (q.woerter.every((qw) => woerter.some((w) => w.startsWith(qw)))) return 78;
     }
-    if (qk.length >= 3 && fk.includes(qk)) return 62;
+    if (qk.length >= 3 && fk.includes(qk)) return 48;
     // Tippfehler: Anfrage gegen den gleich langen Anfang des Begriffs (und jedes Worts).
     const max = erlaubteFehler(qk.length);
     if (max > 0) {
@@ -115,12 +115,16 @@
           if (dist < best) best = dist;
         }
       }
-      if (best <= max) return 52 - best * 8 - (best > 0 && qk.length < 6 ? 4 : 0);
+      if (best <= max) return 58 - best * 8;
     }
-    // Klang: «Ibuprophen», «Zitalopram» …
-    if (q.k.length >= 3) {
-      if (begriff.k.startsWith(q.k)) return 44;
-      if (begriff.wk.some((k) => k.length >= 3 && k.startsWith(q.k))) return 40;
+    // Klang: «Ibuprophen», «Zitalopram» … – Klangcode der Anfrage gegen den gleich langen Anfang des
+    // Begriffs (erst ab 5 Buchstaben, sonst zu viele Zufallstreffer).
+    if (qk.length >= 6 && q.k.length >= 5) {
+      const kandidaten = woerter.length > 1 ? [[fk, begriff.k], ...woerter.map((w, i) => [w, begriff.wk[i]])] : [[fk, begriff.k]];
+      for (const [kand, code] of kandidaten) {
+        if (kand.length < qk.length - 1 || !code.startsWith(q.k.slice(0, 2))) continue;
+        for (let d = -1; d <= 1; d++) if (koelner(kand.slice(0, qk.length + d)) === q.k) return 44;
+      }
     }
     return 0;
   }
@@ -148,22 +152,24 @@
     };
     const markeOhneZusatz = (m) => m.replace(/\s*\((Kombi|Kombination)[^)]*\)\s*$/i, '');
 
+    // Häufig verwendete Wirkstoffe (Priorität 1/2 im Verzeichnis) leicht bevorzugen.
+    const bekannt = (w) => (w.prio === 1 ? 4 : w.prio === 2 ? 2 : 0);
     for (const w of medi.wirkstoffe || []) {
-      add('wirkstoff', w.id, w.name, w.kurz || w.klasse, [w.name, ...(w.synonyme || []), ...(w.atc || [])], 2);
+      add('wirkstoff', w.id, w.name, w.kurz || w.klasse, [w.name, ...(w.synonyme || []), ...(w.atc || [])], 2 + bekannt(w));
       for (const m of w.handelsnamen || []) {
         const key = `${falte(markeOhneZusatz(m))}|${w.id}`;
         if (markeGesehen.has(key)) continue;
         markeGesehen.add(key);
-        add('marke', w.id, m, `Wirkstoff: ${w.name}`, [markeOhneZusatz(m)], 1);
+        add('marke', w.id, m, `Wirkstoff: ${w.name}`, [markeOhneZusatz(m)], 1 + bekannt(w));
       }
     }
     for (const w of medi.kurzeintraege || []) {
-      add('kurz', w.id, w.name, w.klasse, [w.name, ...(w.atc || [])], 0);
+      add('kurz', w.id, w.name, w.klasse, [w.name, ...(w.atc || [])], bekannt(w));
       for (const m of w.handelsnamen || []) {
         const key = `${falte(markeOhneZusatz(m))}|${w.id}`;
         if (markeGesehen.has(key)) continue;
         markeGesehen.add(key);
-        add('marke', w.id, m, `Wirkstoff: ${w.name}`, [markeOhneZusatz(m)], 0);
+        add('marke', w.id, m, `Wirkstoff: ${w.name}`, [markeOhneZusatz(m)], bekannt(w));
       }
     }
     for (const k of medi.krankheiten || []) add('krankheit', k.id, k.name, k.kategorie, [k.name, ...(k.synonyme || [])], 1);

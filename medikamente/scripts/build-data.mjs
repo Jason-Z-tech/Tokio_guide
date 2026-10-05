@@ -28,11 +28,14 @@ if (fehler.length) {
   process.exit(1);
 }
 
+// Priorität aus dem Verzeichnis (1 = sehr häufig verwendet) – die Suche bevorzugt bekannte Wirkstoffe leicht.
+const prio = new Map(vok.substanzen.map((s) => [s.id, s.prioritaet]));
+for (const w of wirkstoffe) if (prio.has(w.id)) w.prio = prio.get(w.id);
 const mitMono = new Set(wirkstoffe.map((w) => w.id));
 // Wirkstoffe aus dem Verzeichnis ohne eigene Monografie erscheinen als Kurzeintrag in der Suche.
 const kurzeintraege = vok.substanzen
   .filter((s) => !mitMono.has(s.id))
-  .map(({ id, name, atc, klasse, handelsnamen, abgabe }) => ({ id, name, atc, klasse, handelsnamen, abgabe }));
+  .map(({ id, name, atc, klasse, handelsnamen, abgabe, prioritaet }) => ({ id, name, atc, klasse, handelsnamen, abgabe, prio: prioritaet }));
 
 const stand = wirkstoffe.map((w) => w.stand).sort().at(-1) ?? null;
 const daten = {
