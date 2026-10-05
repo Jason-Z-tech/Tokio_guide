@@ -91,6 +91,12 @@ scripts/                Layout- und Schrift-Skripte
 tests/                  Browser-Test
 ```
 
+## Medi-Lexikon Schweiz (`medikamente/`)
+
+Eigenständige zweite Webseite im Ordner `medikamente/`: Medikamente in der Schweiz mit Wirkungsweise,
+Gegenanzeigen, Wechselwirkungen und Nebenwirkungen nach Häufigkeit, schlauer Suche und persönlichem Check.
+Online unter `…/medikamente/`. Details: [`medikamente/README.md`](medikamente/README.md).
+
 ## Rechtliches
 
 Datenschutzerklärung: `datenschutz.html`. Quellen und Lizenzen: `quellen.html`.
