@@ -10,8 +10,8 @@
   "abgabe": ["B"],
   "darreichung": ["Injektionslösung", "Kapseln (Kombination mit Netupitant)"],
   "indikationen": [
-    { "text": "Vorbeugung von akuter Übelkeit und Erbrechen bei stark brechreizauslösender Chemotherapie (z. B. mit Cisplatin)", "ids": ["uebelkeit", "krebs"] },
-    { "text": "Vorbeugung von Übelkeit und Erbrechen bei mässig brechreizauslösender Chemotherapie (Erwachsene; Injektion auch bei Kindern ab 1 Monat)", "ids": ["uebelkeit", "krebs"] }
+    { "text": "Vorbeugung von akuter Übelkeit und Erbrechen bei stark brechreizauslösender Chemotherapie (z. B. mit Cisplatin); Injektion bei Erwachsenen und Kindern ab 1 Monat", "ids": ["uebelkeit", "krebs"] },
+    { "text": "Vorbeugung von Übelkeit und Erbrechen bei mässig brechreizauslösender Chemotherapie (Erwachsene und Kinder ab 1 Monat)", "ids": ["uebelkeit", "krebs"] }
   ],
   "wirkmechanismus": "Verhindert den durch Chemotherapie ausgelösten Brechreiz über mehrere Tage. Palonosetron blockiert selektiv und mit sehr hoher Bindungsstärke die Serotonin-5-HT3-Rezeptoren an den Vagusnerv-Endigungen im Darm und in der Brechreizzone des Hirnstamms. Im Unterschied zu älteren Setronen bindet es zusätzlich allosterisch, führt zur Internalisierung der Rezeptoren und hat eine lange Halbwertszeit von rund 40 Stunden; deshalb genügt meist eine Einzeldosis pro Chemotherapie-Zyklus.",
   "kontraindikationen": [],
