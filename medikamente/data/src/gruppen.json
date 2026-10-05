@@ -1924,5 +1924,317 @@
    "Phenprocoumon",
    "ACE-Hemmer (2./3. Drittel)"
   ]
+ },
+ {
+  "id": "opioid-partialagonisten",
+  "name": "Opioid-Partialagonisten",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Können bei Opioid-Abhängigen Entzug auslösen und die Wirkung reiner Opioide abschwächen.",
+  "beispiele": [
+   "Buprenorphin",
+   "Nalbuphin"
+  ]
+ },
+ {
+  "id": "muskelrelaxanzien-peripher",
+  "name": "Periphere (neuromuskuläre) Muskelrelaxanzien",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Für Narkosen; Wirkung durch Aminoglykoside, Magnesium u. a. verstärkt.",
+  "beispiele": [
+   "Rocuronium",
+   "Atracurium",
+   "Cisatracurium",
+   "Suxamethonium"
+  ]
+ },
+ {
+  "id": "methylxanthine",
+  "name": "Methylxanthine",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Theophyllin und Coffein; enge Breite, Abbau über CYP1A2.",
+  "beispiele": [
+   "Theophyllin",
+   "Coffein"
+  ]
+ },
+ {
+  "id": "zentrale-alpha2-agonisten",
+  "name": "Zentrale Alpha-2-Agonisten",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Blutdrucksenkend und dämpfend; abruptes Absetzen kann zu Blutdruckkrisen führen.",
+  "beispiele": [
+   "Clonidin",
+   "Moxonidin",
+   "Methyldopa",
+   "Dexmedetomidin",
+   "Guanfacin"
+  ]
+ },
+ {
+  "id": "hcv-daa",
+  "name": "Direkt wirkende Hepatitis-C-Mittel",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Sofosbuvir-haltige Mittel mit Amiodaron: gefährlich langsamer Herzschlag.",
+  "beispiele": [
+   "Sofosbuvir",
+   "Velpatasvir",
+   "Ledipasvir",
+   "Glecaprevir + Pibrentasvir"
+  ]
+ },
+ {
+  "id": "thiopurine",
+  "name": "Thiopurine",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Immunsuppressiva; mit Allopurinol/Febuxostat lebensgefährliche Knochenmarkhemmung.",
+  "beispiele": [
+   "Azathioprin",
+   "Mercaptopurin",
+   "Tioguanin"
+  ]
+ },
+ {
+  "id": "fluoropyrimidine",
+  "name": "Fluoropyrimidine",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Krebsmittel; mit Brivudin tödliche Vergiftung möglich (DPD-Hemmung).",
+  "beispiele": [
+   "Fluorouracil",
+   "Capecitabin",
+   "Tegafur"
+  ]
+ },
+ {
+  "id": "platinderivate",
+  "name": "Platinderivate",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Krebsmittel; nieren-, nerven- und gehörschädigend.",
+  "beispiele": [
+   "Cisplatin",
+   "Carboplatin",
+   "Oxaliplatin"
+  ]
+ },
+ {
+  "id": "retinoide-systemisch",
+  "name": "Systemische Retinoide",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Stark fruchtschädigend; mit Tetracyclinen erhöhter Hirndruck.",
+  "beispiele": [
+   "Isotretinoin",
+   "Acitretin",
+   "Alitretinoin"
+  ]
+ },
+ {
+  "id": "jodhaltige-kontrastmittel",
+  "name": "Jodhaltige Röntgenkontrastmittel",
+  "art": "wirkstoffklasse",
+  "beschreibung": "Können die Nierenfunktion verschlechtern (Metformin pausieren) und die Schilddrüse beeinflussen.",
+  "beispiele": [
+   "Iohexol",
+   "Iopamidol",
+   "Iomeprol",
+   "Iodixanol",
+   "Iopromid"
+  ]
+ },
+ {
+  "id": "gallensaeurebinder",
+  "name": "Gallensäurebinder",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Binden viele Medikamente im Darm – zeitlich versetzt einnehmen.",
+  "beispiele": [
+   "Colestyramin",
+   "Colesevelam"
+  ]
+ },
+ {
+  "id": "phosphatbinder",
+  "name": "Phosphatbinder",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Können die Aufnahme anderer Medikamente vermindern – zeitlich versetzt einnehmen.",
+  "beispiele": [
+   "Sevelamer",
+   "Lanthan",
+   "Calciumacetat",
+   "Sucroferric Oxyhydroxid"
+  ]
+ },
+ {
+  "id": "cyp2c8-hemmer",
+  "name": "CYP2C8-Hemmer",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Erhöhen u. a. Repaglinid- und Pioglitazon-Spiegel stark.",
+  "beispiele": [
+   "Gemfibrozil",
+   "Clopidogrel",
+   "Trimethoprim",
+   "Deferasirox"
+  ]
+ },
+ {
+  "id": "cyp2c19-substrate",
+  "name": "CYP2C19-Substrate",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Abbau oder Aktivierung über CYP2C19 (z. B. Clopidogrel als Prodrug).",
+  "beispiele": [
+   "Clopidogrel",
+   "Citalopram",
+   "Escitalopram",
+   "Clobazam",
+   "Voriconazol",
+   "Omeprazol"
+  ]
+ },
+ {
+  "id": "oatp1b-hemmer",
+  "name": "OATP1B-Hemmer",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Erhöhen die Spiegel vieler Statine und anderer OATP-Substrate.",
+  "beispiele": [
+   "Ciclosporin",
+   "Gemfibrozil",
+   "Rifampicin (einmalig)",
+   "Eltrombopag"
+  ]
+ },
+ {
+  "id": "hypomagnesiaemie-ausloesend",
+  "name": "Senken das Magnesium",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Magnesiummangel erhöht das Risiko für Rhythmusstörungen und Krämpfe.",
+  "beispiele": [
+   "Omeprazol (Langzeit)",
+   "Furosemid",
+   "Cisplatin",
+   "Cetuximab"
+  ]
+ },
+ {
+  "id": "hyperkalzaemie-ausloesend",
+  "name": "Erhöhen das Calcium",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen Gefahr zu hoher Calciumwerte.",
+  "beispiele": [
+   "Hydrochlorothiazid",
+   "Colecalciferol",
+   "Calcitriol",
+   "Calciumcarbonat"
+  ]
+ },
+ {
+  "id": "blutdrucksteigernd",
+  "name": "Blutdrucksteigernde Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Können Bluthochdruck verschlechtern oder Blutdrucksenker abschwächen.",
+  "beispiele": [
+   "Pseudoephedrin",
+   "Methylphenidat",
+   "Venlafaxin",
+   "Ciclosporin",
+   "NSAR",
+   "Erythropoetine"
+  ]
+ },
+ {
+  "id": "kardiotoxisch",
+  "name": "Herzmuskelschädigende Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen erhöhtes Risiko für Herzschwäche.",
+  "beispiele": [
+   "Doxorubicin",
+   "Epirubicin",
+   "Trastuzumab"
+  ]
+ },
+ {
+  "id": "hyperglykaemie-ausloesend",
+  "name": "Erhöhen den Blutzucker",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Können einen Diabetes verschlechtern.",
+  "beispiele": [
+   "Prednison",
+   "Hydrochlorothiazid",
+   "Olanzapin",
+   "Tacrolimus"
+  ]
+ },
+ {
+  "id": "myotoxisch",
+  "name": "Muskelschädigende Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen erhöhtes Risiko für Muskelschäden bis zur Rhabdomyolyse.",
+  "beispiele": [
+   "Simvastatin",
+   "Atorvastatin",
+   "Fenofibrat",
+   "Gemfibrozil",
+   "Colchicin",
+   "Daptomycin"
+  ]
+ },
+ {
+  "id": "neuropathie-ausloesend",
+  "name": "Nervenschädigende Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen erhöhtes Risiko für Nervenschäden (Kribbeln, Taubheit).",
+  "beispiele": [
+   "Vincristin",
+   "Bortezomib",
+   "Oxaliplatin",
+   "Paclitaxel",
+   "Isoniazid",
+   "Linezolid"
+  ]
+ },
+ {
+  "id": "tendinopathie-ausloesend",
+  "name": "Sehnenschädigende Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen erhöhtes Risiko für Sehnenentzündung und -riss.",
+  "beispiele": [
+   "Ciprofloxacin",
+   "Levofloxacin",
+   "Moxifloxacin",
+   "Glukokortikoide"
+  ]
+ },
+ {
+  "id": "vasokonstriktorisch",
+  "name": "Gefässverengende Mittel",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen Gefahr von Durchblutungsstörungen, Blutdruckanstieg und Herzinfarkt.",
+  "beispiele": [
+   "Sumatriptan",
+   "Ergotamin",
+   "Methylergometrin",
+   "Pseudoephedrin"
+  ]
+ },
+ {
+  "id": "thromboserisiko-erhoehend",
+  "name": "Erhöhen das Thromboserisiko",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Zusammen oder bei Risikofaktoren erhöhte Gefahr von Blutgerinnseln.",
+  "beispiele": [
+   "Ethinylestradiol",
+   "Estradiol",
+   "Tamoxifen",
+   "Raloxifen",
+   "Thalidomid",
+   "JAK-Hemmer"
+  ]
+ },
+ {
+  "id": "disulfiramartig",
+  "name": "Alkoholunverträglichkeit (Disulfiram-artig)",
+  "art": "pharmakodynamisch",
+  "beschreibung": "Mit Alkohol Übelkeit, Herzrasen, Hautrötung.",
+  "beispiele": [
+   "Disulfiram",
+   "Metronidazol",
+   "Tinidazol"
+  ]
  }
 ]

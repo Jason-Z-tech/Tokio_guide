@@ -1,5 +1,21 @@
 [
  {
+  "id": "5-aminolaevulinsaeure",
+  "name": "5-Aminolävulinsäure",
+  "atc": [
+   "L01XD04"
+  ],
+  "klasse": "Photosensibilisator (photodynamische Therapie, Fluoreszenzdiagnostik)",
+  "handelsnamen": [
+   "Ameluz",
+   "Gliolan"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "abacavir",
   "name": "Abacavir",
   "atc": [
@@ -366,6 +382,26 @@
    "B"
   ],
   "prioritaet": 2
+ },
+ {
+  "id": "adapalen-benzoylperoxid",
+  "name": "Adapalen + Benzoylperoxid",
+  "atc": [
+   "D10AD53"
+  ],
+  "klasse": "Aknemittel (Retinoid + Antiseptikum)",
+  "handelsnamen": [
+   "Epiduo",
+   "Epiduo Forte"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 2,
+  "kombinationAus": [
+   "adapalen",
+   "benzoylperoxid"
+  ]
  },
  {
   "id": "adenosin",
@@ -4889,6 +4925,40 @@
   "prioritaet": 1
  },
  {
+  "id": "clindamycin-benzoylperoxid",
+  "name": "Clindamycin + Benzoylperoxid",
+  "atc": [
+   "D10AF51"
+  ],
+  "klasse": "Aknemittel (Antibiotikum + Antiseptikum)",
+  "handelsnamen": [
+   "Duac"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "clindamycin",
+   "benzoylperoxid"
+  ]
+ },
+ {
+  "id": "clioquinol",
+  "name": "Clioquinol",
+  "atc": [
+   "D08AH30"
+  ],
+  "klasse": "Antiseptikum (Hydroxychinolin-Derivat)",
+  "handelsnamen": [
+   "Locacorten Vioform (Kombi)"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "clobazam",
   "name": "Clobazam",
   "atc": [
@@ -5610,6 +5680,21 @@
   "prioritaet": 1
  },
  {
+  "id": "dapoxetin",
+  "name": "Dapoxetin",
+  "atc": [
+   "G04BX14"
+  ],
+  "klasse": "Kurzwirksamer SSRI (Ejaculatio praecox)",
+  "handelsnamen": [
+   "Priligy"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "daptomycin",
   "name": "Daptomycin",
   "atc": [
@@ -5907,6 +5992,21 @@
   ],
   "abgabe": [
    "A"
+  ],
+  "prioritaet": 3
+ },
+ {
+  "id": "delgocitinib",
+  "name": "Delgocitinib",
+  "atc": [
+   "D11AH11"
+  ],
+  "klasse": "JAK-Hemmer topisch (chronisches Handekzem)",
+  "handelsnamen": [
+   "Anzupgo"
+  ],
+  "abgabe": [
+   "B"
   ],
   "prioritaet": 3
  },
@@ -7075,6 +7175,25 @@
   "prioritaet": 2
  },
  {
+  "id": "dutasterid-tamsulosin",
+  "name": "Dutasterid + Tamsulosin",
+  "atc": [
+   "G04CA52"
+  ],
+  "klasse": "BPH-Mittel (5-Alpha-Reduktasehemmer + Alpha-1-Blocker)",
+  "handelsnamen": [
+   "Duodart"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 2,
+  "kombinationAus": [
+   "dutasterid",
+   "tamsulosin"
+  ]
+ },
+ {
   "id": "dydrogesteron",
   "name": "Dydrogesteron",
   "atc": [
@@ -7386,6 +7505,21 @@
   "klasse": "Substratreduktionstherapie (Morbus Gaucher)",
   "handelsnamen": [
    "Cerdelga"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
+  "id": "elinzanetant",
+  "name": "Elinzanetant",
+  "atc": [
+   "G02CX07"
+  ],
+  "klasse": "Neurokinin-1/3-Rezeptorantagonist (vasomotorische Wechseljahrbeschwerden)",
+  "handelsnamen": [
+   "Lynkuet"
   ],
   "abgabe": [
    "B"
@@ -8139,6 +8273,25 @@
   "prioritaet": 1
  },
  {
+  "id": "estetrol-drospirenon",
+  "name": "Estetrol + Drospirenon",
+  "atc": [
+   "G03AA18"
+  ],
+  "klasse": "Kombiniertes orales Kontrazeptivum",
+  "handelsnamen": [
+   "Drovelis"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "estetrol",
+   "drospirenon"
+  ]
+ },
+ {
   "id": "estradiol",
   "name": "Estradiol",
   "atc": [
@@ -8180,6 +8333,45 @@
   ]
  },
  {
+  "id": "estradiol-drospirenon",
+  "name": "Estradiol + Drospirenon",
+  "atc": [
+   "G03FA17"
+  ],
+  "klasse": "Hormonersatztherapie (Östrogen + Gestagen)",
+  "handelsnamen": [
+   "Angeliq"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "estradiol",
+   "drospirenon"
+  ]
+ },
+ {
+  "id": "estradiol-dydrogesteron",
+  "name": "Estradiol + Dydrogesteron",
+  "atc": [
+   "G03FA14",
+   "G03FB08"
+  ],
+  "klasse": "Hormonersatztherapie (Östrogen + Gestagen)",
+  "handelsnamen": [
+   "Femoston"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 2,
+  "kombinationAus": [
+   "estradiol",
+   "dydrogesteron"
+  ]
+ },
+ {
   "id": "estradiol-nomegestrol",
   "name": "Estradiol + Nomegestrol",
   "atc": [
@@ -8196,6 +8388,29 @@
   "kombinationAus": [
    "estradiol",
    "nomegestrol"
+  ]
+ },
+ {
+  "id": "estradiol-norethisteron",
+  "name": "Estradiol + Norethisteron",
+  "atc": [
+   "G03FA01",
+   "G03FB05"
+  ],
+  "klasse": "Hormonersatztherapie (Östrogen + Gestagen)",
+  "handelsnamen": [
+   "Activelle",
+   "Kliogest",
+   "Trisequens",
+   "Estalis"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 2,
+  "kombinationAus": [
+   "estradiol",
+   "norethisteron"
   ]
  },
  {
@@ -8299,6 +8514,25 @@
   "kombinationAus": [
    "ethinylestradiol",
    "desogestrel"
+  ]
+ },
+ {
+  "id": "ethinylestradiol-dienogest",
+  "name": "Ethinylestradiol + Dienogest",
+  "atc": [
+   "G03AA16"
+  ],
+  "klasse": "Kombiniertes orales Kontrazeptivum",
+  "handelsnamen": [
+   "Valette"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "ethinylestradiol",
+   "dienogest"
   ]
  },
  {
@@ -9131,6 +9365,23 @@
   "prioritaet": 2
  },
  {
+  "id": "flumetason",
+  "name": "Flumetason",
+  "atc": [
+   "D07AB03",
+   "D07BB01"
+  ],
+  "klasse": "Kortikosteroid topisch (Klasse II)",
+  "handelsnamen": [
+   "Locacorten Vioform (Kombi)",
+   "Locasalen (Kombi)"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "flunarizin",
   "name": "Flunarizin",
   "atc": [
@@ -9439,6 +9690,25 @@
    "B"
   ],
   "prioritaet": 3
+ },
+ {
+  "id": "follitropin-alfa-lutropin-alfa",
+  "name": "Follitropin alfa + Lutropin alfa",
+  "atc": [
+   "G03GA30"
+  ],
+  "klasse": "Gonadotropin-Kombination (FSH + LH)",
+  "handelsnamen": [
+   "Pergoveris"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "follitropin-alfa",
+   "lutropin-alfa"
+  ]
  },
  {
   "id": "follitropin-beta",
@@ -13114,6 +13384,25 @@
   "prioritaet": 1
  },
  {
+  "id": "levothyroxin-liothyronin",
+  "name": "Levothyroxin + Liothyronin",
+  "atc": [
+   "H03AA03"
+  ],
+  "klasse": "Schilddrüsenhormon-Kombination (T4 + T3)",
+  "handelsnamen": [
+   "Novothyral"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3,
+  "kombinationAus": [
+   "levothyroxin",
+   "liothyronin"
+  ]
+ },
+ {
   "id": "lidocain",
   "name": "Lidocain",
   "atc": [
@@ -13861,6 +14150,21 @@
   "prioritaet": 2
  },
  {
+  "id": "mecasermin",
+  "name": "Mecasermin",
+  "atc": [
+   "H01AC03"
+  ],
+  "klasse": "Rekombinanter IGF-1 (primärer IGF-1-Mangel)",
+  "handelsnamen": [
+   "Increlex"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "meclozin",
   "name": "Meclozin",
   "atc": [
@@ -14446,6 +14750,21 @@
    "B"
   ],
   "prioritaet": 1
+ },
+ {
+  "id": "metyrapon",
+  "name": "Metyrapon",
+  "atc": [
+   "V04CD01"
+  ],
+  "klasse": "Steroidsynthesehemmer (11-Beta-Hydroxylase-Hemmer, Cushing-Syndrom)",
+  "handelsnamen": [
+   "Metopiron"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
  },
  {
   "id": "mianserin",
@@ -15154,6 +15473,21 @@
   "prioritaet": 3
  },
  {
+  "id": "naftifin",
+  "name": "Naftifin",
+  "atc": [
+   "D01AE22"
+  ],
+  "klasse": "Allylamin-Antimykotikum (topisch)",
+  "handelsnamen": [
+   "Exoderil"
+  ],
+  "abgabe": [
+   "D"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "nalbuphin",
   "name": "Nalbuphin",
   "atc": [
@@ -15548,6 +15882,21 @@
   ],
   "abgabe": [
    "A"
+  ],
+  "prioritaet": 3
+ },
+ {
+  "id": "nemolizumab",
+  "name": "Nemolizumab",
+  "atc": [
+   "D11AH12"
+  ],
+  "klasse": "Anti-IL-31-Rezeptor-Antikörper (Prurigo nodularis, atopische Dermatitis)",
+  "handelsnamen": [
+   "Nemluvio"
+  ],
+  "abgabe": [
+   "B"
   ],
   "prioritaet": 3
  },
@@ -16461,6 +16810,21 @@
    "D"
   ],
   "prioritaet": 2
+ },
+ {
+  "id": "oxiconazol",
+  "name": "Oxiconazol",
+  "atc": [
+   "D01AC11"
+  ],
+  "klasse": "Imidazol-Antimykotikum (topisch)",
+  "handelsnamen": [
+   "Oceral"
+  ],
+  "abgabe": [
+   "D"
+  ],
+  "prioritaet": 3
  },
  {
   "id": "oxybuprocain",
@@ -22515,6 +22879,21 @@
   "prioritaet": 3
  },
  {
+  "id": "urofollitropin",
+  "name": "Urofollitropin",
+  "atc": [
+   "G03GA04"
+  ],
+  "klasse": "Gonadotropin (FSH, urinär)",
+  "handelsnamen": [
+   "Fostimon"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
+ },
+ {
   "id": "ursodeoxycholsaeure",
   "name": "Ursodeoxycholsäure",
   "atc": [
@@ -22612,6 +22991,21 @@
    "B"
   ],
   "prioritaet": 1
+ },
+ {
+  "id": "vamorolon",
+  "name": "Vamorolon",
+  "atc": [
+   "H02AB18"
+  ],
+  "klasse": "Dissoziatives Kortikosteroid (Duchenne-Muskeldystrophie)",
+  "handelsnamen": [
+   "Agamree"
+  ],
+  "abgabe": [
+   "B"
+  ],
+  "prioritaet": 3
  },
  {
   "id": "vancomycin",
