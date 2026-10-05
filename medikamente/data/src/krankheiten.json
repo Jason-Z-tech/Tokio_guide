@@ -7,7 +7,10 @@
    "hoher Blutdruck",
    "Hypertension",
    "arterielle Hypertonie",
-   "Blutdruck zu hoch"
+   "Blutdruck zu hoch",
+   "Bluthochdruck",
+   "Hochdruck",
+   "Hypertonus"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -18,7 +21,11 @@
    "Hypotonie",
    "niedriger Blutdruck",
    "Kreislaufschwäche",
-   "orthostatische Hypotonie"
+   "orthostatische Hypotonie",
+   "tiefer Blutdruck",
+   "Hypotension",
+   "Blutdruckabfall",
+   "Schwindel beim Aufstehen"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -28,7 +35,10 @@
   "synonyme": [
    "pulmonale arterielle Hypertonie",
    "PAH",
-   "Lungenhochdruck"
+   "Lungenhochdruck",
+   "pulmonal arterielle Hypertonie",
+   "Hochdruck im Lungenkreislauf",
+   "CTEPH"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -39,7 +49,10 @@
    "KHK",
    "Herzkranzgefässverengung",
    "Koronarsklerose",
-   "Durchblutungsstörung des Herzens"
+   "Durchblutungsstörung des Herzens",
+   "ischämische Herzkrankheit",
+   "Durchblutungsstörung am Herzen",
+   "Koronarstenose"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -50,7 +63,11 @@
    "Brustenge",
    "Herzschmerzen",
    "Stenokardie",
-   "instabile Angina"
+   "instabile Angina",
+   "Herzenge",
+   "Angina",
+   "Brustschmerzen bei Belastung",
+   "stabile Angina"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -61,7 +78,12 @@
    "Myokardinfarkt",
    "Infarkt",
    "akutes Koronarsyndrom",
-   "Herzanfall"
+   "Herzanfall",
+   "ACS",
+   "STEMI",
+   "NSTEMI",
+   "Herzattacke",
+   "Zustand nach Herzinfarkt"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -72,7 +94,11 @@
    "Herzinsuffizienz",
    "Herzschwäche",
    "Herzmuskelschwäche",
-   "Linksherzinsuffizienz"
+   "Linksherzinsuffizienz",
+   "Herzversagen",
+   "dekompensierte Herzinsuffizienz",
+   "HFrEF",
+   "Lungenödem"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -83,7 +109,9 @@
    "Vorhofflattern",
    "VHF",
    "absolute Arrhythmie",
-   "Herzflimmern"
+   "Herzflimmern",
+   "AF",
+   "Vorhofflimmer"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -95,7 +123,17 @@
    "Herzstolpern",
    "ventrikuläre Tachykardie",
    "Extrasystolen",
-   "Tachykardie"
+   "Tachykardie",
+   "Kammerrhythmusstörungen",
+   "Kammerflimmern",
+   "Kammertachykardie",
+   "VT",
+   "Brugada-Syndrom",
+   "plötzlicher Herztod",
+   "unregelmässiger Puls",
+   "Rhythmusstörung",
+   "Herzrhythmusstörung",
+   "Palpitationen"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -106,7 +144,11 @@
    "Bradykardie",
    "langsamer Herzschlag",
    "Sick-Sinus-Syndrom",
-   "Sinusknotensyndrom"
+   "Sinusknotensyndrom",
+   "tiefer Puls",
+   "Bradyarrhythmie",
+   "Herzschlag zu langsam",
+   "Puls unter 50"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -117,7 +159,10 @@
    "AV-Block",
    "Herzblock",
    "Reizleitungsstörung",
-   "sinuatrialer Block"
+   "sinuatrialer Block",
+   "atrioventrikulärer Block",
+   "AV-Block II. oder III. Grades",
+   "Schenkelblock"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -127,7 +172,12 @@
   "synonyme": [
    "QT-Verlängerung",
    "Long-QT-Syndrom",
-   "Torsade de pointes"
+   "Torsade de pointes",
+   "Long QT",
+   "verlängertes QT-Intervall",
+   "QTc-Verlängerung",
+   "LQTS",
+   "QT-Zeit verlängert"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -138,7 +188,10 @@
    "Aortenstenose",
    "Mitralinsuffizienz",
    "Herzklappenfehler",
-   "künstliche Herzklappe"
+   "künstliche Herzklappe",
+   "Mitralstenose",
+   "Klappenfehler",
+   "Herzklappenprothese"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -149,7 +202,16 @@
    "Kardiomyopathie",
    "hypertrophe Kardiomyopathie",
    "Herzmuskelentzündung",
-   "Myokarditis"
+   "Myokarditis",
+   "Herzmuskel- oder Herzbeutelentzündung",
+   "Perikarditis",
+   "Herzbeutelentzündung",
+   "Perikarderguss",
+   "Herzmuskelerkrankung",
+   "HOCM",
+   "dilatative Kardiomyopathie",
+   "obstruktive Kardiomyopathie",
+   "Herzmuskelverdickung"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -161,7 +223,15 @@
    "Apoplex",
    "Hirninfarkt",
    "TIA",
-   "transitorische ischämische Attacke"
+   "transitorische ischämische Attacke",
+   "Mini-Schlaganfall",
+   "Streifung",
+   "Schlägli",
+   "vorübergehende Durchblutungsstörung im Hirn",
+   "Stroke",
+   "ischämischer Schlaganfall",
+   "zerebraler Insult",
+   "Hirnschlag in der Vorgeschichte"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -171,7 +241,10 @@
   "synonyme": [
    "intrakranielle Blutung",
    "Subarachnoidalblutung",
-   "zerebrale Blutung"
+   "zerebrale Blutung",
+   "hämorrhagischer Schlaganfall",
+   "Blutung im Kopf",
+   "Hirnaneurysma"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -181,7 +254,11 @@
   "synonyme": [
    "periphere arterielle Verschlusskrankheit",
    "Durchblutungsstörung der Beine",
-   "Claudicatio"
+   "Claudicatio",
+   "pAVK",
+   "Raucherbein",
+   "Claudicatio intermittens",
+   "Beinarterienverengung"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -192,7 +269,10 @@
    "tiefe Venenthrombose",
    "Beinvenenthrombose",
    "TVT",
-   "Blutgerinnsel"
+   "Blutgerinnsel",
+   "Venenthrombose",
+   "Thrombus",
+   "Thromboembolie"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -201,7 +281,10 @@
   "name": "Lungenembolie",
   "synonyme": [
    "Embolie",
-   "Lungenarterienembolie"
+   "Lungenarterienembolie",
+   "LE",
+   "Lungeninfarkt",
+   "Blutgerinnsel in der Lunge"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -211,7 +294,12 @@
   "synonyme": [
    "Thromboseprophylaxe",
    "Blutverdünnung",
-   "Antikoagulation"
+   "Antikoagulation",
+   "Thromboseschutz",
+   "Embolieprophylaxe",
+   "Thrombosespritze",
+   "Hüftprothese",
+   "Knieprothese"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -223,7 +311,16 @@
    "Krampfadern",
    "Venenschwäche",
    "chronisch venöse Insuffizienz",
-   "schwere Beine"
+   "schwere Beine",
+   "CVI",
+   "venöse Insuffizienz",
+   "geschwollene Beine",
+   "Venenentzündung",
+   "Thrombophlebitis",
+   "Varikose",
+   "Besenreiser",
+   "Venenleiden",
+   "Krampfader"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -233,7 +330,10 @@
   "synonyme": [
    "Hämorrhoidalleiden",
    "Analvenenthrombose",
-   "Juckreiz am After"
+   "Juckreiz am After",
+   "Hämorriden",
+   "Hemorrhoiden",
+   "Afterjucken"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -242,7 +342,10 @@
   "name": "Aneurysma (Gefässaussackung)",
   "synonyme": [
    "Aortenaneurysma",
-   "Gefässaussackung"
+   "Gefässaussackung",
+   "Aortendissektion",
+   "Bauchaortenaneurysma",
+   "Gefässerweiterung"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -251,7 +354,11 @@
   "name": "Raynaud-Syndrom",
   "synonyme": [
    "Weissfingerkrankheit",
-   "kalte Finger"
+   "kalte Finger",
+   "Raynaud",
+   "Raynaud-Phänomen",
+   "Durchblutungsstörung der Finger",
+   "digitale Ulzera"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -264,7 +371,16 @@
    "Gerinnungsstörung",
    "Hämophilie",
    "Bluterkrankheit",
-   "von-Willebrand"
+   "von-Willebrand",
+   "Hämophilie A",
+   "Hämophilie B",
+   "Faktor-VIII-Mangel",
+   "Von-Willebrand-Syndrom",
+   "Bluter",
+   "Koagulopathie",
+   "erhöhte Blutungsgefahr",
+   "Blutgerinnungsstörung",
+   "Vitamin-K-Mangel"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -275,7 +391,12 @@
    "akute Blutung",
    "Blutung",
    "Magenblutung",
-   "klinisch relevante Blutung"
+   "klinisch relevante Blutung",
+   "starke Blutung",
+   "Blutverlust",
+   "Hämorrhagie",
+   "blutende Wunde",
+   "Nachblutung"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -287,7 +408,10 @@
    "wenige Blutplättchen",
    "ITP",
    "Immunthrombozytopenie",
-   "HIT"
+   "HIT",
+   "wenig Blutplättchen",
+   "Blutplättchenmangel",
+   "heparininduzierte Thrombozytopenie"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -297,7 +421,11 @@
   "synonyme": [
    "Anämie",
    "Blutarmut",
-   "Hämoglobinmangel"
+   "Hämoglobinmangel",
+   "Blutmangel",
+   "tiefes Hämoglobin",
+   "renale Anämie",
+   "tiefer Hb"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -307,7 +435,10 @@
   "synonyme": [
    "Eisenmangelanämie",
    "Ferritin tief",
-   "Eisenspeicher leer"
+   "Eisenspeicher leer",
+   "tiefes Ferritin",
+   "Ferritinmangel",
+   "Eisen tief"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -318,7 +449,16 @@
    "perniziöse Anämie",
    "B12-Mangel",
    "Folsäuremangel",
-   "megaloblastäre Anämie"
+   "megaloblastäre Anämie",
+   "Folatmangel",
+   "Folsäure",
+   "Folsäureprophylaxe",
+   "Neuralrohrdefekt-Prophylaxe",
+   "Folsäure Mangel",
+   "Cobalaminmangel",
+   "Perniziosa",
+   "makrozytäre Anämie",
+   "Vitamin B12 Mangel"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -329,7 +469,10 @@
    "Neutropenie",
    "Leukopenie",
    "Agranulozytose",
-   "Knochenmarkschwäche"
+   "Knochenmarkschwäche",
+   "tiefe Leukozyten",
+   "wenig weisse Blutkörperchen",
+   "febrile Neutropenie"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -340,7 +483,10 @@
    "Knochenmarkdepression",
    "Myelosuppression",
    "aplastische Anämie",
-   "Panzytopenie"
+   "Panzytopenie",
+   "Knochenmarksuppression",
+   "Blutbildungsstörung",
+   "Knochenmarkinsuffizienz"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -359,7 +505,17 @@
   "synonyme": [
    "Sichelzellanämie",
    "Thalassämie",
-   "Eisenüberladung"
+   "Eisenüberladung",
+   "Sichelzellanämie und Thalassämie",
+   "Sichelzellkrankheit",
+   "Hämoglobinopathie",
+   "Mittelmeeranämie",
+   "Beta-Thalassämie",
+   "Hämochromatose",
+   "Eisenspeicherkrankheit",
+   "Siderose",
+   "zu viel Eisen",
+   "Transfusionssiderose"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -369,7 +525,11 @@
   "synonyme": [
    "G6PD-Mangel",
    "Favismus",
-   "G-6-PD-Mangel"
+   "G-6-PD-Mangel",
+   "Glukose-6-Phosphat-Dehydrogenase-Mangel",
+   "G6PD",
+   "hämolytische Anämie",
+   "Bohnenkrankheit"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -378,7 +538,9 @@
   "name": "Porphyrie",
   "synonyme": [
    "akute Porphyrie",
-   "hepatische Porphyrie"
+   "hepatische Porphyrie",
+   "akute intermittierende Porphyrie",
+   "Porphyrinstoffwechselstörung"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -389,7 +551,12 @@
    "Typ-1-Diabetes",
    "insulinabhängiger Diabetes",
    "jugendlicher Diabetes",
-   "Zucker"
+   "Zucker",
+   "Zuckerkrankheit",
+   "Diabetes mellitus Typ 1",
+   "insulinpflichtiger Diabetes",
+   "IDDM",
+   "Diabetis"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -401,7 +568,12 @@
    "Zuckerkrankheit",
    "Zucker",
    "Altersdiabetes",
-   "Diabetes mellitus"
+   "Diabetes mellitus",
+   "Diabetes mellitus Typ 2",
+   "Alterszucker",
+   "Insulinresistenz",
+   "Prädiabetes",
+   "Diabetis"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -423,7 +595,10 @@
   "synonyme": [
    "Hypoglykämie",
    "Unterzucker",
-   "tiefer Blutzucker"
+   "tiefer Blutzucker",
+   "Hypo",
+   "Zuckerschock",
+   "Unterzuckerung"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -433,7 +608,10 @@
   "synonyme": [
    "Ketoazidose",
    "diabetisches Koma",
-   "Übersäuerung"
+   "Übersäuerung",
+   "Azidose",
+   "Laktatazidose",
+   "metabolische Azidose"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -446,7 +624,10 @@
    "Hyperlipidämie",
    "LDL zu hoch",
    "Fettstoffwechselstörung",
-   "Blutfette"
+   "Blutfette",
+   "Cholesterin",
+   "LDL erhöht",
+   "Dyslipidämie"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -456,7 +637,11 @@
   "synonyme": [
    "Hypertriglyzeridämie",
    "Triglyceride hoch",
-   "Blutfette"
+   "Blutfette",
+   "Triglyceride erhöht",
+   "Triglyzeride",
+   "gemischte Hyperlipidämie",
+   "hohe Blutfette"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -468,7 +653,10 @@
    "Fettleibigkeit",
    "Übergewicht",
    "Gewichtsreduktion",
-   "abnehmen"
+   "abnehmen",
+   "Fettsucht",
+   "Obesitas",
+   "hoher BMI"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -479,7 +667,12 @@
    "Hyperurikämie",
    "Harnsäure erhöht",
    "Gichtanfall",
-   "Arthritis urica"
+   "Arthritis urica",
+   "erhöhte Harnsäure",
+   "Podagra",
+   "Harnsäure",
+   "Gichtarthritis",
+   "Gichtknoten"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -490,7 +683,10 @@
    "Hypothyreose",
    "Unterfunktion",
    "Hashimoto",
-   "Schilddrüse zu langsam"
+   "Schilddrüse zu langsam",
+   "Hashimoto-Thyreoiditis",
+   "Myxödem",
+   "Hypothyreoidismus"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -502,7 +698,9 @@
    "Überfunktion",
    "Morbus Basedow",
    "Graves",
-   "Schilddrüse zu schnell"
+   "Schilddrüse zu schnell",
+   "Basedow",
+   "Thyreotoxikose"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -513,7 +711,9 @@
    "Struma",
    "Kropf",
    "Schilddrüsenknoten",
-   "Jodmangel"
+   "Jodmangel",
+   "Schilddrüsenvergrösserung",
+   "Struma nodosa"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -523,7 +723,12 @@
   "synonyme": [
    "Knochenschwund",
    "Knochendichte tief",
-   "Osteopenie"
+   "Osteopenie",
+   "Knochenbrüchigkeit",
+   "brüchige Knochen",
+   "postmenopausale Osteoporose",
+   "Kortison-Osteoporose",
+   "Osteoporose"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -533,7 +738,10 @@
   "synonyme": [
    "Vitamin D tief",
    "Rachitis",
-   "Osteomalazie"
+   "Osteomalazie",
+   "Calciferolmangel",
+   "Knochenerweichung",
+   "Rachitisprophylaxe"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -542,7 +750,10 @@
   "name": "Erhöhtes Kalium (Hyperkaliämie)",
   "synonyme": [
    "Hyperkaliämie",
-   "Kalium zu hoch"
+   "Kalium zu hoch",
+   "hohes Kalium",
+   "Hyperkalämie",
+   "Kaliumüberschuss"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -552,7 +763,9 @@
   "synonyme": [
    "Hypokaliämie",
    "Kalium zu tief",
-   "Kaliummangel"
+   "Kaliummangel",
+   "tiefes Kalium",
+   "Hypokalämie"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -562,7 +775,10 @@
   "synonyme": [
    "Hyponatriämie",
    "Natrium zu tief",
-   "SIADH"
+   "SIADH",
+   "tiefes Natrium",
+   "Natriummangel",
+   "Salzmangel"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -571,7 +787,11 @@
   "name": "Erhöhtes Calcium (Hyperkalzämie)",
   "synonyme": [
    "Hyperkalzämie",
-   "Calcium zu hoch"
+   "Calcium zu hoch",
+   "hohes Kalzium",
+   "Hypercalcämie",
+   "Calcium erhöht",
+   "Hyperkalziämie"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -581,7 +801,10 @@
   "synonyme": [
    "Hypokalzämie",
    "Calcium zu tief",
-   "Tetanie"
+   "Tetanie",
+   "tiefes Kalzium",
+   "Calciummangel",
+   "Hypocalcämie"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -591,7 +814,14 @@
   "synonyme": [
    "Hypomagnesiämie",
    "Wadenkrämpfe",
-   "Magnesium tief"
+   "Magnesium tief",
+   "tiefes Magnesium",
+   "Magnesium zu tief",
+   "Muskelkrämpfe",
+   "nächtliche Krämpfe",
+   "Krampf im Bein",
+   "Muskelkrampf",
+   "Wadenkrampf"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -602,7 +832,11 @@
    "Austrocknung",
    "Exsikkose",
    "Flüssigkeitsverlust",
-   "Volumenmangel"
+   "Volumenmangel",
+   "Flüssigkeitsmangel",
+   "Wassermangel",
+   "Hypovolämie",
+   "Dehydration"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -612,7 +846,11 @@
   "synonyme": [
    "Addison",
    "Kortisolmangel",
-   "Nebennierenrindenschwäche"
+   "Nebennierenrindenschwäche",
+   "Morbus Addison",
+   "Nebennierenschwäche",
+   "Nebennierenrindeninsuffizienz",
+   "Addison-Krise"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -621,7 +859,10 @@
   "name": "Cushing-Syndrom",
   "synonyme": [
    "Hyperkortisolismus",
-   "Kortisolüberschuss"
+   "Kortisolüberschuss",
+   "Morbus Cushing",
+   "Cushing",
+   "Vollmondgesicht"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -630,7 +871,11 @@
   "name": "Nebenschilddrüsen-Überfunktion",
   "synonyme": [
    "Hyperparathyreoidismus",
-   "Parathormon erhöht"
+   "Parathormon erhöht",
+   "Hypoparathyreoidismus",
+   "Nebenschilddrüsenüberfunktion",
+   "Nebenschilddrüsenunterfunktion",
+   "sekundärer Hyperparathyreoidismus"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -640,7 +885,15 @@
   "synonyme": [
    "Kleinwuchs",
    "Wachstumshormonmangel",
-   "Akromegalie"
+   "Akromegalie",
+   "Wachstumshormonüberschuss",
+   "Riesenwuchs",
+   "Gigantismus",
+   "Hypophysentumor",
+   "Minderwuchs",
+   "GH-Mangel",
+   "Wachstumsstörung",
+   "Turner-Syndrom"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -651,7 +904,19 @@
    "Diabetes insipidus",
    "Nykturie",
    "Bettnässen",
-   "Enuresis"
+   "Enuresis",
+   "Enuresis nocturna",
+   "nächtliches Einnässen",
+   "Einnässen",
+   "Bettnässer",
+   "Nächtlicher Harndrang",
+   "nachts Wasserlösen",
+   "nachts aufs WC",
+   "nächtliches Wasserlassen",
+   "Wasserharnruhr",
+   "ADH-Mangel",
+   "Durstkrankheit",
+   "zentraler Diabetes insipidus"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -663,7 +928,11 @@
    "Morbus Fabry",
    "Morbus Pompe",
    "Phenylketonurie",
-   "lysosomale Speicherkrankheit"
+   "lysosomale Speicherkrankheit",
+   "Lysosomale Speicherkrankheiten",
+   "Mukopolysaccharidose",
+   "Enzymersatztherapie",
+   "Speicherkrankheit"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -674,7 +943,13 @@
    "Vitaminmangel",
    "Malnutrition",
    "parenterale Ernährung",
-   "Spurenelementmangel"
+   "Spurenelementmangel",
+   "Vitamin- und Mineralstoffmangel",
+   "Mineralstoffmangel",
+   "Zinkmangel",
+   "Vitamin-B1-Mangel",
+   "Nahrungsergänzung",
+   "Mangelzustand"
   ],
   "kategorie": "Stoffwechsel und Hormone"
  },
@@ -687,7 +962,17 @@
    "chronische Nierenkrankheit",
    "CKD",
    "Nierenversagen",
-   "Dialyse"
+   "Dialyse",
+   "Schwere Niereninsuffizienz und Nierenversagen",
+   "terminale Niereninsuffizienz",
+   "GFR unter 30",
+   "schwere Nierenfunktionsstörung",
+   "Kreatinin-Clearance unter 30",
+   "akutes Nierenversagen",
+   "Anurie",
+   "Hämodialyse",
+   "Peritonealdialyse",
+   "Blutwäsche"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -697,7 +982,11 @@
   "synonyme": [
    "Nephrolithiasis",
    "Harnsteine",
-   "Nierenkolik"
+   "Nierenkolik",
+   "Nierenstein",
+   "Urolithiasis",
+   "Blasensteine",
+   "Harnleiterstein"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -710,7 +999,13 @@
    "Harnwegsinfektion",
    "HWI",
    "Nierenbeckenentzündung",
-   "Pyelonephritis"
+   "Pyelonephritis",
+   "Niereninfekt",
+   "oberer Harnwegsinfekt",
+   "Niereninfektion",
+   "Harnwegsinfekt",
+   "Blaseninfekt",
+   "Brennen beim Wasserlösen"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -722,7 +1017,15 @@
    "Dranginkontinenz",
    "Harninkontinenz",
    "häufiger Harndrang",
-   "Blasenschwäche"
+   "Blasenschwäche",
+   "Inkontinenz",
+   "ungewollter Urinverlust",
+   "Belastungsinkontinenz",
+   "Stressinkontinenz",
+   "Reizblase",
+   "OAB",
+   "Harndrang",
+   "Pollakisurie"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -732,7 +1035,10 @@
   "synonyme": [
    "Harnretention",
    "Blasenentleerungsstörung",
-   "Restharn"
+   "Restharn",
+   "Harnverhaltung",
+   "Harnsperre",
+   "kann nicht Wasser lösen"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -743,7 +1049,11 @@
    "BPH",
    "Prostatavergrösserung",
    "benigne Prostatahyperplasie",
-   "Prostata"
+   "Prostata",
+   "Prostataadenom",
+   "vergrösserte Prostata",
+   "Prostataleiden",
+   "schwacher Harnstrahl"
   ],
   "kategorie": "Männergesundheit"
  },
@@ -753,7 +1063,10 @@
   "synonyme": [
    "Impotenz",
    "erektile Dysfunktion",
-   "Potenzstörung"
+   "Potenzstörung",
+   "ED",
+   "Potenzprobleme",
+   "Erektionsprobleme"
   ],
   "kategorie": "Männergesundheit"
  },
@@ -762,7 +1075,10 @@
   "name": "Testosteronmangel",
   "synonyme": [
    "Hypogonadismus",
-   "Androgenmangel"
+   "Androgenmangel",
+   "Wechseljahre des Mannes",
+   "Andropause",
+   "Klinefelter-Syndrom"
   ],
   "kategorie": "Männergesundheit"
  },
@@ -774,7 +1090,14 @@
    "nephrotisches Syndrom",
    "Proteinurie",
    "IgA-Nephropathie",
-   "Lupusnephritis"
+   "Lupusnephritis",
+   "Nierenentzündung",
+   "Nephritis",
+   "interstitielle Nephritis",
+   "Eiweiss im Urin",
+   "Albuminurie",
+   "Eiweissverlust",
+   "Mikroalbuminurie"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -783,7 +1106,10 @@
   "name": "Erhöhtes Phosphat bei Nierenkrankheit",
   "synonyme": [
    "Hyperphosphatämie",
-   "Phosphat zu hoch"
+   "Phosphat zu hoch",
+   "hohes Phosphat",
+   "Phosphat erhöht",
+   "Phosphatbinder"
   ],
   "kategorie": "Niere und Harnwege"
  },
@@ -804,7 +1130,10 @@
    "GERD",
    "Refluxkrankheit",
    "saures Aufstossen",
-   "Refluxösophagitis"
+   "Refluxösophagitis",
+   "Sodbrennen",
+   "Magenbrennen",
+   "Barrett-Ösophagus"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -817,7 +1146,16 @@
    "Ulcus ventriculi",
    "Ulcus duodeni",
    "peptisches Ulkus",
-   "Magenblutung"
+   "Magenblutung",
+   "Magen-Darm-Blutung",
+   "gastrointestinale Blutung",
+   "GI-Blutung",
+   "Darmblutung",
+   "Blut im Stuhl",
+   "Teerstuhl",
+   "Bluterbrechen",
+   "Zwölffingerdarmgeschwür",
+   "Ulkus in der Vorgeschichte"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -827,7 +1165,9 @@
   "synonyme": [
    "Helicobacter",
    "H. pylori",
-   "Magenkeim"
+   "Magenkeim",
+   "Helicobacter-Eradikation",
+   "Helicobacter pylori"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -837,7 +1177,11 @@
   "synonyme": [
    "Gastritis",
    "Magenschmerzen",
-   "Magenverstimmung"
+   "Magenverstimmung",
+   "Magenschleimhautentzündung",
+   "Magenentzündung",
+   "Magenbeschwerden",
+   "Magenweh"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -849,7 +1193,15 @@
    "Völlegefühl",
    "Blähungen",
    "Reizmagen",
-   "Oberbauchbeschwerden"
+   "Oberbauchbeschwerden",
+   "Meteorismus",
+   "Flatulenz",
+   "Blähbauch",
+   "Winde",
+   "aufgeblähter Bauch",
+   "Verdauungsstörung",
+   "funktionelle Dyspepsie",
+   "Verdauungsprobleme"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -861,7 +1213,9 @@
    "Brechreiz",
    "Nausea",
    "Emesis",
-   "Chemotherapie-Übelkeit"
+   "Chemotherapie-Übelkeit",
+   "Übelkeit",
+   "Kotzen"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -871,7 +1225,11 @@
   "synonyme": [
    "Kinetose",
    "Seekrankheit",
-   "Autokrankheit"
+   "Autokrankheit",
+   "Reiseübelkeit",
+   "Übelkeit beim Autofahren",
+   "Bewegungskrankheit",
+   "Flugkrankheit"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -882,7 +1240,11 @@
    "Obstipation",
    "Verstopfung",
    "harter Stuhl",
-   "opioidbedingte Verstopfung"
+   "opioidbedingte Verstopfung",
+   "Stuhlverstopfung",
+   "Darmträgheit",
+   "Opioid-induzierte Obstipation",
+   "Konstipation"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -891,7 +1253,12 @@
   "name": "Darmreinigung vor Untersuchungen",
   "synonyme": [
    "Darmspiegelung",
-   "Koloskopie-Vorbereitung"
+   "Koloskopie-Vorbereitung",
+   "Koloskopie",
+   "Darmreinigung",
+   "Darmspülung",
+   "Kolonoskopie",
+   "Abführen vor Untersuchung"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -902,7 +1269,18 @@
    "Diarrhö",
    "Durchfall",
    "Reisedurchfall",
-   "Brechdurchfall"
+   "Brechdurchfall",
+   "Magen-Darm-Infekt",
+   "Magen-Darm-Grippe",
+   "Gastroenteritis",
+   "Norovirus",
+   "Rotavirus",
+   "Darminfekt",
+   "Salmonellen",
+   "Lebensmittelvergiftung",
+   "Dünnpfiff",
+   "Diarrhea",
+   "wässriger Stuhl"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -913,7 +1291,17 @@
    "Reizdarm",
    "Colon irritabile",
    "IBS",
-   "Bauchkrämpfe"
+   "Bauchkrämpfe",
+   "Bauchschmerzen und Bauchkrämpfe",
+   "Bauchweh",
+   "Buchweh",
+   "Magenkrämpfe",
+   "Koliken",
+   "Spasmen",
+   "Krämpfe im Bauch",
+   "RDS",
+   "nervöser Darm",
+   "Reizkolon"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -923,7 +1311,10 @@
   "synonyme": [
    "Crohn",
    "chronisch entzündliche Darmerkrankung",
-   "CED"
+   "CED",
+   "Crohn-Krankheit",
+   "Ileitis terminalis",
+   "Morbus Chron"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -934,7 +1325,8 @@
    "Colitis",
    "chronisch entzündliche Darmerkrankung",
    "CED",
-   "Dickdarmentzündung"
+   "Dickdarmentzündung",
+   "Proktitis"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -944,7 +1336,10 @@
   "synonyme": [
    "Ileus",
    "Darmlähmung",
-   "Darmobstruktion"
+   "Darmobstruktion",
+   "mechanischer Ileus",
+   "paralytischer Ileus",
+   "Darmverengung"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -953,7 +1348,10 @@
   "name": "Divertikulitis",
   "synonyme": [
    "Divertikel",
-   "Divertikelentzündung"
+   "Divertikelentzündung",
+   "Divertikulose",
+   "Darmausstülpungen",
+   "Divertikelkrankheit"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -962,7 +1360,9 @@
   "name": "Zöliakie",
   "synonyme": [
    "Glutenunverträglichkeit",
-   "Sprue"
+   "Sprue",
+   "Glutenintoleranz",
+   "glutenfreie Ernährung"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -971,7 +1371,11 @@
   "name": "Bauchspeicheldrüsenentzündung (Pankreatitis)",
   "synonyme": [
    "Pankreatitis",
-   "Bauchspeicheldrüse"
+   "Bauchspeicheldrüse",
+   "Bauchspeicheldrüsenentzündung",
+   "akute Pankreatitis",
+   "chronische Pankreatitis",
+   "Pankreasentzündung"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -981,7 +1385,13 @@
   "synonyme": [
    "exokrine Pankreasinsuffizienz",
    "Enzymmangel",
-   "Fettstuhl"
+   "Fettstuhl",
+   "Bauchspeicheldrüsenschwäche",
+   "Pankreasinsuffizienz",
+   "Verdauungsenzymmangel",
+   "Fettstühle",
+   "Steatorrhoe",
+   "Pankreasschwäche"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -992,7 +1402,11 @@
    "Leberinsuffizienz",
    "Leberschwäche",
    "Leberfunktionsstörung",
-   "Leberschaden"
+   "Leberschaden",
+   "eingeschränkte Leberfunktion",
+   "Lebererkrankung",
+   "erhöhte Leberwerte",
+   "Leber"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1003,7 +1417,17 @@
    "Zirrhose",
    "Schrumpfleber",
    "hepatische Enzephalopathie",
-   "Aszites"
+   "Aszites",
+   "Leberkoma",
+   "hepatisches Koma",
+   "Ammoniak erhöht",
+   "Verwirrtheit bei Leberzirrhose",
+   "HE",
+   "Hyperammonämie",
+   "Bauchwassersucht",
+   "Ösophagusvarizen",
+   "Pfortaderhochdruck",
+   "portale Hypertension"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1014,7 +1438,10 @@
    "NAFLD",
    "MASLD",
    "NASH",
-   "Steatose"
+   "Steatose",
+   "Steatosis hepatis",
+   "MASH",
+   "Leberverfettung"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1026,7 +1453,16 @@
    "Cholelithiasis",
    "Gallenkolik",
    "primär biliäre Cholangitis",
-   "PBC"
+   "PBC",
+   "Autoimmunhepatitis und cholestatische Lebererkrankungen",
+   "Autoimmunhepatitis",
+   "PSC",
+   "primär sklerosierende Cholangitis",
+   "biliäre Zirrhose",
+   "Gallenblasenentzündung",
+   "Cholezystitis",
+   "Gallenleiden",
+   "Gallenstein"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1036,7 +1472,11 @@
   "synonyme": [
    "HBV",
    "Leberentzündung B",
-   "chronische Hepatitis B"
+   "chronische Hepatitis B",
+   "HBs-Antigen positiv",
+   "Hepatitis-B-Reaktivierung",
+   "Hepatitis-B-Impfung",
+   "Gelbsucht B"
   ],
   "kategorie": "Infektionen"
  },
@@ -1045,7 +1485,11 @@
   "name": "Hepatitis C",
   "synonyme": [
    "HCV",
-   "Leberentzündung C"
+   "Leberentzündung C",
+   "chronische Hepatitis C",
+   "Gelbsucht C",
+   "HCV-Infektion",
+   "Hepatitis-C-Virus"
   ],
   "kategorie": "Infektionen"
  },
@@ -1055,7 +1499,10 @@
   "synonyme": [
    "Milchzuckerunverträglichkeit",
    "Laktasemangel",
-   "Galaktoseintoleranz"
+   "Galaktoseintoleranz",
+   "Laktoseunverträglichkeit",
+   "Glucose-Galactose-Malabsorption",
+   "Galaktosämie"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1065,7 +1512,10 @@
   "synonyme": [
    "Fruchtzuckerunverträglichkeit",
    "hereditäre Fructoseintoleranz",
-   "Sorbitunverträglichkeit"
+   "Sorbitunverträglichkeit",
+   "Fruktoseintoleranz und Zuckerverwertungsstörungen",
+   "Fruktoseunverträglichkeit",
+   "Saccharase-Isomaltase-Mangel"
   ],
   "kategorie": "Leber, Magen und Darm"
  },
@@ -1078,7 +1528,17 @@
    "Aphthen",
    "Mundsoor",
    "Halsschmerzen",
-   "Mundschleimhautentzündung"
+   "Mundschleimhautentzündung",
+   "Mundschleimhautentzündung und Aphthen",
+   "Stomatitis",
+   "Mundgeschwür",
+   "Mukositis",
+   "Mundfäule",
+   "Aphte",
+   "Parodontitis",
+   "Zahnfleischbluten",
+   "Parodontose",
+   "Zahnfleisch"
   ],
   "kategorie": "Infektionen"
  },
@@ -1090,7 +1550,9 @@
    "Bronchialasthma",
    "allergisches Asthma",
    "Atemnot",
-   "Belastungsasthma"
+   "Belastungsasthma",
+   "Asthmaanfall",
+   "Anstrengungsasthma"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1102,7 +1564,11 @@
    "NSAR-Asthma",
    "NSAR-Unverträglichkeit",
    "Samter-Trias",
-   "AERD"
+   "AERD",
+   "Analgetika-Asthma",
+   "NSAR-Intoleranz",
+   "Acetylsalicylsäure-Unverträglichkeit",
+   "Asthma durch Schmerzmittel"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1114,7 +1580,11 @@
    "chronische Bronchitis",
    "Lungenemphysem",
    "Raucherlunge",
-   "chronisch obstruktive Lungenerkrankung"
+   "chronisch obstruktive Lungenerkrankung",
+   "Emphysem",
+   "Raucherhusten",
+   "obstruktive Lungenerkrankung",
+   "chronisch obstruktive Bronchitis"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1126,7 +1596,18 @@
    "Reizhusten",
    "Bronchitis",
    "Schleimhusten",
-   "trockener Husten"
+   "trockener Husten",
+   "Akute Bronchitis",
+   "Bronchienentzündung",
+   "Brustkatarrh",
+   "Atemwegsinfekt",
+   "Bronchiolitis",
+   "Husten mit Auswurf",
+   "produktiver Husten",
+   "Hustenreiz",
+   "Verschleimung",
+   "Hueste",
+   "Auswurf"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1138,7 +1619,18 @@
    "Schnupfen",
    "verstopfte Nase",
    "Rhinitis",
-   "Halsweh"
+   "Halsweh",
+   "Schnupfen und verstopfte Nase",
+   "Pfnüsel",
+   "laufende Nase",
+   "Nasenschleimhautschwellung",
+   "trockene Nase",
+   "Halsschmerzen und Mandelentzündung",
+   "Pharyngitis",
+   "Rachenentzündung",
+   "Mandelentzündung",
+   "Tonsillitis",
+   "Streptokokkenangina"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1148,7 +1640,10 @@
   "synonyme": [
    "Sinusitis",
    "Nebenhöhlenentzündung",
-   "Stirnhöhlenentzündung"
+   "Stirnhöhlenentzündung",
+   "Kieferhöhlenentzündung",
+   "Rhinosinusitis",
+   "Stirnhöhlenkatarrh"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1160,7 +1655,16 @@
    "Pollenallergie",
    "Heuschnupfen",
    "Hausstaubmilbenallergie",
-   "Nasenpolypen"
+   "Nasenpolypen",
+   "Polypen",
+   "chronische Rhinosinusitis mit Polypen",
+   "Polyposis nasi",
+   "CRSwNP",
+   "Heufieber",
+   "Gräserallergie",
+   "Pollinose",
+   "Tierhaarallergie",
+   "Birkenpollenallergie"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1173,7 +1677,17 @@
    "Urtikaria",
    "Juckreiz",
    "Quaddeln",
-   "Insektenstich"
+   "Insektenstich",
+   "Insektenstiche",
+   "Mückenstich",
+   "Wespenstich",
+   "Bienenstich",
+   "Stichreaktion",
+   "Schnakenstich",
+   "allergische Reaktion",
+   "Überempfindlichkeit",
+   "Allergiker",
+   "Hypersensibilität"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1184,7 +1698,11 @@
    "anaphylaktischer Schock",
    "allergischer Schock",
    "schwere Allergie",
-   "Angioödem"
+   "Angioödem",
+   "schwere allergische Reaktion",
+   "Anaphylaxie",
+   "allergischer Notfall",
+   "Notfallset"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1195,7 +1713,10 @@
    "Quincke-Ödem",
    "hereditäres Angioödem",
    "HAE",
-   "Schwellung"
+   "Schwellung",
+   "Angioödem",
+   "Schwellung von Lippen und Zunge",
+   "ACE-Hemmer-Angioödem"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1204,7 +1725,11 @@
   "name": "Lungenentzündung (Pneumonie)",
   "synonyme": [
    "Pneumonie",
-   "Lungenentzündung"
+   "Lungenentzündung",
+   "Lungeninfekt",
+   "ambulant erworbene Pneumonie",
+   "Pneumokokken",
+   "Pneumokokkenimpfung"
   ],
   "kategorie": "Infektionen"
  },
@@ -1215,7 +1740,11 @@
    "idiopathische Lungenfibrose",
    "IPF",
    "interstitielle Lungenkrankheit",
-   "Pneumonitis"
+   "Pneumonitis",
+   "interstitielle Lungenerkrankung",
+   "Lungenvernarbung",
+   "ILD",
+   "Alveolitis"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1236,7 +1765,18 @@
    "Schlafapnoe",
    "Atemdepression",
    "Ateminsuffizienz",
-   "Hypoventilation"
+   "Hypoventilation",
+   "Atemschwäche",
+   "respiratorische Insuffizienz",
+   "Hyperkapnie",
+   "eingeschränkte Atemfunktion",
+   "Atemlähmung",
+   "Schlafapnoe-Syndrom",
+   "Atemaussetzer im Schlaf",
+   "OSAS",
+   "Schnarchen mit Atempausen",
+   "obstruktive Schlafapnoe",
+   "CPAP"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -1251,7 +1791,15 @@
    "Zahnschmerzen",
    "Regelschmerzen",
    "Rückenschmerzen",
-   "Analgesie"
+   "Analgesie",
+   "Zahnweh",
+   "Zahnschmerz",
+   "Zahnentzündung",
+   "Zahnwurzelentzündung",
+   "Schmerzen nach Zahnbehandlung",
+   "Zahnnervschmerz",
+   "leichte bis mässige Schmerzen",
+   "akute Schmerzen"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1262,7 +1810,16 @@
    "Tumorschmerzen",
    "chronischer Schmerz",
    "starke Schmerzen",
-   "Opioidtherapie"
+   "Opioidtherapie",
+   "schwere Schmerzen",
+   "Opioidbedarf",
+   "postoperative Schmerzen",
+   "Schmerztherapie",
+   "Durchbruchschmerzen",
+   "Dauerschmerzen",
+   "chronisches Schmerzsyndrom",
+   "Langzeitschmerzen",
+   "Schmerzkrankheit"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1272,7 +1829,16 @@
   "synonyme": [
    "Spannungskopfschmerz",
    "Kopfweh",
-   "Cluster-Kopfschmerz"
+   "Cluster-Kopfschmerz",
+   "Clusterkopfschmerz",
+   "Bing-Horton-Syndrom",
+   "Histaminkopfschmerz",
+   "Clusterkopfweh",
+   "Cluster",
+   "Kopfschmerz",
+   "Cephalgie",
+   "Brummschädel",
+   "Medikamentenübergebrauchskopfschmerz"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1283,7 +1849,9 @@
    "Migräne",
    "Migräneanfall",
    "Migräneprophylaxe",
-   "Aura"
+   "Aura",
+   "Migräne mit Aura",
+   "Migrän"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1296,7 +1864,17 @@
    "Trigeminusneuralgie",
    "Gürtelrose-Schmerzen",
    "Postzosterneuralgie",
-   "diabetische Neuropathie"
+   "diabetische Neuropathie",
+   "Nervenschmerzen",
+   "Neuralgie",
+   "Post-Zoster-Neuralgie",
+   "Phantomschmerz",
+   "brennende Schmerzen",
+   "neuropathischer Schmerz",
+   "Nervenschmerz",
+   "diabetische Polyneuropathie",
+   "periphere Neuropathie",
+   "Nervenschädigung"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1307,7 +1885,12 @@
    "Fieber",
    "erhöhte Temperatur",
    "Hyperthermie",
-   "fiebersenkend"
+   "fiebersenkend",
+   "Temperatur",
+   "Pyrexie",
+   "fiebrig",
+   "Fieberkrampf",
+   "Fiber"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1319,7 +1902,11 @@
    "Krampfanfall",
    "Anfallsleiden",
    "Status epilepticus",
-   "Fieberkrampf"
+   "Fieberkrampf",
+   "epileptischer Anfall",
+   "Fallsucht",
+   "Krampfleiden",
+   "Epilepsi"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1329,7 +1916,10 @@
   "synonyme": [
    "Morbus Parkinson",
    "Schüttellähmung",
-   "Parkinsonismus"
+   "Parkinsonismus",
+   "Parkinson",
+   "Schüttelkrankheit",
+   "Parkinson-Syndrom"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1338,7 +1928,11 @@
   "name": "Restless-Legs-Syndrom",
   "synonyme": [
    "unruhige Beine",
-   "RLS"
+   "RLS",
+   "Restless Legs",
+   "Wittmaack-Ekbom-Syndrom",
+   "Beinunruhe",
+   "kribbelnde Beine"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1350,7 +1944,10 @@
    "Demenz",
    "Vergesslichkeit",
    "Gedächtnisstörung",
-   "kognitive Störung"
+   "kognitive Störung",
+   "Morbus Alzheimer",
+   "Altersdemenz",
+   "Lewy-Körperchen-Demenz"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1360,7 +1957,10 @@
   "synonyme": [
    "MS",
    "Multiple Sklerose",
-   "Encephalomyelitis disseminata"
+   "Encephalomyelitis disseminata",
+   "schubförmige MS",
+   "progrediente MS",
+   "Multiple Sklerosis"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1369,7 +1969,11 @@
   "name": "Myasthenia gravis",
   "synonyme": [
    "Myasthenie",
-   "Muskelschwäche"
+   "Muskelschwäche",
+   "Myasthenia",
+   "belastungsabhängige Muskelschwäche",
+   "Lambert-Eaton-Syndrom",
+   "MG"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1381,7 +1985,11 @@
    "SMA",
    "ALS",
    "Muskeldystrophie",
-   "Duchenne"
+   "Duchenne",
+   "Amyotrophe Lateralsklerose",
+   "Motoneuronerkrankung",
+   "Lou-Gehrig-Syndrom",
+   "Motoneuron-Krankheit"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1392,7 +2000,10 @@
    "Vertigo",
    "Drehschwindel",
    "Morbus Menière",
-   "Gleichgewichtsstörung"
+   "Gleichgewichtsstörung",
+   "Lagerungsschwindel",
+   "Schwindelgefühl",
+   "Schwindel"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1404,7 +2015,11 @@
    "Muskelkrämpfe",
    "Verspannung",
    "Hexenschuss",
-   "Muskelhartspann"
+   "Muskelhartspann",
+   "Muskelverspannungen",
+   "Myogelose",
+   "verspannte Muskulatur",
+   "Muskelrelaxation"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1416,7 +2031,9 @@
    "Insomnie",
    "Einschlafstörung",
    "Durchschlafstörung",
-   "schlecht schlafen"
+   "schlecht schlafen",
+   "Schlafprobleme",
+   "Schlafstörung"
   ],
   "kategorie": "Psyche"
  },
@@ -1426,7 +2043,12 @@
   "synonyme": [
    "Narkolepsie",
    "Schlafkrankheit",
-   "Tagesmüdigkeit"
+   "Tagesmüdigkeit",
+   "Tagesschläfrigkeit",
+   "Kataplexie",
+   "Schlafanfälle",
+   "exzessive Tagesmüdigkeit",
+   "Hypersomnie"
   ],
   "kategorie": "Nervensystem und Schmerz"
  },
@@ -1439,7 +2061,11 @@
    "Lokalanästhesie",
    "Betäubung",
    "Sedierung",
-   "Operation"
+   "Operation",
+   "Vollnarkose",
+   "örtliche Betäubung",
+   "Prämedikation",
+   "Spinalanästhesie"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -1451,7 +2077,12 @@
    "Eingriff",
    "Zahnextraktion",
    "Zahnarzt",
-   "OP"
+   "OP",
+   "chirurgischer Eingriff",
+   "vor einer Operation",
+   "nach Operation",
+   "perioperativ",
+   "Zahnarzt-Eingriff"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -1463,7 +2094,11 @@
    "Niedergeschlagenheit",
    "Schwermut",
    "Major Depression",
-   "Burn-out"
+   "Burn-out",
+   "depressive Episode",
+   "depressive Verstimmung",
+   "Depri",
+   "postpartale Depression"
   ],
   "kategorie": "Psyche"
  },
@@ -1473,7 +2108,11 @@
   "synonyme": [
    "manisch-depressiv",
    "Manie",
-   "bipolare Erkrankung"
+   "bipolare Erkrankung",
+   "Bipolar",
+   "affektive Störung",
+   "manische Episode",
+   "Stimmungsschwankungen"
   ],
   "kategorie": "Psyche"
  },
@@ -1487,7 +2126,16 @@
    "generalisierte Angststörung",
    "soziale Phobie",
    "Unruhe",
-   "Nervosität"
+   "Nervosität",
+   "Panikstörung und Panikattacken",
+   "Panikattacke",
+   "Panik",
+   "Agoraphobie",
+   "Platzangst",
+   "Panikanfall",
+   "Nervosität und innere Unruhe",
+   "innere Unruhe",
+   "Stress"
   ],
   "kategorie": "Psyche"
  },
@@ -1497,7 +2145,11 @@
   "synonyme": [
    "Zwang",
    "Zwangsgedanken",
-   "OCD"
+   "OCD",
+   "Zwangshandlungen",
+   "Waschzwang",
+   "Kontrollzwang",
+   "Zwangsneurose"
   ],
   "kategorie": "Psyche"
  },
@@ -1507,7 +2159,9 @@
   "synonyme": [
    "PTBS",
    "Trauma",
-   "PTSD"
+   "PTSD",
+   "Traumafolgestörung",
+   "Belastungsreaktion"
   ],
   "kategorie": "Psyche"
  },
@@ -1518,7 +2172,11 @@
    "Psychose",
    "Schizophrenie",
    "Wahn",
-   "Halluzinationen"
+   "Halluzinationen",
+   "psychotische Störung",
+   "Schizophrenia",
+   "Stimmen hören",
+   "schizoaffektive Störung"
   ],
   "kategorie": "Psyche"
  },
@@ -1529,7 +2187,11 @@
    "ADHS",
    "ADS",
    "Aufmerksamkeitsdefizit",
-   "Hyperaktivität"
+   "Hyperaktivität",
+   "Aufmerksamkeitsstörung",
+   "Zappelphilipp",
+   "ADHD",
+   "Konzentrationsstörung"
   ],
   "kategorie": "Psyche"
  },
@@ -1539,7 +2201,11 @@
   "synonyme": [
    "Suizidalität",
    "Selbstmordgedanken",
-   "Lebensmüdigkeit"
+   "Lebensmüdigkeit",
+   "Suizidgefahr",
+   "Suizidversuch",
+   "Selbsttötungsgedanken",
+   "Suizid"
   ],
   "kategorie": "Psyche"
  },
@@ -1552,7 +2218,12 @@
    "Missbrauch",
    "Opioidabhängigkeit",
    "Heroin",
-   "Substitution"
+   "Substitution",
+   "Medikamentenabhängigkeit",
+   "Suchterkrankung",
+   "Drogenabhängigkeit",
+   "Substanzmissbrauch",
+   "Benzodiazepinabhängigkeit"
   ],
   "kategorie": "Psyche"
  },
@@ -1563,7 +2234,11 @@
    "Alkoholismus",
    "Alkoholsucht",
    "Alkoholentzug",
-   "Delir"
+   "Delir",
+   "Alkoholkrankheit",
+   "Entzugssyndrom",
+   "Trunksucht",
+   "Rückfallprophylaxe"
   ],
   "kategorie": "Psyche"
  },
@@ -1573,7 +2248,11 @@
   "synonyme": [
    "Nikotinsucht",
    "Rauchen aufhören",
-   "Nikotinentzug"
+   "Nikotinentzug",
+   "Rauchstopp",
+   "Raucherentwöhnung",
+   "Tabakabhängigkeit",
+   "Nikotinabhängigkeit"
   ],
   "kategorie": "Psyche"
  },
@@ -1584,7 +2263,10 @@
    "Anorexie",
    "Bulimie",
    "Magersucht",
-   "Binge-Eating"
+   "Binge-Eating",
+   "Ess-Brech-Sucht",
+   "Anorexia nervosa",
+   "Essstörung"
   ],
   "kategorie": "Psyche"
  },
@@ -1594,7 +2276,12 @@
   "synonyme": [
    "Delir",
    "akute Verwirrtheit",
-   "Agitation"
+   "Agitation",
+   "Delirium",
+   "Durchgangssyndrom",
+   "Verwirrtheit",
+   "Alkoholdelir",
+   "Delirium tremens"
   ],
   "kategorie": "Psyche"
  },
@@ -1605,7 +2292,10 @@
    "Glaukom",
    "grüner Star",
    "Augeninnendruck erhöht",
-   "okuläre Hypertension"
+   "okuläre Hypertension",
+   "Offenwinkelglaukom",
+   "erhöhter Augendruck",
+   "Augeninnendruck"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1615,7 +2305,10 @@
   "synonyme": [
    "Winkelblockglaukom",
    "Glaukomanfall",
-   "enger Kammerwinkel"
+   "enger Kammerwinkel",
+   "akutes Glaukom",
+   "Engwinkel",
+   "Winkelverschlussglaukom"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1626,7 +2319,16 @@
    "AMD",
    "feuchte Makuladegeneration",
    "diabetisches Makulaödem",
-   "Netzhautödem"
+   "Netzhautödem",
+   "Diabetische Augenerkrankung",
+   "diabetische Retinopathie",
+   "Netzhautschaden bei Diabetes",
+   "Retinopathie",
+   "Diabetes und Augen",
+   "altersbedingte Makuladegeneration",
+   "Makulaödem",
+   "Netzhautvenenverschluss",
+   "Netzhauterkrankung"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1638,7 +2340,18 @@
    "Bindehautentzündung",
    "Lidrandentzündung",
    "Hornhautentzündung",
-   "Uveitis"
+   "Uveitis",
+   "rote Augen",
+   "allergische Konjunktivitis",
+   "Augenentzündung",
+   "Augenallergie",
+   "Augeninfektion",
+   "Iritis",
+   "Regenbogenhautentzündung",
+   "Augeninnenentzündung",
+   "Iridozyklitis",
+   "Hornhautentzündung und Hornhautverletzung",
+   "Keratitis"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1648,7 +2361,11 @@
   "synonyme": [
    "Sicca-Syndrom",
    "trockene Augen",
-   "Augenbrennen"
+   "Augenbrennen",
+   "Keratoconjunctivitis sicca",
+   "brennende Augen",
+   "Augentrockenheit",
+   "Office-Eye"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1658,7 +2375,10 @@
   "synonyme": [
    "Katarakt",
    "grauer Star",
-   "Augenoperation"
+   "Augenoperation",
+   "Linsentrübung",
+   "Kataraktoperation",
+   "Staroperation"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1669,7 +2389,15 @@
    "Otitis",
    "Mittelohrentzündung",
    "Gehörgangsentzündung",
-   "Ohrenweh"
+   "Ohrenweh",
+   "Otitis media",
+   "Ohrenschmerzen",
+   "Ohrentzündung",
+   "Paukenerguss",
+   "Otitis externa",
+   "Badeotitis",
+   "Schwimmerohr",
+   "Ohrekzem"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1680,7 +2408,16 @@
    "Tinnitus",
    "Ohrensausen",
    "Schwerhörigkeit",
-   "Hörsturz"
+   "Hörsturz",
+   "Ohrgeräusche",
+   "Pfeifen im Ohr",
+   "Ohrenrauschen",
+   "Ohrenpfeifen",
+   "Hörsturz und Schwerhörigkeit",
+   "Hörverlust",
+   "Taubheit",
+   "Innenohrschwerhörigkeit",
+   "Gehörschaden"
   ],
   "kategorie": "Augen und Ohren"
  },
@@ -1692,7 +2429,17 @@
    "Arthrose",
    "Kniearthrose",
    "Hüftarthrose",
-   "Gelenkschmerzen"
+   "Gelenkschmerzen",
+   "Arthralgie",
+   "Gelenkentzündung",
+   "Gelenkweh",
+   "schmerzende Gelenke",
+   "Arthritis",
+   "Gelenkschmerz",
+   "Gelenkabnutzung",
+   "Abnützung",
+   "Osteoarthritis",
+   "Fingerarthrose"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1703,7 +2450,11 @@
    "chronische Polyarthritis",
    "Rheuma",
    "RA",
-   "Gelenkentzündung"
+   "Gelenkentzündung",
+   "cP",
+   "Gelenkrheuma",
+   "Polyarthritis",
+   "juvenile idiopathische Arthritis"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1714,7 +2465,16 @@
    "axiale Spondyloarthritis",
    "Bechterew",
    "Psoriasis-Arthritis",
-   "ankylosierende Spondylitis"
+   "ankylosierende Spondylitis",
+   "Psoriasisarthritis",
+   "PsA",
+   "Arthritis psoriatica",
+   "Schuppenflechte mit Gelenkbeteiligung",
+   "Gelenkpsoriasis",
+   "Morbus Bechterew",
+   "Spondylitis ankylosans",
+   "Wirbelsäulenrheuma",
+   "Spondyloarthritis"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1726,7 +2486,18 @@
    "Lupus",
    "systemischer Lupus",
    "Sklerodermie",
-   "Sjögren"
+   "Sjögren",
+   "systemische Sklerose",
+   "CREST-Syndrom",
+   "Hautverhärtung",
+   "Kollagenose",
+   "Sjögren-Syndrom",
+   "Morbus Sjögren",
+   "primäres Sjögren-Syndrom",
+   "Sicca-Symptomatik",
+   "systemischer Lupus erythematodes",
+   "Schmetterlingsflechte",
+   "Lupus erythematosus"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -1737,7 +2508,17 @@
    "Vaskulitis",
    "Riesenzellarteriitis",
    "Polymyalgia rheumatica",
-   "Arteriitis temporalis"
+   "Arteriitis temporalis",
+   "Polymyalgie",
+   "PMR",
+   "Polymyalgia",
+   "Muskelrheuma",
+   "Schultergürtelschmerzen",
+   "Gefässentzündung",
+   "ANCA-Vaskulitis",
+   "Granulomatose mit Polyangiitis",
+   "Morbus Horton",
+   "Kawasaki-Syndrom"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -1749,7 +2530,11 @@
    "Lumbago",
    "Ischias",
    "Bandscheibe",
-   "Hexenschuss"
+   "Hexenschuss",
+   "Rückenweh",
+   "Bandscheibenvorfall",
+   "Lumbalgie",
+   "Kreuzweh"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1762,7 +2547,17 @@
    "Zerrung",
    "Sehnenentzündung",
    "Tennisarm",
-   "Sportverletzung"
+   "Sportverletzung",
+   "Sehnen- und Schleimbeutelentzündung",
+   "Tendinitis",
+   "Tennisellbogen",
+   "Schleimbeutelentzündung",
+   "Bursitis",
+   "Sehnenscheidenentzündung",
+   "Epicondylitis",
+   "Achillessehnenentzündung",
+   "Bluterguss",
+   "Distorsion"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1782,7 +2577,12 @@
   "synonyme": [
    "Knochenmetastasen",
    "skelettbezogene Ereignisse",
-   "Tumorhyperkalzämie"
+   "Tumorhyperkalzämie",
+   "Metastasen im Knochen",
+   "Ableger im Knochen",
+   "tumorbedingte Hyperkalzämie",
+   "ossäre Metastasen",
+   "Skelettmetastasen"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -1811,7 +2611,14 @@
    "Myopathie",
    "Rhabdomyolyse",
    "Muskelschmerzen",
-   "Myositis"
+   "Myositis",
+   "Muskelerkrankung und Muskelzerfall",
+   "Muskelzerfall",
+   "CK erhöht",
+   "Statin-Myopathie",
+   "Muskeldystrophie",
+   "spinale Muskelatrophie",
+   "SMA"
   ],
   "kategorie": "Bewegungsapparat"
  },
@@ -1822,7 +2629,10 @@
    "Akne",
    "Pickel",
    "Akne vulgaris",
-   "Mitesser"
+   "Mitesser",
+   "Bibeli",
+   "unreine Haut",
+   "Hautunreinheiten"
   ],
   "kategorie": "Haut"
  },
@@ -1831,7 +2641,9 @@
   "name": "Rosazea",
   "synonyme": [
    "Rosacea",
-   "Couperose"
+   "Couperose",
+   "Kupferrose",
+   "Gesichtsrötung"
   ],
   "kategorie": "Haut"
  },
@@ -1841,7 +2653,11 @@
   "synonyme": [
    "Psoriasis",
    "Schuppenflechte",
-   "Plaque-Psoriasis"
+   "Plaque-Psoriasis",
+   "Psoriasis vulgaris",
+   "Kopfhautpsoriasis",
+   "Nagelpsoriasis",
+   "Psoriasis pustulosa"
   ],
   "kategorie": "Haut"
  },
@@ -1853,7 +2669,16 @@
    "Ekzem",
    "Neurodermitis",
    "Kontaktekzem",
-   "Hautentzündung"
+   "Hautentzündung",
+   "Ekzem und Hautentzündung",
+   "Dermatitis",
+   "Kontaktallergie",
+   "Handekzem",
+   "entzündliche Hauterkrankung",
+   "atopisches Ekzem",
+   "endogenes Ekzem",
+   "Milchschorf",
+   "Ekzem bei Kindern"
   ],
   "kategorie": "Haut"
  },
@@ -1867,7 +2692,10 @@
    "Wundheilung",
    "Abszess",
    "Erysipel",
-   "Wunden"
+   "Wunden",
+   "Wundrose",
+   "Phlegmone",
+   "Eiterflechte"
   ],
   "kategorie": "Haut"
  },
@@ -1880,7 +2708,17 @@
    "Mykose",
    "Candida",
    "Hautpilz",
-   "Kleienpilz"
+   "Kleienpilz",
+   "Fusspilz und Hautpilz",
+   "Tinea pedis",
+   "Athletenfuss",
+   "Dermatomykose",
+   "Tinea",
+   "Pilz zwischen den Zehen",
+   "Kleienpilzflechte",
+   "Onychomykose",
+   "Fussnagelpilz",
+   "Nagelmykose"
   ],
   "kategorie": "Haut"
  },
@@ -1893,7 +2731,17 @@
    "Herpes zoster",
    "Gürtelrose",
    "Windpocken",
-   "Genitalherpes"
+   "Genitalherpes",
+   "Herpes",
+   "Herpes simplex",
+   "Fieberblase",
+   "Herpesbläschen",
+   "Fieberblatere",
+   "Herpes genitalis",
+   "HSV-2",
+   "Herpes im Intimbereich",
+   "Herpes simplex Typ 2",
+   "Zoster"
   ],
   "kategorie": "Infektionen"
  },
@@ -1904,7 +2752,17 @@
    "Warzen",
    "Dornwarzen",
    "Feigwarzen",
-   "Kondylome"
+   "Kondylome",
+   "HPV-Infektion und Feigwarzen",
+   "HPV",
+   "humanes Papillomavirus",
+   "Genitalwarzen",
+   "HPV-Impfung",
+   "Verrucae",
+   "Dellwarzen",
+   "Viruswarzen",
+   "Fusswarze",
+   "Warze"
   ],
   "kategorie": "Haut"
  },
@@ -1914,7 +2772,10 @@
   "synonyme": [
    "Pruritus",
    "Juckreiz",
-   "Hautjucken"
+   "Hautjucken",
+   "Jucken",
+   "Beissen",
+   "juckende Haut"
   ],
   "kategorie": "Haut"
  },
@@ -1924,7 +2785,11 @@
   "synonyme": [
    "Sonnenbrand",
    "Photosensibilität",
-   "Lichtempfindlichkeit"
+   "Lichtempfindlichkeit",
+   "Sonnenallergie",
+   "polymorphe Lichtdermatose",
+   "Photodermatose",
+   "Sonnenschutz"
   ],
   "kategorie": "Haut"
  },
@@ -1934,7 +2799,12 @@
   "synonyme": [
    "Alopezie",
    "Haarausfall",
-   "Glatze"
+   "Glatze",
+   "kreisrunder Haarausfall",
+   "Alopecia areata",
+   "erblich bedingter Haarausfall",
+   "androgenetische Alopezie",
+   "Haarverlust"
   ],
   "kategorie": "Haut"
  },
@@ -1943,7 +2813,11 @@
   "name": "Übermässiges Schwitzen",
   "synonyme": [
    "Hyperhidrose",
-   "Schwitzen"
+   "Schwitzen",
+   "starkes Schwitzen",
+   "Schweisshände",
+   "Schweissfüsse",
+   "Achselschweiss"
   ],
   "kategorie": "Haut"
  },
@@ -1953,7 +2827,10 @@
   "synonyme": [
    "Urtikaria",
    "Nesselfieber",
-   "Quaddeln"
+   "Quaddeln",
+   "Nesselausschlag",
+   "Nesselsucht",
+   "chronische spontane Urtikaria"
   ],
   "kategorie": "Haut"
  },
@@ -1964,7 +2841,11 @@
    "Stevens-Johnson-Syndrom",
    "toxische epidermale Nekrolyse",
    "DRESS",
-   "Lyell"
+   "Lyell",
+   "SJS",
+   "TEN",
+   "Lyell-Syndrom",
+   "Arzneimittelreaktion mit Blasen"
   ],
   "kategorie": "Haut"
  },
@@ -1975,7 +2856,13 @@
    "Kopfläuse",
    "Skabies",
    "Krätze",
-   "Milben"
+   "Milben",
+   "Läuse",
+   "Lausbefall",
+   "Pedikulose",
+   "Nissen",
+   "Filzläuse",
+   "Krätzmilben"
   ],
   "kategorie": "Haut"
  },
@@ -1985,7 +2872,14 @@
   "synonyme": [
    "Vitiligo",
    "Hidradenitis suppurativa",
-   "Acne inversa"
+   "Acne inversa",
+   "Schweissdrüsenentzündung",
+   "HS",
+   "Hidradenitis",
+   "Weissfleckenkrankheit",
+   "Pigmentstörung",
+   "weisse Flecken",
+   "Depigmentierung"
   ],
   "kategorie": "Haut"
  },
@@ -1997,7 +2891,12 @@
    "bakterielle Infektion",
    "Sepsis",
    "Blutvergiftung",
-   "Antibiotika"
+   "Antibiotika",
+   "bakterieller Infekt",
+   "Bakterien",
+   "Antibiotikatherapie",
+   "bakterielle Entzündung",
+   "Infekt"
   ],
   "kategorie": "Infektionen"
  },
@@ -2022,7 +2921,11 @@
    "Gonorrhö",
    "Tripper",
    "Syphilis",
-   "STI"
+   "STI",
+   "Geschlechtskrankheiten",
+   "sexuell übertragbare Infektion",
+   "Lues",
+   "Geschlechtskrankheit"
   ],
   "kategorie": "Infektionen"
  },
@@ -2032,7 +2935,10 @@
   "synonyme": [
    "TB",
    "Tbc",
-   "latente Tuberkulose"
+   "latente Tuberkulose",
+   "Schwindsucht",
+   "Lungentuberkulose",
+   "positiver Tuberkulintest"
   ],
   "kategorie": "Infektionen"
  },
@@ -2044,7 +2950,17 @@
    "Candidose",
    "Aspergillose",
    "Soor",
-   "systemische Pilzinfektion"
+   "systemische Pilzinfektion",
+   "Mundsoor",
+   "Mundpilz",
+   "orale Candidose",
+   "Pilz im Mund",
+   "Speiseröhrenpilz",
+   "Pilz",
+   "Mykose",
+   "Pilzinfektion",
+   "Pilzbefall",
+   "Candida-Infektion"
   ],
   "kategorie": "Infektionen"
  },
@@ -2055,7 +2971,10 @@
    "HIV",
    "AIDS",
    "PrEP",
-   "HIV-Prophylaxe"
+   "HIV-Prophylaxe",
+   "HIV-positiv",
+   "Präexpositionsprophylaxe",
+   "Postexpositionsprophylaxe"
   ],
   "kategorie": "Infektionen"
  },
@@ -2066,7 +2985,10 @@
    "Grippe",
    "echte Grippe",
    "Influenza",
-   "Grippeimpfung"
+   "Grippeimpfung",
+   "Influenza A",
+   "Influenza B",
+   "Vogelgrippe"
   ],
   "kategorie": "Infektionen"
  },
@@ -2076,7 +2998,10 @@
   "synonyme": [
    "Corona",
    "SARS-CoV-2",
-   "COVID"
+   "COVID",
+   "Coronavirus",
+   "Long Covid",
+   "Covid-Impfung"
   ],
   "kategorie": "Infektionen"
  },
@@ -2087,7 +3012,14 @@
    "CMV",
    "Zytomegalievirus",
    "RSV",
-   "Virusinfektion"
+   "Virusinfektion",
+   "RSV-Infektion",
+   "Respiratorisches Synzytial-Virus",
+   "RS-Virus",
+   "Bronchiolitis",
+   "RSV-Impfung",
+   "Zytomegalie",
+   "CMV-Infektion"
   ],
   "kategorie": "Infektionen"
  },
@@ -2097,7 +3029,17 @@
   "synonyme": [
    "Malaria",
    "Malariaprophylaxe",
-   "Tropenreise"
+   "Tropenreise",
+   "Reisen und Reiseapotheke",
+   "Reisen",
+   "Reiseapotheke",
+   "Auslandreise",
+   "Fernreise",
+   "Ferien im Ausland",
+   "Sumpffieber",
+   "Wechselfieber",
+   "Plasmodien",
+   "Tropenfieber"
   ],
   "kategorie": "Infektionen"
  },
@@ -2109,7 +3051,10 @@
    "Madenwürmer",
    "Bandwurm",
    "Parasiten",
-   "Spulwurm"
+   "Spulwurm",
+   "Oxyuren",
+   "Spulwürmer",
+   "Wurmerkrankung"
   ],
   "kategorie": "Infektionen"
  },
@@ -2119,7 +3064,10 @@
   "synonyme": [
    "C. difficile",
    "pseudomembranöse Kolitis",
-   "Antibiotika-Durchfall"
+   "Antibiotika-Durchfall",
+   "Clostridium difficile",
+   "antibiotikaassoziierte Kolitis",
+   "CDI"
   ],
   "kategorie": "Infektionen"
  },
@@ -2129,7 +3077,17 @@
   "synonyme": [
    "Lyme-Borreliose",
    "Zeckenbiss",
-   "FSME"
+   "FSME",
+   "Zeckenenzephalitis",
+   "Zeckenimpfung",
+   "Frühsommer-Meningoenzephalitis",
+   "Zeckenstich",
+   "Borreliose",
+   "Lyme-Krankheit",
+   "Wanderröte",
+   "Erythema migrans",
+   "Borrelien",
+   "Neuroborreliose"
   ],
   "kategorie": "Infektionen"
  },
@@ -2141,7 +3099,11 @@
    "Impfschutz",
    "Prophylaxe",
    "Grundimmunisierung",
-   "Auffrischimpfung"
+   "Auffrischimpfung",
+   "Schutzimpfung",
+   "Booster",
+   "Basisimpfung",
+   "impfen"
   ],
   "kategorie": "Infektionen"
  },
@@ -2154,7 +3116,10 @@
    "Keuchhusten",
    "Pertussis",
    "Diphtherie",
-   "Kinderlähmung"
+   "Kinderlähmung",
+   "Tetanus",
+   "Tetanusimpfung",
+   "Polio"
   ],
   "kategorie": "Infektionen"
  },
@@ -2166,7 +3131,14 @@
    "Mumps",
    "Röteln",
    "Windpocken",
-   "Varizellen"
+   "Varizellen",
+   "Wilde Blattern",
+   "Spitze Blattern",
+   "Varizellen-Impfung",
+   "Windpocke",
+   "MMR",
+   "Ziegenpeter",
+   "MMR-Impfung"
   ],
   "kategorie": "Infektionen"
  },
@@ -2186,7 +3158,11 @@
    "Hirnhautentzündung",
    "Meningitis",
    "Pneumokokken",
-   "Meningokokken"
+   "Meningokokken",
+   "Hirnhautentzündung (Meningitis) und Enzephalitis",
+   "Enzephalitis",
+   "Gehirnentzündung",
+   "Meningokokkenimpfung"
   ],
   "kategorie": "Infektionen"
  },
@@ -2199,7 +3175,16 @@
    "Tollwut",
    "Hepatitis A",
    "Japanische Enzephalitis",
-   "Cholera"
+   "Cholera",
+   "HAV",
+   "Gelbsucht A",
+   "Hepatitis-A-Impfung",
+   "Reisehepatitis",
+   "infektiöse Gelbsucht",
+   "Reise- und Tropenkrankheiten",
+   "Reiseimpfung",
+   "Dengue",
+   "Tropenkrankheit"
   ],
   "kategorie": "Infektionen"
  },
@@ -2210,7 +3195,16 @@
    "akute Infektion",
    "fieberhafte Erkrankung",
    "schwere Infektion",
-   "Sepsis"
+   "Sepsis",
+   "Blutvergiftung",
+   "septischer Schock",
+   "Bakteriämie",
+   "Urosepsis",
+   "Blutinfektion",
+   "unbehandelte Infektion",
+   "laufender Infekt",
+   "fieberhafte Infektion",
+   "chronische Infektion"
   ],
   "kategorie": "Infektionen"
  },
@@ -2219,7 +3213,12 @@
   "name": "Brustkrebs",
   "synonyme": [
    "Mammakarzinom",
-   "Brustkrebs"
+   "Brustkrebs",
+   "Brustkarzinom",
+   "HER2-positiver Brustkrebs",
+   "hormonabhängiger Brustkrebs",
+   "Brusttumor",
+   "triple-negativer Brustkrebs"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2228,7 +3227,10 @@
   "name": "Prostatakrebs",
   "synonyme": [
    "Prostatakarzinom",
-   "Prostatakrebs"
+   "Prostatakrebs",
+   "Prostatatumor",
+   "kastrationsresistentes Prostatakarzinom",
+   "metastasiertes Prostatakarzinom"
   ],
   "kategorie": "Männergesundheit"
  },
@@ -2239,7 +3241,9 @@
    "Bronchialkarzinom",
    "NSCLC",
    "kleinzelliges Lungenkarzinom",
-   "Lungenkarzinom"
+   "Lungenkarzinom",
+   "Lungentumor",
+   "Mesotheliom"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2249,7 +3253,11 @@
   "synonyme": [
    "Kolorektalkarzinom",
    "Dickdarmkrebs",
-   "Rektumkarzinom"
+   "Rektumkarzinom",
+   "Kolonkarzinom",
+   "kolorektales Karzinom",
+   "Darmtumor",
+   "Mastdarmkrebs"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2259,7 +3267,10 @@
   "synonyme": [
    "Magenkarzinom",
    "Ösophaguskarzinom",
-   "GIST"
+   "GIST",
+   "Magenkrebs",
+   "Speiseröhrenkrebs",
+   "Magentumor"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2268,7 +3279,12 @@
   "name": "Bauchspeicheldrüsenkrebs",
   "synonyme": [
    "Pankreaskarzinom",
-   "neuroendokrine Tumoren"
+   "neuroendokrine Tumoren",
+   "Bauchspeicheldrüsenkrebs und neuroendokrine Tumoren",
+   "Pankreaskrebs",
+   "neuroendokriner Tumor",
+   "NET",
+   "Karzinoid"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2278,7 +3294,11 @@
   "synonyme": [
    "hepatozelluläres Karzinom",
    "HCC",
-   "Cholangiokarzinom"
+   "Cholangiokarzinom",
+   "Leberkarzinom",
+   "Gallengangkarzinom",
+   "Leberkrebs",
+   "Lebertumor"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2288,7 +3308,14 @@
   "synonyme": [
    "Nierenzellkarzinom",
    "Urothelkarzinom",
-   "Blasenkrebs"
+   "Blasenkrebs",
+   "Harnblasenkarzinom",
+   "Blasentumor",
+   "Blasenkarzinom",
+   "Nierenkarzinom",
+   "Nierentumor",
+   "Hypernephrom",
+   "Nierenkrebs"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2298,7 +3325,17 @@
   "synonyme": [
    "Ovarialkarzinom",
    "Endometriumkarzinom",
-   "Zervixkarzinom"
+   "Zervixkarzinom",
+   "Eierstockkrebs",
+   "Ovarialtumor",
+   "Eileiterkrebs",
+   "Bauchfellkrebs",
+   "BRCA-Mutation",
+   "Gebärmutter- und Gebärmutterhalskrebs",
+   "Gebärmutterhalskrebs",
+   "Gebärmutterkrebs",
+   "Uteruskarzinom",
+   "Gebärmutterschleimhautkrebs"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2310,7 +3347,16 @@
    "schwarzer Hautkrebs",
    "Basaliom",
    "Plattenepithelkarzinom",
-   "aktinische Keratose"
+   "aktinische Keratose",
+   "Lichtschwiele",
+   "Sonnenschaden der Haut",
+   "Präkanzerose der Haut",
+   "solare Keratose",
+   "Basalzellkarzinom",
+   "Spinaliom",
+   "weisser Hautkrebs",
+   "Merkelzellkarzinom",
+   "Hautkrebs"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2319,7 +3365,20 @@
   "name": "Kopf-Hals-Tumoren und Schilddrüsenkrebs",
   "synonyme": [
    "Kopf-Hals-Karzinom",
-   "Schilddrüsenkarzinom"
+   "Schilddrüsenkarzinom",
+   "Schilddrüsenkrebs",
+   "medulläres Schilddrüsenkarzinom",
+   "MEN 2",
+   "multiple endokrine Neoplasie",
+   "Schilddrüsentumor",
+   "papilläres Schilddrüsenkarzinom",
+   "Kopf-Hals-Tumoren",
+   "HNO-Tumor",
+   "Kehlkopfkrebs",
+   "Mundhöhlenkrebs",
+   "Rachenkrebs",
+   "Zungenkrebs",
+   "Plattenepithelkarzinom Kopf-Hals"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2329,7 +3388,11 @@
   "synonyme": [
    "Glioblastom",
    "Gliom",
-   "Hirntumor"
+   "Hirntumor",
+   "Hirnmetastasen",
+   "Meningeom",
+   "Astrozytom",
+   "Gehirntumor"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2342,7 +3405,8 @@
    "CLL",
    "AML",
    "ALL",
-   "Leukämie"
+   "Leukämie",
+   "akute myeloische Leukämie"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2352,7 +3416,13 @@
   "synonyme": [
    "Lymphdrüsenkrebs",
    "Hodgkin",
-   "Non-Hodgkin-Lymphom"
+   "Non-Hodgkin-Lymphom",
+   "Lymphom",
+   "Morbus Hodgkin",
+   "Hodgkin-Lymphom",
+   "DLBCL",
+   "Lymphknotenkrebs",
+   "follikuläres Lymphom"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2361,7 +3431,10 @@
   "name": "Multiples Myelom",
   "synonyme": [
    "Plasmozytom",
-   "Myelom"
+   "Myelom",
+   "Morbus Kahler",
+   "Knochenmarkkrebs",
+   "Leichtketten"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2372,7 +3445,11 @@
    "Polycythaemia vera",
    "Myelofibrose",
    "myelodysplastisches Syndrom",
-   "essentielle Thrombozythämie"
+   "essentielle Thrombozythämie",
+   "Myeloproliferative Neoplasien und MDS",
+   "MDS",
+   "Polyglobulie",
+   "Polyzythämie"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2382,7 +3459,12 @@
   "synonyme": [
    "Weichteilsarkom",
    "Knochentumor",
-   "seltene Tumoren"
+   "seltene Tumoren",
+   "Sarkom",
+   "Osteosarkom",
+   "Knochenkrebs",
+   "Ewing-Sarkom",
+   "Liposarkom"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2394,7 +3476,18 @@
    "Karzinom",
    "Krebs",
    "Chemotherapie",
-   "Metastasen"
+   "Metastasen",
+   "Chemotherapie, Strahlen- und Immuntherapie",
+   "Chemo",
+   "Zytostatika",
+   "Krebsbehandlung",
+   "Strahlentherapie",
+   "Bestrahlung",
+   "Immuntherapie",
+   "Krebstherapie",
+   "bösartiger Tumor",
+   "Krebserkrankung",
+   "Malignom"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2406,7 +3499,12 @@
    "Abstossung",
    "Nierentransplantation",
    "Stammzelltransplantation",
-   "GvHD"
+   "GvHD",
+   "Organ- und Stammzelltransplantation",
+   "Lebertransplantation",
+   "Abstossungsreaktion",
+   "Transplantatabstossung",
+   "Knochenmarktransplantation"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2417,7 +3515,11 @@
    "Immunschwäche",
    "Immundefekt",
    "immunsupprimiert",
-   "Antikörpermangel"
+   "Antikörpermangel",
+   "Immunsuppression",
+   "immungeschwächt",
+   "primärer Immundefekt",
+   "Abwehrschwäche"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2427,7 +3529,15 @@
   "synonyme": [
    "Autoimmunerkrankung",
    "Autoimmunität",
-   "Sarkoidose"
+   "Sarkoidose",
+   "Morbus Boeck",
+   "Boeck-Krankheit",
+   "Lungensarkoidose",
+   "granulomatöse Erkrankung",
+   "Autoimmunkrankheit",
+   "Kollagenose",
+   "Autoimmun",
+   "Bindegewebserkrankung"
   ],
   "kategorie": "Krebs und Immunsystem"
  },
@@ -2450,7 +3560,14 @@
    "Pille",
    "Kontrazeption",
    "Notfallverhütung",
-   "Pille danach"
+   "Pille danach",
+   "Notfallkontrazeption",
+   "Notfallpille",
+   "Morning-after-Pill",
+   "Antibabypille",
+   "Spirale",
+   "hormonelle Verhütung",
+   "Verhütungsmittel"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2461,7 +3578,12 @@
    "Menopause",
    "Klimakterium",
    "Hitzewallungen",
-   "Hormonersatz"
+   "Hormonersatz",
+   "Wechseljahre",
+   "Wallungen",
+   "Postmenopause",
+   "Hormonersatztherapie",
+   "Abänderung"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2473,7 +3595,18 @@
    "Dysmenorrhö",
    "prämenstruelles Syndrom",
    "PMS",
-   "starke Regelblutung"
+   "starke Regelblutung",
+   "Menstruationsschmerzen",
+   "Periodenschmerzen",
+   "Mensschmerzen",
+   "Menstruationskrämpfe",
+   "Unterleibsschmerzen",
+   "Mensbeschwerden",
+   "prämenstruelle Beschwerden",
+   "PMDS",
+   "prämenstruelle dysphorische Störung",
+   "Brustspannen vor der Mens",
+   "Brustspannen"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2483,7 +3616,15 @@
   "synonyme": [
    "Endometriose",
    "Myome",
-   "Gebärmuttermyom"
+   "Gebärmuttermyom",
+   "Myome der Gebärmutter",
+   "Myom",
+   "Uterusmyom",
+   "Leiomyom",
+   "Adenomyose",
+   "Gebärmutterschleimhautwucherung",
+   "Schokoladenzysten",
+   "Endometriose-Schmerzen"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2506,7 +3647,13 @@
    "Scheidenpilz",
    "vaginale Candidose",
    "bakterielle Vaginose",
-   "Ausfluss"
+   "Ausfluss",
+   "Bakterielle Vaginose und Scheidenentzündung",
+   "Vaginitis",
+   "Scheidenentzündung",
+   "Trichomonaden",
+   "Kolpitis",
+   "Scheideninfektion"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2517,7 +3664,12 @@
    "Wehen",
    "Geburtseinleitung",
    "Nachgeburtsblutung",
-   "vorzeitige Wehen"
+   "vorzeitige Wehen",
+   "Geburt, Wehen und Nachgeburtsblutung",
+   "Frühgeburt",
+   "drohende Frühgeburt",
+   "Wehenhemmung",
+   "Entbindung"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2527,7 +3679,16 @@
   "synonyme": [
    "Hyperprolaktinämie",
    "Prolaktinom",
-   "Abstillen"
+   "Abstillen",
+   "Brustentzündung, Milchstau und Abstillen",
+   "Mastitis",
+   "Brustentzündung",
+   "Milchstau",
+   "Laktationshemmung",
+   "Brustschmerzen beim Stillen",
+   "Prolaktin erhöht",
+   "Galaktorrhoe",
+   "Milchfluss ausserhalb der Stillzeit"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2538,7 +3699,19 @@
    "schwanger",
    "Schwangerschaft",
    "Gravidität",
-   "Kinderwunsch"
+   "Kinderwunsch",
+   "Kinderwunsch und Unfruchtbarkeit",
+   "Unfruchtbarkeit",
+   "Infertilität",
+   "Sterilität",
+   "künstliche Befruchtung",
+   "IVF",
+   "Schwangerschaftsplanung",
+   "Kinderwunschbehandlung",
+   "werdende Mutter",
+   "Schwangere",
+   "erstes Trimenon",
+   "in anderen Umständen"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2548,7 +3721,11 @@
   "synonyme": [
    "Stillen",
    "stillend",
-   "Laktation"
+   "Laktation",
+   "stillende Mutter",
+   "Muttermilch",
+   "Stillende",
+   "Stillperiode"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2557,7 +3734,12 @@
   "name": "Frauen im gebärfähigen Alter",
   "synonyme": [
    "gebärfähig",
-   "Schwangerschaftsverhütung nötig"
+   "Schwangerschaftsverhütung nötig",
+   "gebärfähiges Alter",
+   "Verhütungspflicht",
+   "Schwangerschaftsverhütungsprogramm",
+   "junge Frauen",
+   "Schwangerschaftstest vor Therapie"
   ],
   "kategorie": "Frauen, Schwangerschaft und Sexualität"
  },
@@ -2568,7 +3750,12 @@
    "frühere Thrombose",
    "Thrombophilie",
    "Faktor-V-Leiden",
-   "Gerinnungsneigung"
+   "Gerinnungsneigung",
+   "Erhöhte Thromboseneigung",
+   "Antiphospholipid-Syndrom",
+   "Thrombose in der Vorgeschichte",
+   "Thromboembolie in der Vorgeschichte",
+   "Protein-C-Mangel"
   ],
   "kategorie": "Blut und Gerinnung"
  },
@@ -2580,7 +3767,18 @@
    "Jugendliche",
    "Säuglinge",
    "Kleinkinder",
-   "Pädiatrie"
+   "Pädiatrie",
+   "Säuglinge und Neugeborene",
+   "Säugling",
+   "Neugeborene",
+   "Baby",
+   "Frühgeborene",
+   "Kleinkind",
+   "Neonaten",
+   "Teenager",
+   "Adoleszente",
+   "Heranwachsende",
+   "unter 18 Jahren"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2592,7 +3790,12 @@
    "ältere Patienten",
    "über 65",
    "betagt",
-   "Sturzgefahr"
+   "Sturzgefahr",
+   "Betagte",
+   "über 65 Jahre",
+   "Geriatrie",
+   "hohes Alter",
+   "Aeltere"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2603,7 +3806,11 @@
    "Alkohol",
    "Trinken",
    "Wein",
-   "Bier"
+   "Bier",
+   "Alkoholgenuss",
+   "regelmässiger Alkoholkonsum",
+   "Alkoholmissbrauch",
+   "Bier und Wein"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2613,7 +3820,12 @@
   "synonyme": [
    "Fahrtüchtigkeit",
    "Verkehrstüchtigkeit",
-   "Maschinen bedienen"
+   "Maschinen bedienen",
+   "Autofahren und Bedienen von Maschinen",
+   "Autofahren",
+   "Fahrzeuglenken",
+   "Strassenverkehr",
+   "Fahreignung"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2623,7 +3835,10 @@
   "synonyme": [
    "Lebendimpfung",
    "Gelbfieberimpfung",
-   "MMR-Impfung"
+   "MMR-Impfung",
+   "Lebendimpfstoff",
+   "Varizellenimpfung",
+   "Impfung mit Lebendimpfstoff"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2633,7 +3848,9 @@
   "synonyme": [
    "Penicillin-Allergie",
    "Betalaktam-Allergie",
-   "Antibiotika-Allergie"
+   "Antibiotika-Allergie",
+   "Amoxicillin-Allergie",
+   "Cephalosporin-Allergie"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -2642,7 +3859,10 @@
   "name": "Sulfonamid-Allergie",
   "synonyme": [
    "Sulfa-Allergie",
-   "Sulfonamid-Überempfindlichkeit"
+   "Sulfonamid-Überempfindlichkeit",
+   "Sulfonamidallergie",
+   "Cotrimoxazol-Allergie",
+   "Sulfonamide"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -2652,7 +3872,12 @@
   "synonyme": [
    "Hühnereiweissallergie",
    "Latex",
-   "Gelatine"
+   "Gelatine",
+   "Eiallergie",
+   "Hühnereiallergie",
+   "Eiweissallergie",
+   "Hühnereiweiss",
+   "Allergie auf Eier"
   ],
   "kategorie": "Atemwege und Allergien"
  },
@@ -2664,7 +3889,10 @@
    "Überdosis",
    "Intoxikation",
    "Antidot",
-   "Paracetamol-Vergiftung"
+   "Paracetamol-Vergiftung",
+   "Überdosierung",
+   "Tox Info Suisse",
+   "Giftnotruf"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2676,7 +3904,13 @@
    "CT",
    "MRI",
    "Röntgen",
-   "Szintigrafie"
+   "Szintigrafie",
+   "Untersuchung mit Kontrastmittel",
+   "CT mit Kontrastmittel",
+   "Röntgenuntersuchung",
+   "jodhaltiges Kontrastmittel",
+   "MRI mit Kontrastmittel",
+   "Angiografie"
   ],
   "kategorie": "Besondere Situationen"
  },
@@ -2687,7 +3921,17 @@
    "Kreislaufversagen",
    "Reanimation",
    "Herzstillstand",
-   "septischer Schock"
+   "septischer Schock",
+   "Herzstillstand und Reanimation",
+   "Herz-Kreislauf-Stillstand",
+   "Wiederbelebung",
+   "Herztod",
+   "Kreislaufstillstand",
+   "Kreislaufkollaps",
+   "Schock",
+   "Kollaps",
+   "kardiogener Schock",
+   "Volumenmangelschock"
   ],
   "kategorie": "Herz-Kreislauf"
  },
@@ -2698,8 +3942,1309 @@
    "Ödeme",
    "geschwollene Beine",
    "Wasser in den Beinen",
-   "Aszites"
+   "Aszites",
+   "Flüssigkeitsansammlung",
+   "Wassersucht",
+   "Oedem",
+   "Beinödeme",
+   "geschwollene Knöchel"
   ],
   "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "hypertensive-krise",
+  "name": "Hypertensive Krise (Blutdruckentgleisung)",
+  "synonyme": [
+   "Blutdruckkrise",
+   "hypertensiver Notfall",
+   "Blutdruckentgleisung",
+   "hypertensive Entgleisung",
+   "sehr hoher Blutdruck"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "koronarstent",
+  "name": "Stent oder Bypass am Herzen",
+  "synonyme": [
+   "Stent",
+   "Koronarstent",
+   "Bypass",
+   "Bypassoperation",
+   "PCI",
+   "Herzkatheter",
+   "Ballondilatation"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "kardiovaskulaeres-risiko",
+  "name": "Erhöhtes Herz-Kreislauf-Risiko (Prävention)",
+  "synonyme": [
+   "kardiovaskuläres Risiko",
+   "Herzinfarktprophylaxe",
+   "Schlaganfallprophylaxe",
+   "Sekundärprävention",
+   "Primärprävention",
+   "Gefässschutz"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "tachykardie",
+  "name": "Herzrasen (Tachykardie)",
+  "synonyme": [
+   "Herzrasen",
+   "schneller Puls",
+   "supraventrikuläre Tachykardie",
+   "Herzjagen",
+   "Herzklopfen",
+   "Sinustachykardie"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "sick-sinus-syndrom",
+  "name": "Sinusknotensyndrom (Sick-Sinus-Syndrom)",
+  "synonyme": [
+   "Sick Sinus",
+   "Sinusknotenerkrankung",
+   "SA-Block",
+   "Bradykardie-Tachykardie-Syndrom",
+   "Sinusknotendysfunktion"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "synkope",
+  "name": "Ohnmacht (Synkope)",
+  "synonyme": [
+   "Ohnmacht",
+   "Synkope",
+   "Bewusstlosigkeit",
+   "kurz bewusstlos",
+   "Ohnmachtsanfall",
+   "umgekippt"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "arteriosklerose",
+  "name": "Arterienverkalkung (Arteriosklerose)",
+  "synonyme": [
+   "Arterienverkalkung",
+   "Atherosklerose",
+   "Gefässverkalkung",
+   "Gefässverengung",
+   "Plaques",
+   "Karotisstenose"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "lymphoedem",
+  "name": "Lymphödem und Lipödem",
+  "synonyme": [
+   "Lymphödem",
+   "Lymphstau",
+   "Lipödem",
+   "geschwollener Arm",
+   "Lymphabflussstörung"
+  ],
+  "kategorie": "Herz-Kreislauf"
+ },
+ {
+  "id": "antikoagulation",
+  "name": "Behandlung mit Blutverdünnern (Antikoagulation)",
+  "synonyme": [
+   "Blutverdünner",
+   "orale Antikoagulation",
+   "Gerinnungshemmer",
+   "Vitamin-K-Antagonist",
+   "OAK",
+   "Thrombozytenaggregationshemmer",
+   "blutverdünnende Medikamente"
+  ],
+  "kategorie": "Blut und Gerinnung"
+ },
+ {
+  "id": "methaemoglobinaemie",
+  "name": "Methämoglobinämie",
+  "synonyme": [
+   "Methämoglobin",
+   "Methaemoglobinaemie",
+   "Methämoglobin-Reduktase-Mangel",
+   "Blausucht",
+   "Zyanose"
+  ],
+  "kategorie": "Blut und Gerinnung"
+ },
+ {
+  "id": "metabolisches-syndrom",
+  "name": "Metabolisches Syndrom",
+  "synonyme": [
+   "Wohlstandssyndrom",
+   "Insulinresistenz",
+   "Syndrom X",
+   "Stoffwechselsyndrom",
+   "tödliches Quartett"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "untergewicht",
+  "name": "Untergewicht und Appetitlosigkeit",
+  "synonyme": [
+   "Appetitlosigkeit",
+   "Kachexie",
+   "Mangelernährung",
+   "Gewichtsverlust",
+   "Abmagerung",
+   "Appetitmangel"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "familiaere-hypercholesterinaemie",
+  "name": "Familiäre Hypercholesterinämie",
+  "synonyme": [
+   "FH",
+   "erbliche Hypercholesterinämie",
+   "homozygote familiäre Hypercholesterinämie",
+   "vererbtes hohes Cholesterin",
+   "Lipoprotein(a) erhöht"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "hyperaldosteronismus",
+  "name": "Hyperaldosteronismus (Conn-Syndrom)",
+  "synonyme": [
+   "Conn-Syndrom",
+   "Aldosteronüberschuss",
+   "primärer Hyperaldosteronismus",
+   "Aldosteronismus"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "phaeochromozytom",
+  "name": "Phäochromozytom",
+  "synonyme": [
+   "Phaeochromozytom",
+   "Pheochromocytom",
+   "Nebennierentumor",
+   "Paragangliom",
+   "katecholaminproduzierender Tumor"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "hypophyseninsuffizienz",
+  "name": "Hypophysenunterfunktion (Hypopituitarismus)",
+  "synonyme": [
+   "Hypopituitarismus",
+   "Hypophyseninsuffizienz",
+   "Panhypopituitarismus",
+   "Hirnanhangdrüsenunterfunktion",
+   "Hypophysenschwäche"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "morbus-wilson",
+  "name": "Morbus Wilson (Kupferspeicherkrankheit)",
+  "synonyme": [
+   "Wilson",
+   "Kupferspeicherkrankheit",
+   "Kupferstoffwechselstörung",
+   "hepatolentikuläre Degeneration",
+   "Wilson-Krankheit"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "phenylketonurie",
+  "name": "Phenylketonurie (PKU)",
+  "synonyme": [
+   "PKU",
+   "Phenylalanin-Stoffwechselstörung",
+   "Phenylalanin",
+   "Hyperphenylalaninämie",
+   "Fölling-Krankheit"
+  ],
+  "kategorie": "Stoffwechsel und Hormone"
+ },
+ {
+  "id": "diabetische-nephropathie",
+  "name": "Diabetische Nierenerkrankung",
+  "synonyme": [
+   "diabetische Nephropathie",
+   "Nierenschaden bei Diabetes",
+   "diabetische Nierenkrankheit",
+   "diabetische Niere",
+   "Diabetes und Niere"
+  ],
+  "kategorie": "Niere und Harnwege"
+ },
+ {
+  "id": "nierenarterienstenose",
+  "name": "Nierenarterienstenose (Einzelniere)",
+  "synonyme": [
+   "Nierenarterienverengung",
+   "renovaskuläre Hypertonie",
+   "beidseitige Nierenarterienstenose",
+   "Einzelniere",
+   "Nierenarterienstenose"
+  ],
+  "kategorie": "Niere und Harnwege"
+ },
+ {
+  "id": "zystennieren",
+  "name": "Zystennieren (polyzystische Nierenerkrankung)",
+  "synonyme": [
+   "ADPKD",
+   "polyzystische Nieren",
+   "Zystenniere",
+   "Nierenzysten",
+   "Zystennierenerkrankung"
+  ],
+  "kategorie": "Niere und Harnwege"
+ },
+ {
+  "id": "malabsorption",
+  "name": "Malabsorption und Kurzdarmsyndrom",
+  "synonyme": [
+   "Malabsorption",
+   "Kurzdarmsyndrom",
+   "Darmresektion",
+   "Resorptionsstörung",
+   "Magenbypass",
+   "bariatrische Operation",
+   "Magenverkleinerung"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "analfissur",
+  "name": "Analfissur (Afterriss)",
+  "synonyme": [
+   "Afterriss",
+   "Analfissur",
+   "Einriss am After",
+   "Analrhagade",
+   "Schmerzen beim Stuhlgang",
+   "Analekzem"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "schluckstoerung",
+  "name": "Schluckbeschwerden (Dysphagie)",
+  "synonyme": [
+   "Dysphagie",
+   "Schluckstörung",
+   "Schluckbeschwerden",
+   "kann Tabletten nicht schlucken",
+   "Speiseröhrenverengung",
+   "Achalasie"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "schwere-leberinsuffizienz",
+  "name": "Schwere Leberinsuffizienz (Child-Pugh C)",
+  "synonyme": [
+   "Leberversagen",
+   "Child-Pugh C",
+   "dekompensierte Leberzirrhose",
+   "schwere Leberfunktionsstörung",
+   "akutes Leberversagen",
+   "schwere Lebererkrankung"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "cholestase",
+  "name": "Gallenstau (Cholestase) und Gelbsucht",
+  "synonyme": [
+   "Cholestase",
+   "Gallenstau",
+   "Gelbsucht",
+   "Ikterus",
+   "Gallengangverschluss",
+   "Gallenwegsobstruktion",
+   "Schwangerschaftscholestase"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "morbus-meulengracht",
+  "name": "Morbus Meulengracht (Gilbert-Syndrom)",
+  "synonyme": [
+   "Gilbert-Syndrom",
+   "Meulengracht",
+   "erhöhtes Bilirubin",
+   "UGT1A1-Mangel",
+   "Bilirubinerhöhung"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "karies",
+  "name": "Karies und Kariesprophylaxe",
+  "synonyme": [
+   "Karies",
+   "Zahnfäule",
+   "Kariesprophylaxe",
+   "Fluorid",
+   "Zahnschmelz",
+   "Zahnpflege"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "mundtrockenheit",
+  "name": "Mundtrockenheit (Xerostomie)",
+  "synonyme": [
+   "trockener Mund",
+   "Xerostomie",
+   "Speichelmangel",
+   "Mundtrockenheit",
+   "wenig Speichel"
+  ],
+  "kategorie": "Leber, Magen und Darm"
+ },
+ {
+  "id": "atemnot",
+  "name": "Atemnot (Dyspnoe)",
+  "synonyme": [
+   "Kurzatmigkeit",
+   "Dyspnoe",
+   "Luftnot",
+   "Atembeschwerden",
+   "schwer atmen",
+   "Atemlosigkeit"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "heiserkeit",
+  "name": "Heiserkeit und Kehlkopfentzündung",
+  "synonyme": [
+   "Heiserkeit",
+   "Laryngitis",
+   "Kehlkopfentzündung",
+   "Stimmverlust",
+   "Pseudokrupp",
+   "Krupp-Husten"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "insektengiftallergie",
+  "name": "Insektengiftallergie",
+  "synonyme": [
+   "Bienengiftallergie",
+   "Wespengiftallergie",
+   "Wespenstichallergie",
+   "Bienenstichallergie",
+   "Hymenopterengiftallergie",
+   "Insektenstichallergie"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "nahrungsmittelallergie",
+  "name": "Nahrungsmittelallergie",
+  "synonyme": [
+   "Lebensmittelallergie",
+   "Nahrungsmittelunverträglichkeit",
+   "Fischallergie",
+   "Milcheiweissallergie",
+   "Kuhmilchallergie",
+   "Nussallergie"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "erdnuss-sojaallergie",
+  "name": "Erdnuss- oder Sojaallergie",
+  "synonyme": [
+   "Erdnussallergie",
+   "Sojaallergie",
+   "Erdnussöl",
+   "Sojaöl",
+   "Sojalecithin",
+   "Erdnussunverträglichkeit"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "nsar-allergie",
+  "name": "Schmerzmittel-Allergie (NSAR-Überempfindlichkeit)",
+  "synonyme": [
+   "Aspirin-Allergie",
+   "Schmerzmittelunverträglichkeit",
+   "NSAR-Allergie",
+   "Ibuprofen-Allergie",
+   "Salicylat-Überempfindlichkeit",
+   "Aspirinunverträglichkeit"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "kontrastmittelallergie",
+  "name": "Jod- oder Kontrastmittelallergie",
+  "synonyme": [
+   "Jodallergie",
+   "Kontrastmittelallergie",
+   "Kontrastmittelunverträglichkeit",
+   "Jodunverträglichkeit",
+   "Jod-Überempfindlichkeit"
+  ],
+  "kategorie": "Atemwege und Allergien"
+ },
+ {
+  "id": "tremor",
+  "name": "Zittern (essentieller Tremor)",
+  "synonyme": [
+   "Tremor",
+   "Zittern",
+   "essentieller Tremor",
+   "Händezittern",
+   "Zitterbewegung"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "dystonie",
+  "name": "Dystonie, Tics und Bewegungsstörungen",
+  "synonyme": [
+   "Dystonie",
+   "Torticollis",
+   "Schiefhals",
+   "Blepharospasmus",
+   "Spasmus hemifacialis",
+   "Tics",
+   "Tourette-Syndrom",
+   "Spätdyskinesie"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "chorea-huntington",
+  "name": "Chorea Huntington",
+  "synonyme": [
+   "Huntington",
+   "Huntington-Krankheit",
+   "Veitstanz",
+   "Chorea",
+   "erblicher Veitstanz"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "spastik",
+  "name": "Spastik (Spastizität)",
+  "synonyme": [
+   "Spastizität",
+   "spastische Lähmung",
+   "Muskelsteifigkeit",
+   "Zerebralparese",
+   "Spastik bei MS",
+   "Spastik nach Schlaganfall"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "fazialisparese",
+  "name": "Gesichtslähmung (Fazialisparese)",
+  "synonyme": [
+   "Fazialisparese",
+   "Gesichtslähmung",
+   "Bell-Lähmung",
+   "idiopathische Fazialisparese",
+   "Gesichtsnervenlähmung"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "hirnoedem",
+  "name": "Hirnödem und erhöhter Hirndruck",
+  "synonyme": [
+   "Hirnödem",
+   "erhöhter Hirndruck",
+   "Hirnschwellung",
+   "intrakranielle Drucksteigerung",
+   "Hirndruck"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "schaedel-hirn-trauma",
+  "name": "Schädel-Hirn-Trauma (Gehirnerschütterung)",
+  "synonyme": [
+   "Gehirnerschütterung",
+   "Hirnerschütterung",
+   "Schädel-Hirn-Trauma",
+   "Kopfverletzung",
+   "SHT",
+   "Commotio cerebri"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "bewusstseinsstoerung",
+  "name": "Bewusstseinsstörung und Koma",
+  "synonyme": [
+   "Koma",
+   "Bewusstseinstrübung",
+   "Somnolenz",
+   "Benommenheit",
+   "Bewusstlosigkeit",
+   "eingetrübt"
+  ],
+  "kategorie": "Nervensystem und Schmerz"
+ },
+ {
+  "id": "burnout",
+  "name": "Erschöpfung und Burnout",
+  "synonyme": [
+   "Burnout",
+   "Erschöpfungssyndrom",
+   "Erschöpfung",
+   "Müdigkeit",
+   "chronisches Fatigue-Syndrom",
+   "Leistungsschwäche",
+   "Fatigue"
+  ],
+  "kategorie": "Psyche"
+ },
+ {
+  "id": "opioidabhaengigkeit",
+  "name": "Opioidabhängigkeit (Substitution)",
+  "synonyme": [
+   "Heroinabhängigkeit",
+   "Opiatabhängigkeit",
+   "Substitutionstherapie",
+   "Substitutionsprogramm",
+   "Opioidentzug",
+   "Opioidüberdosis"
+  ],
+  "kategorie": "Psyche"
+ },
+ {
+  "id": "persoenlichkeitsstoerung",
+  "name": "Persönlichkeitsstörung (z. B. Borderline)",
+  "synonyme": [
+   "Borderline",
+   "emotional instabile Persönlichkeitsstörung",
+   "Persönlichkeitsstörung",
+   "BPS",
+   "Borderline-Störung"
+  ],
+  "kategorie": "Psyche"
+ },
+ {
+  "id": "autismus",
+  "name": "Autismus-Spektrum-Störung",
+  "synonyme": [
+   "Autismus",
+   "Asperger",
+   "ASS",
+   "autistische Störung",
+   "Asperger-Syndrom"
+  ],
+  "kategorie": "Psyche"
+ },
+ {
+  "id": "virusinfektion",
+  "name": "Virusinfektion (allgemein)",
+  "synonyme": [
+   "Virus",
+   "viraler Infekt",
+   "Virusinfekt",
+   "virale Erkrankung",
+   "Viren"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "pfeiffersches-druesenfieber",
+  "name": "Pfeiffersches Drüsenfieber (Mononukleose)",
+  "synonyme": [
+   "Mononukleose",
+   "Pfeiffer",
+   "Kusskrankheit",
+   "EBV",
+   "Epstein-Barr-Virus",
+   "Drüsenfieber"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "osteomyelitis",
+  "name": "Knochen- und Gelenkinfektion (Osteomyelitis)",
+  "synonyme": [
+   "Osteomyelitis",
+   "Knochenentzündung",
+   "Knocheninfekt",
+   "Gelenkinfekt",
+   "septische Arthritis",
+   "Protheseninfekt"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "endokarditis",
+  "name": "Endokarditis (Herzinnenhautentzündung)",
+  "synonyme": [
+   "Herzinnenhautentzündung",
+   "Herzklappenentzündung",
+   "bakterielle Endokarditis",
+   "Endokarditisprophylaxe",
+   "infektiöse Endokarditis"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "resistente-keime",
+  "name": "Resistente Keime (MRSA, ESBL)",
+  "synonyme": [
+   "MRSA",
+   "ESBL",
+   "multiresistente Keime",
+   "VRE",
+   "Spitalkeim",
+   "Antibiotikaresistenz",
+   "Spitalinfektion"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "infektanfaelligkeit",
+  "name": "Infektanfälligkeit",
+  "synonyme": [
+   "häufige Infekte",
+   "geschwächte Abwehr",
+   "Immunstärkung",
+   "Immunstimulation",
+   "wiederkehrende Infekte",
+   "Abwehrschwäche"
+  ],
+  "kategorie": "Infektionen"
+ },
+ {
+  "id": "hautausschlag",
+  "name": "Hautausschlag (Exanthem)",
+  "synonyme": [
+   "Ausschlag",
+   "Exanthem",
+   "Hautrötung",
+   "Hautausschlag",
+   "Arzneimittelexanthem",
+   "Rash",
+   "Hautreaktion"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "trockene-haut",
+  "name": "Trockene Haut und Ichthyose",
+  "synonyme": [
+   "trockene Haut",
+   "Xerosis",
+   "Ichthyose",
+   "rissige Haut",
+   "Fischschuppenkrankheit",
+   "spröde Haut",
+   "Hautpflege"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "verbrennung",
+  "name": "Verbrennung und Verbrühung",
+  "synonyme": [
+   "Verbrennung",
+   "Verbrühung",
+   "Brandwunde",
+   "Brandblase",
+   "Verbrennung 1. Grades",
+   "Verbrennung 2. Grades"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "wunde",
+  "name": "Wunden und Wundheilungsstörung",
+  "synonyme": [
+   "Wunde",
+   "Schürfwunde",
+   "Schnittwunde",
+   "Wundheilungsstörung",
+   "chronische Wunde",
+   "Ulcus cruris",
+   "offenes Bein",
+   "Dekubitus"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "narben",
+  "name": "Narben und Keloide",
+  "synonyme": [
+   "Narbe",
+   "Keloid",
+   "Narbenwucherung",
+   "hypertrophe Narbe",
+   "Narbenpflege"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "pigmentflecken",
+  "name": "Pigmentflecken (Melasma)",
+  "synonyme": [
+   "Pigmentflecken",
+   "Melasma",
+   "Altersflecken",
+   "Hyperpigmentierung",
+   "Chloasma",
+   "Sommersprossen"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "hirsutismus",
+  "name": "Übermässige Behaarung (Hirsutismus)",
+  "synonyme": [
+   "Hirsutismus",
+   "vermehrte Behaarung",
+   "Damenbart",
+   "Hypertrichose",
+   "unerwünschter Haarwuchs"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "seborrhoische-dermatitis",
+  "name": "Schuppen und seborrhoische Dermatitis",
+  "synonyme": [
+   "Kopfschuppen",
+   "Schuppen",
+   "seborrhoisches Ekzem",
+   "seborrhoische Dermatitis",
+   "Gneis",
+   "Kopfhautentzündung"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "windeldermatitis",
+  "name": "Wundsein und Windeldermatitis",
+  "synonyme": [
+   "Windelausschlag",
+   "Windeldermatitis",
+   "wunder Po",
+   "Intertrigo",
+   "Wundsein",
+   "Windelsoor"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "pemphigus",
+  "name": "Blasenbildende Autoimmunerkrankungen (Pemphigus, Pemphigoid)",
+  "synonyme": [
+   "Pemphigus",
+   "bullöses Pemphigoid",
+   "Blasensucht",
+   "Pemphigoid",
+   "Pemphigus vulgaris"
+  ],
+  "kategorie": "Haut"
+ },
+ {
+  "id": "kontaktlinsen",
+  "name": "Kontaktlinsenträger",
+  "synonyme": [
+   "Kontaktlinsen",
+   "Linsenträger",
+   "weiche Kontaktlinsen",
+   "Kontaktlinsen tragen",
+   "Linsen"
+  ],
+  "kategorie": "Augen und Ohren"
+ },
+ {
+  "id": "sehstoerung",
+  "name": "Sehstörungen und Sehnerventzündung",
+  "synonyme": [
+   "Sehstörung",
+   "verschwommenes Sehen",
+   "Doppeltsehen",
+   "Optikusneuritis",
+   "Sehnerventzündung",
+   "Sehverschlechterung"
+  ],
+  "kategorie": "Augen und Ohren"
+ },
+ {
+  "id": "trommelfellperforation",
+  "name": "Trommelfellperforation (Loch im Trommelfell)",
+  "synonyme": [
+   "Trommelfellriss",
+   "Trommelfelldefekt",
+   "Loch im Trommelfell",
+   "Paukenröhrchen",
+   "perforiertes Trommelfell"
+  ],
+  "kategorie": "Augen und Ohren"
+ },
+ {
+  "id": "ohrenschmalz",
+  "name": "Ohrenschmalzpfropf",
+  "synonyme": [
+   "Ohrenschmalz",
+   "Cerumen",
+   "Zeruminalpfropf",
+   "verstopftes Ohr",
+   "Ohrschmalz"
+  ],
+  "kategorie": "Augen und Ohren"
+ },
+ {
+  "id": "nackenschmerzen",
+  "name": "Nackenschmerzen",
+  "synonyme": [
+   "Nackenweh",
+   "steifer Nacken",
+   "Nackenverspannung",
+   "Zervikalsyndrom",
+   "HWS-Syndrom",
+   "Schleudertrauma"
+  ],
+  "kategorie": "Bewegungsapparat"
+ },
+ {
+  "id": "muskelschmerzen",
+  "name": "Muskelschmerzen (Myalgie)",
+  "synonyme": [
+   "Myalgie",
+   "Muskelkater",
+   "Gliederschmerzen",
+   "Muskelweh",
+   "Muskelschmerz"
+  ],
+  "kategorie": "Bewegungsapparat"
+ },
+ {
+  "id": "fibromyalgie",
+  "name": "Fibromyalgie",
+  "synonyme": [
+   "Weichteilrheuma",
+   "Fibromyalgiesyndrom",
+   "Ganzkörperschmerzen",
+   "FMS",
+   "Fibromyalgie"
+  ],
+  "kategorie": "Bewegungsapparat"
+ },
+ {
+  "id": "knochenbruch",
+  "name": "Knochenbruch (Fraktur)",
+  "synonyme": [
+   "Fraktur",
+   "Knochenbruch",
+   "Bruch",
+   "gebrochener Knochen",
+   "Frakturheilung",
+   "Ermüdungsbruch"
+  ],
+  "kategorie": "Bewegungsapparat"
+ },
+ {
+  "id": "hodenkrebs",
+  "name": "Hodenkrebs",
+  "synonyme": [
+   "Hodenkarzinom",
+   "Hodentumor",
+   "Keimzelltumor",
+   "Seminom",
+   "Hodenkrebs"
+  ],
+  "kategorie": "Krebs und Immunsystem"
+ },
+ {
+  "id": "amyloidose",
+  "name": "Amyloidose",
+  "synonyme": [
+   "Transthyretin-Amyloidose",
+   "ATTR",
+   "AL-Amyloidose",
+   "Amyloid-Kardiomyopathie",
+   "familiäre amyloidotische Polyneuropathie"
+  ],
+  "kategorie": "Krebs und Immunsystem"
+ },
+ {
+  "id": "zyklusstoerungen",
+  "name": "Starke oder unregelmässige Menstruation (Zyklusstörungen)",
+  "synonyme": [
+   "Hypermenorrhoe",
+   "Menorrhagie",
+   "starke Mens",
+   "Zyklusstörungen",
+   "Zwischenblutungen",
+   "unregelmässige Periode",
+   "Amenorrhoe",
+   "Ausbleiben der Mens"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "pcos",
+  "name": "Polyzystisches Ovarsyndrom (PCOS)",
+  "synonyme": [
+   "PCOS",
+   "PCO-Syndrom",
+   "polyzystische Ovarien",
+   "Stein-Leventhal-Syndrom",
+   "Zysten an den Eierstöcken"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "scheidentrockenheit",
+  "name": "Scheidentrockenheit (vaginale Atrophie)",
+  "synonyme": [
+   "vaginale Atrophie",
+   "trockene Scheide",
+   "atrophische Vaginitis",
+   "Schmerzen beim Geschlechtsverkehr",
+   "urogenitale Atrophie",
+   "Scheidentrockenheit"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "schwangerschaftsuebelkeit",
+  "name": "Schwangerschaftsübelkeit",
+  "synonyme": [
+   "Schwangerschaftserbrechen",
+   "Hyperemesis gravidarum",
+   "Morgenübelkeit",
+   "Übelkeit in der Schwangerschaft",
+   "Schwangerschaftsuebelkeit"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "praeeklampsie",
+  "name": "Präeklampsie und Schwangerschaftshochdruck",
+  "synonyme": [
+   "Präeklampsie",
+   "Eklampsie",
+   "Schwangerschaftsvergiftung",
+   "Gestose",
+   "HELLP-Syndrom",
+   "Schwangerschaftshypertonie",
+   "Praeeklampsie"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "gestationsdiabetes",
+  "name": "Schwangerschaftsdiabetes (Gestationsdiabetes)",
+  "synonyme": [
+   "Gestationsdiabetes",
+   "Schwangerschaftsdiabetes",
+   "Schwangerschaftszucker",
+   "GDM",
+   "Zucker in der Schwangerschaft"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "schwangerschaftsabbruch",
+  "name": "Schwangerschaftsabbruch und Fehlgeburt",
+  "synonyme": [
+   "Abtreibung",
+   "Abort",
+   "Fehlgeburt",
+   "Interruptio",
+   "Schwangerschaftsunterbruch",
+   "Schwangerschaftsabbruch"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "rhesus",
+  "name": "Rhesus-Unverträglichkeit",
+  "synonyme": [
+   "Rhesusfaktor negativ",
+   "Rh-negativ",
+   "Anti-D-Prophylaxe",
+   "Rhesusunverträglichkeit",
+   "Rhesus-Inkompatibilität"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "libidostoerung",
+  "name": "Sexuelle Unlust (Libidostörung)",
+  "synonyme": [
+   "Libidoverlust",
+   "Lustlosigkeit",
+   "vermindertes sexuelles Verlangen",
+   "HSDD",
+   "sexuelle Funktionsstörung",
+   "Libidomangel"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "transgender",
+  "name": "Geschlechtsangleichende Hormontherapie",
+  "synonyme": [
+   "Transgender",
+   "Geschlechtsinkongruenz",
+   "Transidentität",
+   "Hormontherapie bei trans Personen",
+   "Geschlechtsdysphorie"
+  ],
+  "kategorie": "Frauen, Schwangerschaft und Sexualität"
+ },
+ {
+  "id": "prostatitis",
+  "name": "Prostataentzündung (Prostatitis)",
+  "synonyme": [
+   "Prostatitis",
+   "Prostataentzündung",
+   "chronisches Beckenschmerzsyndrom",
+   "Prostatainfekt",
+   "Prostataentzuendung"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "vorzeitiger-samenerguss",
+  "name": "Vorzeitiger Samenerguss",
+  "synonyme": [
+   "Ejaculatio praecox",
+   "vorzeitige Ejakulation",
+   "frühzeitiger Samenerguss",
+   "zu früh kommen",
+   "vorzeitiger Orgasmus"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "maennliche-unfruchtbarkeit",
+  "name": "Männliche Unfruchtbarkeit",
+  "synonyme": [
+   "Zeugungsunfähigkeit",
+   "männliche Infertilität",
+   "Spermienmangel",
+   "Oligospermie",
+   "eingeschränkte Fruchtbarkeit beim Mann"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "gynaekomastie",
+  "name": "Brustvergrösserung beim Mann (Gynäkomastie)",
+  "synonyme": [
+   "Gynäkomastie",
+   "Männerbrust",
+   "Brustwachstum beim Mann",
+   "Brustvergrösserung",
+   "Gynaekomastie"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "penisverkruemmung",
+  "name": "Penisverkrümmung (Induratio penis plastica)",
+  "synonyme": [
+   "Peyronie",
+   "Morbus Peyronie",
+   "Penisverkrümmung",
+   "Induratio penis plastica",
+   "IPP"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "balanitis",
+  "name": "Eichel- und Vorhautentzündung (Balanitis)",
+  "synonyme": [
+   "Balanitis",
+   "Eichelentzündung",
+   "Vorhautentzündung",
+   "Phimose",
+   "Vorhautverengung",
+   "Posthitis"
+  ],
+  "kategorie": "Männergesundheit"
+ },
+ {
+  "id": "rauchen",
+  "name": "Rauchen (Raucher)",
+  "synonyme": [
+   "Raucher",
+   "Raucherin",
+   "Nikotin",
+   "Zigaretten",
+   "Tabakkonsum",
+   "E-Zigarette"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "maligne-hyperthermie",
+  "name": "Maligne Hyperthermie (Veranlagung)",
+  "synonyme": [
+   "maligne Hyperthermie",
+   "MH-Veranlagung",
+   "Narkosezwischenfall",
+   "Narkosekomplikation in der Familie",
+   "RYR1"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "sport-doping",
+  "name": "Leistungssport (Doping)",
+  "synonyme": [
+   "Doping",
+   "Leistungssport",
+   "Dopingkontrolle",
+   "Sportler",
+   "Wettkampfsport",
+   "Dopingliste"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "hoehenkrankheit",
+  "name": "Höhenkrankheit",
+  "synonyme": [
+   "akute Bergkrankheit",
+   "Höhenlungenödem",
+   "Höhenhirnödem",
+   "Bergkrankheit",
+   "AMS",
+   "Höhenaufenthalt",
+   "Hoehenkrankheit"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "jetlag",
+  "name": "Jetlag und Schichtarbeit",
+  "synonyme": [
+   "Jetlag",
+   "Zeitverschiebung",
+   "Schichtarbeit",
+   "Schlaf-Wach-Rhythmusstörung",
+   "Zeitzonenwechsel",
+   "Nachtarbeit"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "hitze",
+  "name": "Hitze und Hitzschlag",
+  "synonyme": [
+   "Hitzschlag",
+   "Sonnenstich",
+   "Hitzewelle",
+   "Überhitzung",
+   "Hitzeerschöpfung",
+   "hohe Temperaturen"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "immobilisation",
+  "name": "Bettlägerigkeit und Ruhigstellung (Immobilisation)",
+  "synonyme": [
+   "Immobilisation",
+   "bettlägerig",
+   "Gipsverband",
+   "Ruhigstellung",
+   "lange Flugreise",
+   "Bettruhe"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "natriumarme-diaet",
+  "name": "Salzarme (natriumarme) Ernährung",
+  "synonyme": [
+   "salzarme Diät",
+   "natriumarme Ernährung",
+   "Kochsalzrestriktion",
+   "Salzrestriktion",
+   "wenig Salz"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "sondenernaehrung",
+  "name": "Ernährungssonde (Magensonde)",
+  "synonyme": [
+   "Magensonde",
+   "PEG-Sonde",
+   "Sondenernährung",
+   "Tabletten mörsern",
+   "Sonde"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "palliativ",
+  "name": "Palliativsituation (Lebensende)",
+  "synonyme": [
+   "Palliative Care",
+   "Palliativpflege",
+   "Lebensende",
+   "Sterbebegleitung",
+   "Hospiz",
+   "Palliativmedizin"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "langzeit-kortison",
+  "name": "Langzeittherapie mit Kortison",
+  "synonyme": [
+   "Kortison",
+   "Cortison",
+   "Glukokortikoid-Therapie",
+   "Steroidtherapie",
+   "Langzeitkortison",
+   "Prednison-Therapie",
+   "Kortisontherapie"
+  ],
+  "kategorie": "Besondere Situationen"
+ },
+ {
+  "id": "pharmakogenetik",
+  "name": "Genetische Besonderheiten im Medikamentenabbau (Pharmakogenetik)",
+  "synonyme": [
+   "Pharmakogenetik",
+   "CYP2D6",
+   "langsamer Metabolisierer",
+   "DPD-Mangel",
+   "TPMT-Mangel",
+   "HLA-B*1502",
+   "HLA-B*5701",
+   "ultraschneller Metabolisierer"
+  ],
+  "kategorie": "Besondere Situationen"
  }
 ]

@@ -148,7 +148,8 @@
         "gruppe:trizyklische-antidepressiva",
         "gruppe:antihistaminika-sedierend",
         "gruppe:antipsychotika",
-        "amantadin"
+        "amantadin",
+        "gruppe:muskarinantagonisten-inhalativ"
       ],
       "effekt": "Verstärkte anticholinerge Wirkungen: Mundtrockenheit, Herzrasen, Harnverhalt, Verstopfung, Verwirrtheit – Dosis vorsichtig wählen, besonders bei älteren Menschen.",
       "schwere": "mittel"

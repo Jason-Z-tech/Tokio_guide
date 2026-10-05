@@ -42,11 +42,6 @@
     { "text": "Antibiotika und Antimykotika (nur Gynoflor mit Milchsäurebakterien)", "ref": [], "effekt": "Können die enthaltenen Milchsäurebakterien abtöten und die Wirkung abschwächen.", "schwere": "leicht" }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": [],
-    "haeufig": [],
-    "gelegentlich": [],
-    "selten": [],
-    "sehrSelten": [],
     "unbekannt": [
       "Lokale Reizung, Brennen oder Juckreiz in der Scheide",
       "Brustspannen oder Brustschmerzen",

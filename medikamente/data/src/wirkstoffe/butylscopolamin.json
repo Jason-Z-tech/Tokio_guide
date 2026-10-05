@@ -33,7 +33,7 @@
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Antihistaminika, Antipsychotika, Amantadin, Disopyramid, Chinidin)", "ref": ["gruppe:anticholinerg", "gruppe:trizyklische-antidepressiva", "gruppe:antihistaminika-sedierend", "gruppe:antipsychotika", "amantadin"], "effekt": "Verstärkte anticholinerge Wirkungen wie Mundtrockenheit, Herzrasen, Harnverhalt und Verstopfung.", "schwere": "mittel" },
+    { "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Antihistaminika, Antipsychotika, Amantadin, Disopyramid, Chinidin, inhalatives Tiotropium oder Ipratropium)", "ref": ["gruppe:anticholinerg", "gruppe:trizyklische-antidepressiva", "gruppe:antihistaminika-sedierend", "gruppe:antipsychotika", "amantadin", "gruppe:muskarinantagonisten-inhalativ"], "effekt": "Verstärkte anticholinerge Wirkungen wie Mundtrockenheit, Herzrasen, Harnverhalt und Verstopfung.", "schwere": "mittel" },
     { "text": "Beta-Sympathomimetika (z. B. Salbutamol) und andere Sympathomimetika", "ref": ["gruppe:beta2-sympathomimetika", "gruppe:sympathomimetika"], "effekt": "Verstärkte Beschleunigung des Herzschlags (Tachykardie).", "schwere": "mittel" },
     { "text": "Dopamin-Antagonisten wie Metoclopramid und Domperidon", "ref": ["metoclopramid", "domperidon"], "effekt": "Gegenseitige Abschwächung der Wirkung auf den Magen-Darm-Trakt.", "schwere": "leicht" }
   ],

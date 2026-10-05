@@ -25,7 +25,7 @@
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Fluorouracil und Capecitabin (Chemotherapie)", "ref": ["fluorouracil", "capecitabin"], "effekt": "Folsäure kann die Giftigkeit dieser Zytostatika verstärken (z. B. schwerer Durchfall, Schleimhautentzündung) – nur nach ärztlicher Rücksprache einnehmen.", "schwere": "schwer" },
+    { "text": "Fluorouracil und Capecitabin (Chemotherapie)", "ref": ["fluorouracil", "capecitabin"], "effekt": "Folsäure kann die Giftigkeit dieser Zytostatika verstärken (z. B. schwerer Durchfall, Schleimhautentzündung) – nur nach ärztlicher Rücksprache einnehmen.", "schwere": "mittel" },
     { "text": "Methotrexat und andere Folsäure-Antagonisten (z. B. Pyrimethamin, Trimethoprim)", "ref": ["methotrexat", "gruppe:folsaeureantagonisten"], "effekt": "Folsäure kann die Wirkung abschwächen, v. a. bei hoch dosiertem Methotrexat in der Krebstherapie. In der Rheumatherapie mit niedrig dosiertem Methotrexat wird Folsäure dagegen gezielt zum Schutz vor Nebenwirkungen verordnet.", "schwere": "mittel" },
     { "text": "Phenytoin, Phenobarbital, Primidon", "ref": ["phenytoin", "phenobarbital", "primidon"], "effekt": "Folsäure kann den Spiegel dieser Antiepileptika senken (Anfallsgefahr); umgekehrt senken sie den Folsäurespiegel – Spiegel kontrollieren.", "schwere": "mittel" },
     { "text": "Sulfasalazin", "ref": ["sulfasalazin"], "effekt": "Vermindert die Aufnahme von Folsäure aus dem Darm; Folsäurebedarf kann erhöht sein.", "schwere": "leicht" },
