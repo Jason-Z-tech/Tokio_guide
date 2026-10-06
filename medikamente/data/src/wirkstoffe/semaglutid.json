@@ -18,7 +18,7 @@
   "vorsicht": [
     { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen", "ids": ["pankreatitis"] },
     { "text": "Diabetische Retinopathie (Netzhautschaden), besonders unter Insulin: eine rasche Blutzuckersenkung kann sie vorübergehend verschlechtern – augenärztliche Kontrollen", "ids": [] },
-    { "text": "Plötzlicher Sehverlust auf einem Auge: sehr selten Durchblutungsstörung des Sehnervs (NAION) – sofort ärztlich abklären", "ids": [] },
+    { "text": "Plötzlicher Sehverlust auf einem Auge: sehr selten Durchblutungsstörung des Sehnervs (NAION) – sofort ärztlich abklären", "ids": ["sehstoerung"] },
     { "text": "Gallensteine und Gallenblasenentzündung, vor allem bei starker Gewichtsabnahme", "ids": ["gallensteine"] },
     { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken", "ids": ["dehydratation", "niereninsuffizienz"] },
     { "text": "Narkose oder tiefe Sedierung (z. B. bei Magenspiegelung): wegen verzögerter Magenentleerung Gefahr, Mageninhalt einzuatmen – Behandlung vorher angeben", "ids": ["operation", "anaesthesie"] },

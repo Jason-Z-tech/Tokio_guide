@@ -15,7 +15,7 @@
     { "text": "Asthma bronchiale, akute Verschlechterung einer COPD und schwere allergische Reaktionen", "ids": ["asthma", "copd", "allergie"] },
     { "text": "Entzündliche Darm-, Haut- und Nierenerkrankungen, z. B. Colitis ulcerosa, Morbus Crohn, schwere Ekzeme, nephrotisches Syndrom", "ids": ["colitis-ulcerosa", "morbus-crohn", "neurodermitis", "nephrotisches-syndrom"] },
     { "text": "Autoimmunerkrankungen und Blutkrankheiten, z. B. autoimmune hämolytische Anämie, Immunthrombozytopenie, Sarkoidose", "ids": ["autoimmunerkrankung", "haemolytische-anaemie", "thrombozytopenie"] },
-    { "text": "In Kombination bei bestimmten Krebserkrankungen (z. B. Leukämien, Lymphome, Prostatakrebs) und nach Organtransplantationen", "ids": ["leukaemie", "lymphom", "prostatakrebs", "transplantation"] }
+    { "text": "In Kombination bei bestimmten Krebserkrankungen (z. B. Leukämien, Lymphome) und nach Organtransplantationen", "ids": ["leukaemie", "lymphom", "transplantation"] }
   ],
   "wirkmechanismus": "Dämpft Entzündungen und überschiessende Reaktionen des Immunsystems. Prednison ist eine Vorstufe (Prodrug) und wird in der Leber rasch in den eigentlichen Wirkstoff Prednisolon umgewandelt. Prednisolon bindet an den Glukokortikoid-Rezeptor im Zellinneren und unterdrückt im Zellkern die Bildung entzündungsfördernder Botenstoffe (Zytokine, Prostaglandine, Leukotriene) sowie die Aktivität von Abwehrzellen. Es wirkt etwa 4-mal stärker entzündungshemmend als körpereigenes Cortisol und hat eine geringe salzzurückhaltende Wirkung. Die Form mit verzögerter Freisetzung gibt den Wirkstoff erst rund 4 Stunden nach der Einnahme frei, also in der Nacht, wenn die entzündlichen Botenstoffe ansteigen.",
   "kontraindikationen": [

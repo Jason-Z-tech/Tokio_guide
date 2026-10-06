@@ -19,7 +19,7 @@
     { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen", "ids": ["pankreatitis"] },
     { "text": "Gallensteine und Gallenblasenentzündung, vor allem bei starker Gewichtsabnahme", "ids": ["gallensteine"] },
     { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken", "ids": ["dehydratation", "niereninsuffizienz"] },
-    { "text": "Terminale Niereninsuffizienz (Saxenda: schon schwere Niereninsuffizienz) und schwere Leberinsuffizienz: nicht empfohlen", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Terminale Niereninsuffizienz (Saxenda: schon schwere Niereninsuffizienz) und schwere Leberinsuffizienz: nicht empfohlen", "ids": ["niereninsuffizienz", "schwere-leberinsuffizienz"] },
     { "text": "Schilddrüsenerkrankungen (z. B. Knoten, Kropf): in Studien vermehrt Schilddrüsen-Nebenwirkungen; bei Nagetieren traten Tumoren der C-Zellen der Schilddrüse auf", "ids": ["struma", "kopf-hals-krebs"] },
     { "text": "Entzündliche Darmerkrankungen und diabetische Gastroparese (verzögerte Magenentleerung): nicht empfohlen", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
     { "text": "Erhöhter Puls; schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen", "ids": ["herzinsuffizienz", "herzrhythmusstoerung"] },

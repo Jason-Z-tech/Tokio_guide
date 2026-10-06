@@ -17,7 +17,7 @@
   "vorsicht": [
     { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen; Vorsicht bei Pankreatitis in der Vorgeschichte", "ids": ["pankreatitis"] },
     { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
-    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut absetzen und ärztlich abklären", "ids": [] },
+    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut absetzen und ärztlich abklären", "ids": ["pemphigus"] },
     { "text": "Überempfindlichkeitsreaktionen wie Angioödem möglich", "ids": ["angiooedem"] },
     { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
   ],

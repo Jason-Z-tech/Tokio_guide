@@ -16,7 +16,7 @@
   "kontraindikationen": [
     { "text": "Typ-1-Diabetes (insulinabhängiger Diabetes)", "ids": ["diabetes-typ-1"] },
     { "text": "Diabetisches Koma oder Präkoma, diabetische Ketoazidose", "ids": ["ketoazidose"] },
-    { "text": "Schwere Nieren- oder Leberfunktionsstörung (Umstellung auf Insulin)", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Schwere Nieren- oder Leberfunktionsstörung (Umstellung auf Insulin)", "ids": ["niereninsuffizienz", "leberinsuffizienz", "schwere-leberinsuffizienz"] },
     { "text": "Überempfindlichkeit gegen andere Sulfonylharnstoffe oder Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
     { "text": "Schwangerschaft (Umstellung auf Insulin)", "ids": ["schwangerschaft"] },
     { "text": "Stillzeit", "ids": ["stillzeit"] }
@@ -24,7 +24,7 @@
   "vorsicht": [
     { "text": "Unregelmässige oder ausgelassene Mahlzeiten, Fasten, Alkohol oder ungewohnte körperliche Anstrengung: Gefahr einer Unterzuckerung, die lange anhalten und nach Besserung wiederkehren kann", "ids": ["hypoglykaemie", "alkoholkonsum"] },
     { "text": "Ältere Menschen, eingeschränkte Nieren- oder Leberfunktion, Mangelernährung: erhöhtes Unterzuckerungsrisiko", "ids": ["aeltere-patienten", "niereninsuffizienz", "leberinsuffizienz", "mangelernaehrung"] },
-    { "text": "Unterfunktion von Schilddrüse, Hirnanhangsdrüse oder Nebennierenrinde: erhöhtes Unterzuckerungsrisiko", "ids": ["hypothyreose", "nebenniereninsuffizienz"] },
+    { "text": "Unterfunktion von Schilddrüse, Hirnanhangsdrüse oder Nebennierenrinde: erhöhtes Unterzuckerungsrisiko", "ids": ["hypothyreose", "hypophyseninsuffizienz", "nebenniereninsuffizienz"] },
     { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: Gefahr von Blutzerfall (hämolytische Anämie)", "ids": ["g6pd-mangel"] },
     { "text": "Blutbild und Leberwerte regelmässig kontrollieren (seltene Blutbildschäden, sehr selten Leberschäden)", "ids": ["neutropenie", "thrombozytopenie"] },
     { "text": "Unfälle, Operationen, fieberhafte Infekte: vorübergehend kann Insulin nötig sein", "ids": ["aktive-infektion", "operation"] },

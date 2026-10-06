@@ -10,7 +10,7 @@
   "abgabe": ["B"],
   "darreichung": ["Injektionslösung (Normalinsulin)", "Injektionssuspension (NPH- und Mischinsulin)", "Fertigpen", "Patrone", "Durchstechflasche"],
   "indikationen": [
-    { "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert (Typ-1- und Typ-2-Diabetes), bei Erwachsenen und Kindern", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] }
+    { "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert (Typ-1- und Typ-2-Diabetes), bei Erwachsenen und Kindern", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2", "gestationsdiabetes"] }
   ],
   "wirkmechanismus": "Senkt den Blutzucker, indem es wie das körpereigene Hormon die Aufnahme von Zucker aus dem Blut in Muskel- und Fettzellen fördert. Humaninsulin wird gentechnisch hergestellt und ist mit menschlichem Insulin identisch; es bindet an den Insulinrezeptor, steigert Glukoseaufnahme und -speicherung und hemmt die Zuckerneubildung in der Leber sowie den Fettabbau. Normalinsulin (Altinsulin) wirkt nach etwa 30 Minuten, am stärksten nach 1,5–3,5 Stunden und rund 8 Stunden lang; es wird deshalb etwa 30 Minuten vor dem Essen gespritzt und kann im Spital auch intravenös gegeben werden. NPH-Insulin ist an Protamin gebunden und wirkt verzögert bis etwa 24 Stunden; Mischinsuline enthalten beide Anteile.",
   "kontraindikationen": [

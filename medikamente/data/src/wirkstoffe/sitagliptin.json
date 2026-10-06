@@ -19,8 +19,8 @@
     { "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren, Nierenfunktion regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
     { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
     { "text": "Schwere Überempfindlichkeitsreaktionen (Anaphylaxie, Angioödem, schwere Hautreaktionen) möglich – sofort absetzen", "ids": ["anaphylaxie", "angiooedem", "schwere-hautreaktion"] },
-    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut ärztlich abklären", "ids": [] },
-    { "text": "Schwere Leberinsuffizienz: keine Erfahrungen", "ids": ["leberinsuffizienz"] },
+    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut ärztlich abklären", "ids": ["pemphigus"] },
+    { "text": "Schwere Leberinsuffizienz: keine Erfahrungen", "ids": ["schwere-leberinsuffizienz"] },
     { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
   ],
   "kontraMedikamente": [],

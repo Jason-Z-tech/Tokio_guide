@@ -10,7 +10,7 @@
   "abgabe": ["B"],
   "darreichung": ["Injektionslösung (100 und 200 Einheiten/ml)", "Injektionssuspension (Mischinsulin)", "Fertigpen", "Patrone", "Durchstechflasche"],
   "indikationen": [
-    { "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert, bei Erwachsenen und Kindern; auch für Insulinpumpen (Humalog, Lyumjev)", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] }
+    { "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert, bei Erwachsenen und Kindern; auch für Insulinpumpen (Humalog, Lyumjev)", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2", "gestationsdiabetes"] }
   ],
   "wirkmechanismus": "Dämpft den Blutzuckeranstieg nach dem Essen und wirkt schneller und kürzer als Humaninsulin. Bei Insulin lispro sind die Aminosäuren Prolin und Lysin an den Positionen B28 und B29 vertauscht; die Moleküle lagern sich im Unterhautgewebe weniger zusammen und gelangen rascher ins Blut. Die Wirkung setzt nach etwa 15 Minuten ein und hält rund 2–5 Stunden an; am Insulinrezeptor wirkt es wie Humaninsulin (mehr Zuckeraufnahme in die Zellen, weniger Zuckerneubildung in der Leber). Lyumjev enthält zusätzlich Treprostinil und Citrat, die die Aufnahme nochmals beschleunigen. In Humalog Mix ist ein Teil an Protamin gebunden und wirkt verzögert.",
   "kontraindikationen": [

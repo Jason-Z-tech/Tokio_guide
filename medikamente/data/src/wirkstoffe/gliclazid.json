@@ -16,14 +16,14 @@
   "kontraindikationen": [
     { "text": "Typ-1-Diabetes", "ids": ["diabetes-typ-1"] },
     { "text": "Diabetisches Präkoma oder Koma, diabetische Ketoazidose", "ids": ["ketoazidose"] },
-    { "text": "Schwere Nieren- oder Leberinsuffizienz (hier wird Insulin empfohlen)", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Schwere Nieren- oder Leberinsuffizienz (hier wird Insulin empfohlen)", "ids": ["niereninsuffizienz", "leberinsuffizienz", "schwere-leberinsuffizienz"] },
     { "text": "Überempfindlichkeit gegen andere Sulfonylharnstoffe oder Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
     { "text": "Stillzeit", "ids": ["stillzeit"] }
   ],
   "vorsicht": [
     { "text": "Unregelmässige oder ausgelassene Mahlzeiten, Fasten, Alkohol oder ungewohnte körperliche Anstrengung: Gefahr einer Unterzuckerung, die lange anhalten und nach Besserung wiederkehren kann", "ids": ["hypoglykaemie", "alkoholkonsum"] },
     { "text": "Ältere Menschen, eingeschränkte Nieren- oder Leberfunktion, Mangelernährung: erhöhtes Unterzuckerungsrisiko", "ids": ["aeltere-patienten", "niereninsuffizienz", "leberinsuffizienz", "mangelernaehrung"] },
-    { "text": "Unterfunktion von Nebenniere, Hirnanhangsdrüse oder Schilddrüse: erhöhtes Unterzuckerungsrisiko", "ids": ["nebenniereninsuffizienz", "hypothyreose"] },
+    { "text": "Unterfunktion von Nebenniere, Hirnanhangsdrüse oder Schilddrüse: erhöhtes Unterzuckerungsrisiko", "ids": ["nebenniereninsuffizienz", "hypophyseninsuffizienz", "hypothyreose"] },
     { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: Gefahr von Blutzerfall (hämolytische Anämie)", "ids": ["g6pd-mangel"] },
     { "text": "Porphyrie: unter anderen Sulfonylharnstoffen wurden akute Porphyrie-Schübe beschrieben", "ids": ["porphyrie"] },
     { "text": "Fieber, schwere Infekte, Unfälle oder Operationen können vorübergehend eine Umstellung auf Insulin nötig machen", "ids": ["aktive-infektion", "operation"] },

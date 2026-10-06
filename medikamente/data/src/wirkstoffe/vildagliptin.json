@@ -20,7 +20,7 @@
     { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen", "ids": ["pankreatitis"] },
     { "text": "Schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen, nicht empfohlen", "ids": ["herzinsuffizienz"] },
     { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
-    { "text": "Hautveränderungen wie Blasen oder Geschwüre (auch bullöses Pemphigoid): Haut im Rahmen der Diabeteskontrollen regelmässig untersuchen", "ids": [] },
+    { "text": "Hautveränderungen wie Blasen oder Geschwüre (auch bullöses Pemphigoid): Haut im Rahmen der Diabeteskontrollen regelmässig untersuchen", "ids": ["pemphigus"] },
     { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
   ],
   "kontraMedikamente": [],

@@ -10,7 +10,7 @@
   "abgabe": ["B"],
   "darreichung": ["Injektionslösung", "Injektionssuspension (Mischinsulin)", "Fertigpen", "Patrone", "Durchstechflasche", "Patrone für Insulinpumpen"],
   "indikationen": [
-    { "text": "Diabetes mellitus bei Erwachsenen, Jugendlichen und Kindern ab 1 Jahr (NovoRapid, Fiasp); Mischinsulin NovoMix 30 ab 10 Jahren", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] }
+    { "text": "Diabetes mellitus bei Erwachsenen, Jugendlichen und Kindern ab 1 Jahr (NovoRapid, Fiasp); Mischinsulin NovoMix 30 ab 10 Jahren", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2", "gestationsdiabetes"] }
   ],
   "wirkmechanismus": "Dämpft den Blutzuckeranstieg nach dem Essen und wirkt schneller und kürzer als Humaninsulin. Bei Insulin aspart ist die Aminosäure Prolin an Position B28 durch Asparaginsäure ersetzt; dadurch bilden sich im Unterhautgewebe weniger Insulin-Komplexe und das Insulin gelangt schneller ins Blut. Die Wirkung beginnt nach 10–20 Minuten, ist nach 1–3 Stunden am stärksten und hält 3–5 Stunden an; am Insulinrezeptor wirkt es wie Humaninsulin. Fiasp enthält zusätzlich Nicotinamid (Vitamin B3), das die Aufnahme weiter beschleunigt. NovoMix 30 enthält 30 % gelöstes und 70 % an Protamin gebundenes, verzögert wirkendes Insulin aspart.",
   "kontraindikationen": [],
