@@ -2,7 +2,7 @@
 // Aufruf: node medikamente/scripts/build-data.mjs
 // Bricht ab, wenn die Prüfung (validate.mjs) Fehler findet.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { MED_ROOT, NW_STUFEN, ladeVokabular, vokabularSets, pruefeVokabular, pruefeMonografie, monografieDateien } from './daten.mjs';
 
@@ -46,12 +46,35 @@ const daten = {
   krankheiten: vok.krankheiten.map(({ id, name, synonyme, kategorie }) => ({ id, name, synonyme, kategorie })),
 };
 
+// Lange Texte, die nur die Wirkstoffseite braucht, kommen in Teildateien nach Anfangsbuchstabe
+// (data/details/a.js …) und werden erst beim Öffnen einer Seite geladen. Der Kern bleibt klein.
+export const DETAIL_FELDER = ['wirkmechanismus', 'nebenwirkungen', 'schwangerschaft', 'stillzeit', 'hinweise', 'darreichung'];
+export const detailTeil = (id) => (/^[a-z]/.test(id) ? id[0] : '0');
+const teile = new Map();
+for (const w of daten.wirkstoffe) {
+  const d = {};
+  for (const f of DETAIL_FELDER) {
+    if (w[f] !== undefined) d[f] = w[f];
+    delete w[f];
+  }
+  const t = detailTeil(w.id);
+  if (!teile.has(t)) teile.set(t, {});
+  teile.get(t)[w.id] = d;
+}
+daten.detailTeile = [...teile.keys()].sort();
+
+const kopf = '// Erzeugt von medikamente/scripts/build-data.mjs – nicht von Hand bearbeiten (Quelle: data/src).\n';
 const ziel = path.join(MED_ROOT, 'data', 'medikamente.js');
-writeFileSync(
-  ziel,
-  '// Erzeugt von medikamente/scripts/build-data.mjs – nicht von Hand bearbeiten (Quelle: data/src).\n' +
-    `window.MEDI = ${JSON.stringify(daten)};\n`,
-);
+writeFileSync(ziel, `${kopf}window.MEDI = ${JSON.stringify(daten)};\n`);
+const detailOrdner = path.join(MED_ROOT, 'data', 'details');
+rmSync(detailOrdner, { recursive: true, force: true });
+mkdirSync(detailOrdner, { recursive: true });
+let detailKb = 0;
+for (const [t, inhalt] of teile) {
+  const text = `${kopf}window.MEDI_DETAILS = Object.assign(window.MEDI_DETAILS || {}, ${JSON.stringify(inhalt)});\n`;
+  writeFileSync(path.join(detailOrdner, `${t}.js`), text);
+  detailKb += text.length / 1024;
+}
 const kb = Math.round(readFileSync(ziel).length / 1024);
 console.log(`data/medikamente.js geschrieben: ${wirkstoffe.length} Monografien, ${kurzeintraege.length} Kurzeinträge, ` +
-  `${daten.krankheiten.length} Krankheiten, ${daten.gruppen.length} Gruppen (${kb} KB).`);
+  `${daten.krankheiten.length} Krankheiten, ${daten.gruppen.length} Gruppen (${kb} KB, Details ${Math.round(detailKb)} KB in ${teile.size} Teilen).`);

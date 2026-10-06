@@ -137,9 +137,17 @@ function testDaten() {
     if (p.fehler.length && beispiele.length < 5) beispiele.push(`${path.basename(f)}: ${p.fehler[0]}`);
   }
   check(fehler === 0, `[Daten] ${fehler} Fehler in Monografien: ${beispiele.join(' | ')}`);
-  const gebaut = readFileSync(path.join(HIER, '..', 'data', 'medikamente.js'), 'utf8');
-  const n = (gebaut.match(/"wirkmechanismus":/g) || []).length;
+  const gebaut = JSON.parse(readFileSync(path.join(HIER, '..', 'data', 'medikamente.js'), 'utf8').replace(/^[\s\S]*?window\.MEDI = /, '').replace(/;\s*$/, ''));
+  const n = gebaut.wirkstoffe.length;
   check(n === dateien.length, `[Daten] data/medikamente.js ist veraltet (${n} statt ${dateien.length} Monografien) – node medikamente/scripts/build-data.mjs`);
+  const details = {};
+  for (const t of gebaut.detailTeile || []) {
+    const datei = path.join(HIER, '..', 'data', 'details', `${t}.js`);
+    if (!existsSync(datei)) { check(false, `[Daten] Detail-Teil fehlt: data/details/${t}.js`); continue; }
+    Object.assign(details, JSON.parse(readFileSync(datei, 'utf8').replace(/^[\s\S]*?Object\.assign\(window\.MEDI_DETAILS \|\| \{\}, /, '').replace(/\);\s*$/, '')));
+  }
+  const ohne = gebaut.wirkstoffe.filter((w) => !details[w.id] || !details[w.id].wirkmechanismus).map((w) => w.id);
+  check(ohne.length === 0, `[Daten] Details fehlen für: ${ohne.slice(0, 5).join(', ')}`);
 }
 
 /* ---------- Browser ---------- */

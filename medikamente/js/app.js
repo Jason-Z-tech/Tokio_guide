@@ -35,6 +35,24 @@
   for (const p of P.liste || []) for (const id of p.wid || []) push(praepNachWs, id, p);
   const INDEX = S.baueIndex(M, P);
 
+  /* ---------- Details (lange Texte) bei Bedarf nachladen ---------- */
+  const detailTeil = (id) => (/^[a-z]/.test(id) ? id[0] : '0');
+  const ladend = new Map();
+  const details = (id) => (window.MEDI_DETAILS || {})[id] || null;
+  function ladeDetails(id) {
+    const t = detailTeil(id);
+    if (!ladend.has(t)) {
+      ladend.set(t, new Promise((resolve) => {
+        const el = document.createElement('script');
+        el.src = `data/details/${t}.js`;
+        el.onload = () => resolve(true);
+        el.onerror = () => { ladend.delete(t); resolve(false); };
+        document.head.appendChild(el);
+      }));
+    }
+    return ladend.get(t);
+  }
+
   /* ---------- Hilfen ---------- */
   const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ESC[c]);
@@ -517,8 +535,20 @@
   }
 
   function viewWirkstoff(id, ziel) {
-    const w = WS.get(id);
-    if (!w) return KURZ.has(id) ? viewKurz(KURZ.get(id)) : view404();
+    const kern = WS.get(id);
+    if (!kern) return KURZ.has(id) ? viewKurz(KURZ.get(id)) : view404();
+    const d = details(id);
+    if (!d) {
+      main.innerHTML = seite([`<a href="#/a-z">Wirkstoffe</a>`, esc(kern.name)],
+        `<div class="mono-kopf"><h1 tabindex="-1">${esc(kern.name)}</h1><p class="mono-kopf__klasse">${esc(kern.klasse)}</p></div><p class="leer" role="status">Angaben werden geladen …</p>`);
+      ladeDetails(id).then((ok) => {
+        if (aktuelleSeite !== `wirkstoff/${id}`) return;
+        if (ok && details(id)) render(false);
+        else $('[role="status"]', main).textContent = 'Die Angaben konnten nicht geladen werden. Bitte Seite neu laden.';
+      });
+      return { titel: kern.name, ziel };
+    }
+    const w = { ...kern, ...d };
     const genommen = profil.medikamente.includes(id);
     const befunde = befundeFuer(w, profil);
     let profilBox;
