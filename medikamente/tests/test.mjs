@@ -52,6 +52,9 @@ function testSuche() {
   check(erster('influbene').label === 'Influbene (Kombi)', '[Suche] Marke mit Zusatz «(Kombi)»');
   check(erster('N02BE').id === 'paracetamol', '[Suche] ATC-Code');
   check(S.suche(idx, 'xyzq').length === 0, '[Suche] Unsinn liefert nichts');
+  check(erster('Dafalgan 500 mg').label === 'Dafalgan', '[Suche] Dosisangabe wird ignoriert («Dafalgan 500 mg»)');
+  check(S.suche(idx, 'ci', { limit: 5 }).some((r) => r.id === 'citalopram'), '[Suche] «ci» (c vor i, noch unvollständig) findet Citalopram');
+  check(S.suche(idx, '   ').length === 0, '[Suche] nur Leerzeichen liefert nichts');
   check(S.suche(idx, 'a', { typen: ['krankheit'] }).every((r) => r.typ === 'krankheit'), '[Suche] Typfilter');
   check(S.koelner('Asperin') === S.koelner('Aspirin'), '[Suche] Kölner Phonetik');
   const m = S.markiere('Acetylsalicylsäure', 'säure');
@@ -232,7 +235,17 @@ async function testBrowser() {
         await waitFor(page, `!document.getElementById('suche-start-liste').hidden`);
         if (hat('diclofenac')) check(await page.eval(`!!document.querySelector('#suche-start-liste .punkt')`), `${t} Suchvorschlag markiert Konflikt (Diclofenac + Profil) nicht`);
         // aufräumen
-        await page.eval(`localStorage.removeItem('medi-profil')`);
+        await page.eval(`sessionStorage.removeItem('medi-profil'); localStorage.removeItem('medi-profil')`);
+      }
+
+      // Skip-Link: springt zum Inhalt, ohne die Seite zu wechseln
+      if (daten.wirkstoffe[0]) {
+        const sk = `[${vp.label} · Skip-Link]`;
+        await page.goto(`${BASE}#/wirkstoff/${daten.wirkstoffe[0].id}`);
+        await page.eval(`document.querySelector('.skip-link').focus()`);
+        await page.key('Enter');
+        check(await page.eval(`document.querySelector('h1').textContent === ${JSON.stringify(daten.wirkstoffe[0].name)} && location.hash.startsWith('#/wirkstoff/')`), `${sk} Skip-Link zerstört die Seite`);
+        check(await page.eval(`document.activeElement === document.getElementById('inhalt')`), `${sk} Fokus nicht im Inhalt`);
       }
 
       // Hell/Dunkel
@@ -252,22 +265,21 @@ async function testBrowser() {
         page.errors.length = 0;
         const kaputt = await page.eval(`(async () => {
           const out = [];
-          for (const w of window.MEDI.wirkstoffe) {
-            location.hash = '#/wirkstoff/' + w.id;
-            await new Promise((r) => setTimeout(r, 0));
-            const h1 = document.querySelector('h1');
-            if (!h1 || h1.textContent !== w.name || !document.getElementById('wirkung')) out.push(w.id);
-          }
-          for (const k of window.MEDI.krankheiten) {
-            location.hash = '#/krankheit/' + k.id;
-            await new Promise((r) => setTimeout(r, 0));
-            if (document.querySelector('h1')?.textContent !== k.name) out.push(k.id);
-          }
-          for (const g of window.MEDI.gruppen) {
-            location.hash = '#/gruppe/' + g.id;
-            await new Promise((r) => setTimeout(r, 0));
-            if (document.querySelector('h1')?.textContent !== g.name) out.push(g.id);
-          }
+          // Wartet, bis der Router nach dem hashchange die erwartete Überschrift gezeichnet hat (max. 1 s).
+          // Chrome ignoriert mehr als ~200 Adresswechsel in 10 s («navigation throttling») – daher Pausen.
+          let n = 0;
+          const zeige = async (hash, name, extra) => {
+            if (++n % 150 === 0) await new Promise((r) => setTimeout(r, 10500));
+            location.hash = hash;
+            for (let i = 0; i < 100; i++) {
+              await new Promise((r) => setTimeout(r, 10));
+              if (document.querySelector('h1')?.textContent === name && (!extra || document.getElementById(extra))) return true;
+            }
+            return false;
+          };
+          for (const w of window.MEDI.wirkstoffe) if (!(await zeige('#/wirkstoff/' + w.id, w.name, 'wirkung'))) out.push(w.id);
+          for (const k of window.MEDI.krankheiten) if (!(await zeige('#/krankheit/' + k.id, k.name))) out.push(k.id);
+          for (const g of window.MEDI.gruppen) if (!(await zeige('#/gruppe/' + g.id, g.name))) out.push(g.id);
           return out;
         })()`);
         check(kaputt.length === 0, `[Desktop · alle Seiten] fehlerhaft: ${kaputt.slice(0, 10).join(', ')}`);

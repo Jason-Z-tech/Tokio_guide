@@ -16,6 +16,7 @@ import { fileURLToPath } from 'node:url';
 import { MED_ROOT, slug, monografieDateien, ladeVokabular } from './daten.mjs';
 
 /* ---------- Minimaler XLSX-Leser ---------- */
+const MAX_GROESSE = 300 * 1024 * 1024; // Schutz vor «Zip-Bomben»
 export function entpacke(buffer, gesucht) {
   const sig = 0x06054b50;
   let eocd = -1;
@@ -30,6 +31,7 @@ export function entpacke(buffer, gesucht) {
     if (buffer.readUInt32LE(p) !== 0x02014b50) break;
     const methode = buffer.readUInt16LE(p + 10);
     const groesse = buffer.readUInt32LE(p + 20);
+    const entpackt = buffer.readUInt32LE(p + 24);
     const nameLen = buffer.readUInt16LE(p + 28);
     const extraLen = buffer.readUInt16LE(p + 30);
     const kommentarLen = buffer.readUInt16LE(p + 32);
@@ -37,17 +39,21 @@ export function entpacke(buffer, gesucht) {
     const name = buffer.subarray(p + 46, p + 46 + nameLen).toString('utf8');
     p += 46 + nameLen + extraLen + kommentarLen;
     if (gesucht && !gesucht(name)) continue;
+    if (entpackt > MAX_GROESSE) throw new Error(`${name} ist entpackt zu gross (${Math.round(entpackt / 1e6)} MB).`);
     const start = lokal + 30 + buffer.readUInt16LE(lokal + 26) + buffer.readUInt16LE(lokal + 28);
     const daten = buffer.subarray(start, start + groesse);
-    out[name] = (methode === 0 ? daten : inflateRawSync(daten)).toString('utf8');
+    out[name] = (methode === 0 ? daten : inflateRawSync(daten, { maxOutputLength: MAX_GROESSE })).toString('utf8');
   }
   return out;
 }
 
-const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
+const ENT = Object.assign(Object.create(null), { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" });
 const dekodiere = (s) =>
-  s.replace(/&(#x[0-9a-f]+|#\d+|\w+);/gi, (m, e) =>
-    e[0] === '#' ? String.fromCodePoint(e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)) : ENT[e] ?? m);
+  s.replace(/&(#x[0-9a-f]+|#\d+|\w+);/gi, (m, e) => {
+    if (e[0] !== '#') return ENT[e] ?? m;
+    const cp = e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+    return Number.isInteger(cp) && cp >= 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : m;
+  });
 const texte = (xml) => Array.from(xml.matchAll(/<t(?:\s[^>]*)?>([\s\S]*?)<\/t>/g)).map((m) => dekodiere(m[1])).join('');
 
 function spalteIndex(ref) {
@@ -69,9 +75,9 @@ export function leseXlsx(buffer) {
   const rels = dateien['xl/_rels/workbook.xml.rels'];
   if (wb && rels) {
     const rid = /<sheet\b[^>]*\br:id="([^"]+)"/.exec(wb)?.[1];
-    const ziel = rid && new RegExp(`<Relationship\\b[^>]*Id="${rid}"[^>]*Target="([^"]+)"`).exec(rels)?.[1];
-    const ziel2 = rid && !ziel && new RegExp(`<Relationship\\b[^>]*Target="([^"]+)"[^>]*Id="${rid}"`).exec(rels)?.[1];
-    const t = ziel || ziel2;
+    const attr = (tag, name) => new RegExp(`\\b${name}="([^"]*)"`).exec(tag)?.[1];
+    const rel = rid && Array.from(rels.matchAll(/<Relationship\b[^>]*>/g)).map((m) => m[0]).find((tag) => attr(tag, 'Id') === rid);
+    const t = rel && attr(rel, 'Target');
     if (t) blatt = t.startsWith('/') ? t.slice(1) : `xl/${t}`;
   }
   const xml = dateien[blatt] || dateien['xl/worksheets/sheet1.xml'];
@@ -89,7 +95,9 @@ export function leseXlsx(buffer) {
       if (typ === 's') wert = strings[Number(v)] ?? '';
       else if (typ === 'inlineStr') wert = texte(inhalt);
       else if (v !== undefined) wert = dekodiere(v);
-      zeile[ref ? spalteIndex(ref) : zeile.length] = wert.trim();
+      const spalte = ref ? spalteIndex(ref) : zeile.length;
+      if (spalte > 16383) continue; // mehr Spalten als Excel erlaubt: ungültig
+      zeile[spalte] = wert.trim();
     }
     zeilen.push(Array.from(zeile, (x) => x ?? ''));
   }

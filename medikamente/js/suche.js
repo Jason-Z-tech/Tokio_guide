@@ -190,18 +190,31 @@
    */
   function suche(index, anfrage, optionen) {
     const opt = optionen || {};
-    const f = falte(anfrage || '');
+    // Dosisangaben ignorieren: «Dafalgan 500», «Ibuprofen 400 mg», «Xarelto 20»
+    const ohneDosis = basis(anfrage || '').split(' ')
+      .filter((w) => w && !/^\d+([.,]\d+)?(mg|g|ml|mcg|ug|ie|i e|prozent)?$/.test(w) && !/^(mg|g|ml|mcg|ug|ie|tabletten?|kapseln?|tropfen|sirup|spray|filmtabletten?|retard)$/.test(w))
+      .join(' ');
+    const text = ohneDosis || anfrage || '';
+    const f = falte(text);
     if (!f) return [];
-    const q = { f, woerter: f.split(' ').filter(Boolean), k: koelner(anfrage) };
+    const q = { f, woerter: f.split(' ').filter(Boolean), k: koelner(text) };
+    // Beim Tippen fehlt nach «c» bzw. «p» noch der Folgebuchstabe («Ci…» → z, «Ph…» → f): Variante mitprüfen
+    const b = basis(text);
+    const varianten = [q];
+    if (/c$/.test(b)) varianten.push({ ...q, f: falte(`${b}e`).slice(0, -1) || q.f });
+    if (/p$/.test(b)) varianten.push({ ...q, f: falte(`${b}h`) });
+    for (const v of varianten.slice(1)) v.woerter = v.f.split(' ').filter(Boolean);
     const typen = opt.typen ? new Set(opt.typen) : null;
     const treffer = [];
     for (const e of index.eintraege) {
       if (typen && !typen.has(e.typ)) continue;
       let best = 0;
       let bestText = '';
-      for (const b of e.begriffe) {
-        const s = bewerte(q, b);
-        if (s > best) { best = s; bestText = b.text; }
+      for (const begriff of e.begriffe) {
+        for (const v of varianten) {
+          const s = bewerte(v, begriff);
+          if (s > best) { best = s; bestText = begriff.text; }
+        }
         if (best >= 100) break;
       }
       if (best > 0) {
